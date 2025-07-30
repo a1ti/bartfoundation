@@ -388,7 +388,8 @@ a:focus {
 }
 
 #navbar {
-  background: #222328;
+  /* background: #222328; */
+  background-image: url("../images/bg/home-10.png");
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -399,25 +400,25 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #hsl(0, 0%, 0%);;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .5px;
   transition: all .25s ease;
 }
-
+/* 
 #navbar .nav-link:hover, #navbar .nav-link:focus {
   color: #f75757;
 }
-
+ */
 #navbar .btn {
   padding: .5rem 1.5rem;
-  color: #fff;
+  color: hsl(0, 0%, 0%);
 }
 
 .header-top {
-  background: #222328;
-  color: #919194;
+ background: #222328; 
+   color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -427,35 +428,35 @@ a:focus {
 }
 
 .header-top .header-top-socials a {
-  color: #919194;
+  color: #ffffff;
   margin-right: 15px;
   font-size: 16px;
 }
 
 .header-top .header-top-info {
-  color: #919194;
+  color: #ffffff;
   font-size: 16px;
 }
 
 .header-top .header-top-info a span {
-  color: #fff;
+  color: #ffffff;
 }
 
 .header-top .header-top-info a {
   margin-left: 35px;
-  color: #919194;
+  color: #ffffff;
 }
 
 .navbar-brand {
-  color: #fff;
+  color: hsl(0, 0%, 0%);
   font-weight: 600;
   letter-spacing: 1px;
 }
-
+/* 
 .navbar-brand span {
   color: #f75757;
 }
-
+ */
 .dropdown-menu {
   visibility: hidden;
   filter: alpha(opacity=0);
@@ -507,13 +508,21 @@ ul.dropdown-menu li {
   background: url("../images/bg/home-5.jpg");
   background-size: cover;
 }
-
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
   position: relative;
+  overflow: hidden;
+  padding: 200px 0 280px 0;
+  background: #000000b5;
+}
+
+.slider .bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Send behind content */
 }
 
 .slider .block h1 {
@@ -563,7 +572,7 @@ ul.dropdown-menu li {
   top: 0px;
   width: 45%;
   min-height: 650px;
-  background: url("../images/about/home-8.jpg") no-repeat;
+  background: url("../images/about/home-13.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -573,6 +582,7 @@ ul.dropdown-menu li {
 
 .about-content h4 {
   font-weight: 600;
+ text-align: justify;
 }
 
 .about-content h4:before {
@@ -683,7 +693,7 @@ ul.dropdown-menu li {
 }
 
 .cta {
-  background: url("../images/bg/home-3.jpg") fixed 50% 50%;
+  background: url("../images/bg/home-10.jpg") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
@@ -1244,14 +1254,20 @@ h3.quote::before {
 }
 
 .logo {
-  color: #242424;
+  align-items: center;
+  min-width: 200px;
+  max-width: 250px;
+  width: 100%
+  
+/*   color: #242424;
   font-weight: 600;
   letter-spacing: 1px;
+  margin: 100px */;
 }
 
-.logo span {
+/* .logo span {
   color: #f75757;
-}
+} 
 
 .sub-form {
   position: relative;
@@ -1277,7 +1293,7 @@ h3.quote::before {
     display: block;
   }
   .navbar-toggler {
-    color: #fff;
+    color: #hsl(0, 0%, 0%);;
   }
   .slider .block h1 {
     font-size: 28px;
@@ -1336,7 +1352,7 @@ h3.quote::before {
     margin-left: 0px;
   }
   .navbar-toggler {
-    color: #fff;
+    color: #hsl(0, 0%, 0%);;
   }
   .slider .block h1 {
     font-size: 38px;
@@ -1387,7 +1403,7 @@ h3.quote::before {
 
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: #fff;
+    color: #hsl(0, 0%, 0%);;
   }
   .bg-about {
     display: none;
