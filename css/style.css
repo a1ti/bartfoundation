@@ -500,7 +500,7 @@ ul.dropdown-menu li {
 }
 
 .bg-1 {
-  background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/home-11.png") no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -511,8 +511,8 @@ ul.dropdown-menu li {
 .slider {
   position: relative;
   overflow: hidden;
-  padding: 200px 0 280px 0;
-  background: #000000b5;
+  padding: 70 0 70 0;
+  background: #0000007f;
 }
 
 .slider .bg-video {
@@ -1293,7 +1293,7 @@ h3.quote::before {
     display: block;
   }
   .navbar-toggler {
-    color: #hsl(0, 0%, 0%);;
+    color: hsl(0, 0%, 0%);;
   }
   .slider .block h1 {
     font-size: 28px;
