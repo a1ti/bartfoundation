@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -38,172 +38,8 @@
 
   <body style="background-image: url(images/bg/home-9.jpg)">
     <!-- Header Start -->
-
-    <header class="navigation">
-      <div class="header-top">
-        <div class="container">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-lg-2 col-md-4">
-              <div
-                class="header-top-socials text-center text-lg-left text-md-left"
-              >
-                <a href="https://www.facebook.com/themefisher" target="_blank"
-                  ><i class="ti-facebook"></i
-                ></a>
-                <a href="https://twitter.com/themefisher" target="_blank"
-                  ><i class="ti-twitter"></i
-                ></a>
-                <a href="https://github.com/themefisher/" target="_blank"
-                  ><i class="ti-github"></i
-                ></a>
-              </div>
-            </div>
-            <div
-              class="col-lg-10 col-md-8 text-center text-lg-right text-md-right"
-            >
-              <div class="header-top-info">
-                <a href="tel:+23-345-67890"
-                  >Call Us : <span>+91-9810971518</span></a
-                >
-                <a href="kaynatkazi@gmail.com"
-                  ><i class="fa fa-envelope mr-2"></i
-                  ><span>kaynatkazi@gmail.com</span></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg py-4" id="navbar">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/baf-2-logo.png" alt="" class="logo" />
-            <!-- 		Bougainvillea  <span>Art Foundation</span> -->
-          </a>
-
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarsExample09"
-            aria-controls="navbarsExample09"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="fa fa-bars"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse text-center"
-            id="navbarsExample09"
-          >
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown03"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >About</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li>
-                    <a class="dropdown-item" href="about.html"
-                      >Dr. Kaynat Kazi</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.html"
-                      >Alia Rafat Shadma</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.html"
-                      >Team – advisor And volunteer
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown03"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Portfolio</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li>
-                    <a class="dropdown-item" href="about.html">Activities</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.html"
-                      >Published Works</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.html">Books</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.html">Documentary</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown05"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Blog</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                  <li>
-                    <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="blog-sidebar.html"
-                      >Blog with Sidebar</a
-                    >
-                  </li>
-
-                  <li>
-                    <a class="dropdown-item" href="blog-single.html"
-                      >Blog Single</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#.html">Gallery</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-
-            <form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
-              <a href="contact.html" class="btn btn-solid-border btn-round-full"
-                >Get a Quote</a
-              >
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-
+<?php include('menu.php'); ?>
+ 
     <!-- Header Close -->
 
     <div class="main-wrapper">
@@ -223,7 +59,7 @@
                 <span class="d-block mb-3 text-white text-capitalize"
                   >Prepare for new future</span
                 >
-                <h4
+               <!--  <h4
                   class="animated fadeInUp mb-5 text-white font-weight-bold fs-2"
                 >
                   चरन् वै मधु विन्दति चरन् स्वदुम् उदुम्बरम् सुर्यस्य<br />
@@ -232,7 +68,8 @@
                   है,<br />
                   सूर्य का परिश्रम देखो, जो नित्य चलता हुआ कभी आलस्य नहीं करता।
                   इसलिए चलते रहो,चलते रहो॥
-                </h4>
+                </h4> --> 
+                <h1 class="animated fadeInUp mb-5">Cultural Documentation of Indian Heritage</h1>
                 <a
                   href="#"
                   target="_blank"
@@ -246,7 +83,7 @@
       </section>
       <!-- Section Intro Start -->
 
-      <section class="section intro">
+   <!--    <section class="section intro">
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
@@ -295,7 +132,7 @@
           </div>
         </div>
       </section>
-
+ -->
       <!-- Section Intro END -->
       <!-- Section About Start -->
 
@@ -304,7 +141,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 offset-lg-6 offset-md-0">
-              <div class="about-item" style="margin-top: ">
+              <div class="about-item">
                 <span class="h6 text-color mt-3">What we are</span>
                 <h3 class="mt-0 mb-4 position-relative content-title">
                   Bougainvillea Art Foundation
@@ -619,7 +456,7 @@
                   </h3>
 
                   <a
-                    href="blog-single.html"
+                    href="blog-single.php"
                     class="btn btn-small btn-solid-border btn-round-full text-white"
                     >Learn More</a
                   >
@@ -651,7 +488,7 @@
                   </h3>
 
                   <a
-                    href="blog-single.html"
+                    href="blog-single.php"
                     class="btn btn-small btn-solid-border btn-round-full text-white"
                     >Learn More</a
                   >
@@ -683,7 +520,7 @@
                   </h3>
 
                   <a
-                    href="blog-single.html"
+                    href="blog-single.php"
                     class="btn btn-small btn-solid-border btn-round-full text-white"
                     >Learn More</a
                   >
@@ -706,7 +543,7 @@
               </div>
               <div class="col-lg-4">
                 <a
-                  href="contact.html"
+                  href="contact.php"
                   class="btn btn-main btn-round-full float-lg-right"
                   >Contact Us</a
                 >
@@ -716,106 +553,7 @@
         </div>
       </section>
 
-      <!-- footer Start -->
-      <footer class="footer section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="widget">
-                <h4 class="text-capitalize mb-4">Company</h4>
-
-                <ul class="list-unstyled footer-menu lh-35">
-                  <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Support</a></li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-6">
-              <div class="widget">
-                <h4 class="text-capitalize mb-4">Quick Links</h4>
-
-                <ul class="list-unstyled footer-menu lh-35">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="widget">
-                <h4 class="text-capitalize mb-4">Subscribe Us</h4>
-                <p>Subscribe to get latest news article and resources</p>
-
-                <form action="#" class="sub-form">
-                  <input
-                    type="text"
-                    class="form-control mb-3"
-                    placeholder="Subscribe Now ..."
-                  />
-                  <a href="#" class="btn btn-main btn-small">subscribe</a>
-                </form>
-              </div>
-            </div>
-
-            <div class="col-lg-3 ml-auto col-sm-6">
-              <div class="widget">
-                <div class="logo mb-4">
-                  <h3>Mega<span>kit.</span></h3>
-                </div>
-                <h6><a href="tel:+23-345-67890">Support@megakit.com</a></h6>
-                <a href="mailto:support@gmail.com"
-                  ><span class="text-color h4">+23-456-6588</span></a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="footer-btm pt-4">
-            <div class="row">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="copyright">
-                  &copy; Copyright Reserved to
-                  <span class="text-color">Megakit.</span> by
-                  <a href="https://themefisher.com/" target="_blank"
-                    >Themefisher</a
-                  >
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="copyright">
-                  Distributed by
-                  <a href="https://themewagon.com/" target="_blank"
-                    >Themewagon</a
-                  >
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12 col-sm-12 text-left text-lg-left">
-                <ul class="list-inline footer-socials">
-                  <li class="list-inline-item">
-                    <a href="https://www.facebook.com/themefisher"
-                      ><i class="ti-facebook mr-2"></i>Facebook</a
-                    >
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://twitter.com/themefisher"
-                      ><i class="ti-twitter mr-2"></i>Twitter</a
-                    >
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="https://www.pinterest.com/themefisher/"
-                      ><i class="ti-linkedin mr-2"></i>Linkedin</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+     <?php include('footer.php'); ?>
     </div>
 
     <!-- 
@@ -842,4 +580,4 @@
 
     <script src="js/script.js"></script>
   </body>
-</html>
+</php>
