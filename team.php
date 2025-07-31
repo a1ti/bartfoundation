@@ -8,7 +8,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>Megakit| Html5 Agency template</title>
+  <title>Our Team</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -20,30 +20,46 @@
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleLinks = document.querySelectorAll(".toggle-more");
+
+        toggleLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                const content = this.previousElementSibling;
+                if (content.style.display === "none" || content.style.display === "") {
+                    content.style.display = "block";
+                    this.innerText = "Show less";
+                } else {
+                    content.style.display = "none";
+                    this.innerText = "More...";
+                }
+            });
+        });
+    });
+</script>
 
 </head>
 
-<body>
+<body >
 
 <!-- Header Start --> 
 <?php include('menu.php'); ?>
 <!-- Header Close --> 
 
-<div class="main-wrapper ">
+<div class="main-wrapper " style="background-image:url('images/bg/43584.jpg')">
 <section class="page-title bg-1">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">About Us</span>
-          <h1 class="text-capitalize mb-4 text-lg">Our Company</h1>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">About Us</a></li>
-          </ul>
+          <h1 class="text-capitalize mb-4 text-lg">Our Team</h1>
+		   <span class="text-white">Meet the Visionaries</span>
         </div>
       </div>
     </div>
@@ -57,24 +73,59 @@
 		<div class="row">
 			<div class="col-lg-6 col-md-6">
 				<div class="about-item pr-3 mb-5 mb-lg-0">
-					<span class="h6 text-color">What we are</span>
-					<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
-					<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier.</p>
+					<span class="h6 text-color">About</span>
+					<h2 class="mt-3 mb-4 position-relative content-title">Dr. Kaynat Kazi-Founder</h2>
+					<p class="mb-5">Dr. Kaynat Kazi is a passionate traveler, author, photographer, and storyteller who brings cultures to life through her words and lens. In 2012, she founded Rahagiri, India’s first Hindi travel photography blog, inspiring thousands to explore the world in their own language.</p>
 
-					<a href="#" class="btn btn-main btn-round-full">Get started</a>
+					<a href="Dr.Kaynat-Kazi.php" class="btn btn-main btn-round-full">Read More</a>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6">
+			<!-- <div class="col-lg-6 col-md-6">
 				<div class="about-item-img">
 					<img src="images/about/home-7.jpg" alt="" class="img-fluid">
 				</div>
+			</div> -->
+					<!-- Carousel -->
+		<div class="col-lg-6 col-md-6">
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
 			</div>
+			
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="images/team/photo3.jpg" alt="Los Angeles" class="img-fluid" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/photo4.jpg" alt="Los Angeles" class="img-fluid">
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/photo5.jpg" alt="Los Angeles" class="img-fluid" >
+				</div>
+				
+			</div>
+			
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+			</div>
+		</div>
+
 		</div>
 	</div>
 </section>
 
 <!-- Section About End -->
- 
+<!--  
 <section class="about-info section pt-0">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -98,39 +149,64 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- section Counter Start -->
 <section class="section counter bg-counter">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-check color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">1730</span> +</h3>
-					<p class="text-white-50">Project Done</p>
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item pr-3 mb-5 mb-lg-0">
+					<span class="h6 text-color">About</span>
+					<h2 class="mt-3 mb-4 position-relative content-title" style="color: white;">Mrs.Aliya Rafat Shadma - <br>Co-Founder</h2>
+					<p style="color: white;">Mrs. Aliya Rafat Shadma is a trailblazer in the legal fraternity and a passionate advocate for justice. With nearly 30 years of experience as a senior lawyer, she has built a distinguished career by breaking barriers and challenging societal norms.</p>
+					<div class="more-content" style="display: none;">
+					<p style="color: white;">A respected member of the Firozabad Bar Association, Mrs. Shadma specializes in women’s and children’s rights, dedicating her expertise to creating safer and fairer spaces for the vulnerable. Her relentless pursuit of equality and empowerment reflects in every initiative she undertakes.</p>
+					
+					<p style="color: white;">
+					As the Co-Founder of Bougainvillea Art Foundation, she brings deep legal insight and an unyielding commitment to social change, shaping the Foundation’s mission to preserve culture while fostering inclusivity and empowerment.
+					</p>
+</div>
+					<a href="javascript:void(0);" class="toggle-more text-secondary btn btn-main btn-round-full" ><span style="color:white">Read More</span></a>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-flag color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">125 </span>M </h3>
-					<p class="text-white-50">User Worldwide</p>
+			<!-- <div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="images/about/home-7.jpg" alt="" class="img-fluid">
 				</div>
+			</div> -->
+					<!-- Carousel -->
+		<div class="col-lg-6 col-md-6">
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-layers color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">39</span></h3>
-					<p class="text-white-50">Availble Country</p>
+			
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img src="images/team/photo3.jpg" alt="Los Angeles" class="img-fluid" >
 				</div>
+				<div class="carousel-item active">
+				<img src="images/team/photo4.jpg" alt="Los Angeles" class="img-fluid">
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/photo5.jpg" alt="Los Angeles" class="img-fluid" >
+				</div>
+				
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center">
-					<i class="ti-medall color-one  text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">14</span></h3>
-					<p class="text-white-50">Award Winner </p>
-				</div>
+			
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
 			</div>
 		</div>
 	</div>
