@@ -31,15 +31,35 @@
       rel="stylesheet"
       href="plugins/slick-carousel/slick/slick-theme.css"
     />
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome 6 -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  />
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
+ 
   <body style="background-image: url(images/bg/home-9.jpg)">
     <!-- Header Start -->
-<?php include('menu.php'); ?>
- 
+    <?php include('menu.php'); ?>
+
     <!-- Header Close -->
 
     <div class="main-wrapper">
@@ -48,7 +68,7 @@
         <video autoplay muted loop playsinline class="bg-video">
           <source
             src="../bartfoundation/videos/index-bg.mp4"
-            type="video/mp4"
+            type="video/mp4 "
           />
           Your browser does not support the video tag.
         </video>
@@ -59,7 +79,7 @@
                 <span class="d-block mb-3 text-white text-capitalize"
                   >Prepare for new future</span
                 >
-               <!--  <h4
+                <!--  <h4
                   class="animated fadeInUp mb-5 text-white font-weight-bold fs-2"
                 >
                   चरन् वै मधु विन्दति चरन् स्वदुम् उदुम्बरम् सुर्यस्य<br />
@@ -68,8 +88,10 @@
                   है,<br />
                   सूर्य का परिश्रम देखो, जो नित्य चलता हुआ कभी आलस्य नहीं करता।
                   इसलिए चलते रहो,चलते रहो॥
-                </h4> --> 
-                <h1 class="animated fadeInUp mb-5">Cultural Documentation of Indian Heritage</h1>
+                </h4> -->
+                <h1 class="animated fadeInUp mb-5">
+                  Cultural Documentation of Indian Heritage
+                </h1>
                 <a
                   href="#"
                   target="_blank"
@@ -82,8 +104,8 @@
         </div>
       </section>
       <!-- Section Intro Start -->
-
-   <!--    <section class="section intro">
+      <!-- 
+      <section class="section intro">
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
@@ -131,66 +153,126 @@
             </div>
           </div>
         </div>
-      </section>
- -->
+      </section> -->
+
       <!-- Section Intro END -->
       <!-- Section About Start -->
 
-      <section class="section about position-relative">
-        <div class="bg-about"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-6 offset-md-0">
-              <div class="about-item">
-                <span class="h6 text-color mt-3">What we are</span>
-                <h3 class="mt-0 mb-4 position-relative content-title">
-                  Bougainvillea Art Foundation
-                </h3>
-                <div class="about-content">
-                  <h4 class="mb-3 position-relative">
-                    The Bougainvillea Art Foundation, which was founded in 2024,
-                    is a non-profit organization that provides a diverse array
-                    of consultancy services to a variety of sectors. These
-                    services are provided under one umbrella, from the initial
-                    concept to the final commissioning of projects.
-                  </h4>
+      <div class="container-fluid hero-section">
+        <div class="row w-100">
+          <!-- Left Content -->
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="hero-content text-center text-md-start ">
+              <h1 class="display-5 fw-bold">
+                <span>Bougainvillea Art Foundation</span>
+              </h1>
+              <p class="mt-3">
+                The Bougainvillea Art Foundation, which was founded in 2024, is
+                a non-profit organization that provides a diverse array of
+                consultancy services to a variety of sectors. These services are
+                provided under one umbrella, from the initial concept to the
+                final commissioning of projects..
+              </p>
+              <p>
+                Bougainvillea Art Foundation is a non-profit organization
+                dedicated to the preservation, promotion and documentation of
+                the vast cultural, historical, and natural heritage of our great
+                country India; a beautiful tapestry of diverse cultures,
+                ethnicities, traditions, and heritage. The Foundation strongly
+                believes that the connection of future generations with this
+                varied and rich culture needs to be established firmly so that
+                it stays connected with its roots and takes pride in imbibing
+                and passing it for future generations.
+              </p>
+              <p>
+                The Foundation is the brainchild of Dr Kaynat Kazi, who is
+                credited as the first female sole traveler of India. Dr Kazi has
+                traveled across the length and breadth of India and in the
+                journey accumulated the vast treasures of India's rich cultural
+                heritage through her lens. Kaynat wants to give the immense love
+                and appreciation that she received, back to the society through
+                the Bougainvillea Art Foundation.
+              </p>
+              <button class="about-readmore-btn">
+                Read More <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <!-- Right Carousel -->
+          <div class="col-md-6 mt-4 mt-md-0 px-md-5">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
 
-                  <h4 class="mb-3 position-relative">
-                    Bougainvillea Art Foundation is a non-profit organization
-                    dedicated to the preservation, promotion and documentation
-                    of the vast cultural, historical, and natural heritage of
-                    our great country India; a beautiful tapestry of diverse
-                    cultures, ethnicities, traditions, and heritage. The
-                    Foundation strongly believes that the connection of future
-                    generations with this varied and rich culture needs to be
-                    established firmly so that it stays connected with its roots
-                    and takes pride in imbibing and passing it for future
-                    generations.
-                  </h4>
-
-                  <h4 class="mb-3 position-relative">
-                    The Foundation is the brainchild of Dr Kaynat Kazi, who is
-                    credited as the first female sole traveler of India. Dr Kazi
-                    has traveled across the length and breadth of India and in
-                    the journey accumulated the vast treasures of India's rich
-                    cultural heritage through her lens. Kaynat wants to give the
-                    immense love and appreciation that she received, back to the
-                    society through the Bougainvillea Art Foundation.
-                  </h4>
-
-                  <a href="#" class="btn btn-main btn-round-full"
-                    >Get started</a
-                  >
+              <!-- Slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/about/home-13.jpg"
+                    alt="Slide 1"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/about/bg-1.jpg"
+                    alt="Slide 2"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/about/about.jpg"
+                    alt="Slide 3"
+                    class="d-block w-100"
+                  />
                 </div>
               </div>
+
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- Section About End -->
       <!-- section Counter Start -->
-      <section class="section counter">
+      <!-- <section class="section counter">
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -227,10 +309,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- section Counter End  -->
       <!--  Section Services Start -->
-      <section class="section service border-top">
+      <!-- <section class="section service border-top">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
@@ -311,10 +393,215 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
+      
+   <!-- Mission & Vision Section -->
+    
+<section class="section cta">
+  
+  <div class="container">
+    <center><h1 class="display-5 fw-bold">
+                <span>Our Vision & Mission</span>
+              </h1></center>
+    <div class="row justify-content-center">
+      <!-- Vision -->
+      <div class="col-lg-6 mb-4">
+        <div class="cta-item custom-card h-100">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-eye fa-2x text-primary me-3"></i>
+            <h4 class="mb-0 text-dark">Our Vision</h4>
+          </div>
+          <p class="text-muted">
+            To be a leading force in cultural preservation, creating a vibrant platform that connects communities, inspires creativity, and safeguards India’s diverse heritage for the world to experience and cherish.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mission -->
+      <div class="col-lg-6 mb-4">
+        <div class="cta-item custom-card h-100">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-bullseye fa-2x text-danger me-3"></i>
+            <h4 class="mb-0 text-dark">Our Mission</h4>
+          </div>
+          <p class="text-muted">
+            To preserve, promote, and document India’s tangible and intangible heritage, ensuring its continuity for future generations while fostering cultural pride and awareness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <!--  Section Cta End-->
+      <div class="container my-5">
+        <h1 class="display-5 fw-bold">
+          <center><span>Our Focus Area</span></center>
+        </h1>
+        <br />
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-shield-alt"></i>
+              <h4 class="mb-3">Preservation</h4>
+              <p>
+                Keeping our history alive by protecting sites, artifacts,
+                traditions, and cultural practices for generations to come.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-graduation-cap"></i>
+              <h4 class="mb-3">Education</h4>
+              <p>
+                Bringing heritage to life through interactive programs,
+                exhibitions, and community outreach that inspire learning and
+                curiosity.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-leaf"></i>
+              <h4 class="mb-3">Conservation</h4>
+              <p>
+                Caring for our natural and cultural treasures with sustainable
+                practices that ensure their long-term survival.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-magnifying-glass"></i>
+              <h4 class="mb-3">Research & Documentation</h4>
+              <p>
+                Uncovering stories of the past through research and archives
+                that deepen our understanding of heritage.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-bullhorn"></i>
+              <h4 class="mb-3">Advocacy</h4>
+              <p>
+                Giving heritage a voice by promoting policies that protect and
+                celebrate it on local, national, and global stages.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-handshake"></i>
+              <h4 class="mb-3">Collaboration</h4>
+              <p>
+                Working hand-in-hand with communities, experts, and partners to
+                create impactful heritage initiatives.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fas fa-users"></i>
+
+              <h4 class="mb-3">Public Engagement</h4>
+              <p>
+                Bringing people together through events, volunteer programs, and
+                outreach that make heritage a shared experience.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="serv">
+              <i class="fab fa-android"></i>
+              <h4 class="mb-3">Sustainable Tourism</h4>
+              <p>
+                Encouraging travelers to explore responsibly, ensuring tourism
+                supports and respects local culture and heritage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+<!-- Carousel -->
+<div id="demo1" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#demo1"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo1"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo1"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+
+              <!-- Slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/about/home-13.jpg"
+                    alt="Slide 1"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/about/bg-1.jpg"
+                    alt="Slide 2"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/about/about.jpg"
+                    alt="Slide 3"
+                    class="d-block w-100"
+                  />
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#demo1"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#demo1"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+
       <!--  Section Services End -->
       <!-- Section Cta Start -->
-      <section class="section cta">
+      <!-- <section class="section cta">
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
@@ -332,7 +619,8 @@
           </div>
         </div>
       </section>
-      <!--  Section Cta End-->
+ -->
+
       <!-- Section Testimonial Start -->
       <section class="section testimonial">
         <div class="container">
@@ -553,7 +841,7 @@
         </div>
       </section>
 
-     <?php include('footer.php'); ?>
+      <?php include('footer.php'); ?>
     </div>
 
     <!-- 

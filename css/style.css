@@ -221,7 +221,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   position: relative;
 }
 
-.overly:before, .page-title:before, .slider:before, .cta:before, .hero-img:before {
+.overly:before, .page-title:before, .slider:before,   .hero-img:before {
   content: "";
   position: absolute;
   left: 0;
@@ -247,7 +247,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   right: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
 }
 
 .text-color {
@@ -400,7 +399,7 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #hsl(0, 0%, 0%);;
+  color: hsl(0, 0%, 0%);;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .5px;
@@ -507,12 +506,16 @@ ul.dropdown-menu li {
 .bg-2 {
   background: url("../images/bg/home-5.jpg");
   background-size: cover;
-}
+}/* Base slider styles */
 .slider {
   position: relative;
   overflow: hidden;
-  padding: 70 0 70 0;
-  background: #0000007f;
+  height: 700px;
+  padding: 150px 0;
+  background-color: #0000007f;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 }
 
 .slider .bg-video {
@@ -522,7 +525,7 @@ ul.dropdown-menu li {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1; /* Send behind content */
+  z-index: -1;
 }
 
 .slider .block h1 {
@@ -1295,13 +1298,6 @@ h3.quote::before {
   .navbar-toggler {
     color: hsl(0, 0%, 0%);;
   }
-  .slider .block h1 {
-    font-size: 28px;
-    line-height: 40px;
-  }
-  .slider {
-    padding: 126px 0 151px 0;
-  }
   .content-title {
     font-size: 28px;
     line-height: 46px;
@@ -1352,14 +1348,7 @@ h3.quote::before {
     margin-left: 0px;
   }
   .navbar-toggler {
-    color: #hsl(0, 0%, 0%);;
-  }
-  .slider .block h1 {
-    font-size: 38px;
-    line-height: 50px;
-  }
-  .slider {
-    padding: 126px 0 151px 0;
+    color: hsl(0, 0%, 0%);;
   }
   .content-title {
     font-size: 28px;
@@ -1403,7 +1392,7 @@ h3.quote::before {
 
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: #hsl(0, 0%, 0%);;
+    color: hsl(0, 0%, 0%);;
   }
   .bg-about {
     display: none;
@@ -1413,11 +1402,7 @@ h3.quote::before {
   }
   .footer-socials li a {
     margin-left: 0px;
-  }
-  .slider .block h1 {
-    font-size: 56px;
-    line-height: 70px;
-  }
+  } 
   .blog-item-meta span {
     display: block;
     margin: 6px 0px;
@@ -1431,6 +1416,187 @@ h3.quote::before {
     width: 100%;
     text-align: center;
   }
+}
+
+/* Extra small devices (≤480px) */
+@media (max-width: 480px) {
+  .slider {
+    height: auto;
+    padding: 80px 15px;
+    
+  }
+ .bg-video{
+  width:100%;
+ }
+  .slider .block h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .slider .block {
+    text-align: center;
+  }
+}
+
+/* Tiny phones (≤400px) */
+@media (max-width: 400px) {
+  .slider {
+    padding: 70px 10px;
+  }
+
+  .slider .block h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* INDEX PAGE ADOUT US SECTION CSS */
+
+      .hero-section {
+        min-height: 10vh;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.664);
+        color: white;
+        padding: 50px 0;
+      }
+
+      .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 20px;
+        color: white;
+      }
+
+      .btn-custom {
+        background-color: #f44336;
+        color: white;
+        border-radius: 30px;
+        padding: 10px 25px;
+        font-weight: bold;
+      }
+
+      .btn-custom:hover {
+        background-color: #f75757;
+      }
+
+      
+      .carousel-inner img {
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .hero-section {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .hero-content {
+          padding: 30px 15px;
+        }
+
+        .carousel-inner img {
+          height: 300px;
+        }
+      }
+
+      span {
+        color: #f75757;
+      }
+    .about-readmore-btn {
+      background: linear-gradient(135deg, #f75757, #e04444);
+      color: #fff;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(247, 87, 87, 0.4);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-readmore-btn i {
+      margin-left: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .about-readmore-btn:hover {
+      background: linear-gradient(135deg, #e04444, #c83434);
+      box-shadow: 0 6px 20px rgba(247, 87, 87, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .about-readmore-btn:hover i {
+      transform: translateX(5px);
+    }
+      /* INDEX PAGE SEVICES CSS */
+      
+      .serv {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+        height: 250px;
+      }
+
+      .serv:hover {
+        background-color: #f8f9fa;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        transform: translateY(-5px);
+      }
+
+      .serv i {
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: #f75757;
+      }
+
+      .serv h4 {
+        font-weight: 600;
+      }
+
+      .serv p {
+        color: hsl(0, 0%, 33%);
+      }
+
+      /* INDEX PAGE OUR VISION AND MISSION CSS */
+      
+  .custom-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .section.cta {
+  position: relative;
+  padding: 60px 20px;/* 
+  background-color: #00000057; */ /* Light background for contrast */
+  z-index: 1;
+}
+
+.section.cta h1 {
+  position: relative;
+  z-index: 2;
+  background: none; /* Ensure it's visible over dark backgrounds */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;/* 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
 }
 
 /*# sourceMappingURL=maps/style.css.map */
