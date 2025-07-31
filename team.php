@@ -8,7 +8,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>Our Team</title>
+  <title>Our Team </title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
