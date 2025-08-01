@@ -819,7 +819,7 @@
         </div>
       </section>
 
-      <section class="mt-70 position-relative">
+   <!--    <section class="mt-70 position-relative">
         <div class="container">
           <div class="cta-block-2 bg-gray p-5 rounded border-1">
             <div class="row justify-content-center align-items-center">
@@ -840,7 +840,7 @@
           </div>
         </div>
       </section>
-
+ -->
       <?php include('footer.php'); ?>
     </div>
 
