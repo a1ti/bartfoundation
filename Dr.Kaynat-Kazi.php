@@ -23,6 +23,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 <script>
@@ -130,13 +132,13 @@
 			<!-- The slideshow/carousel -->
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-				<img src="images/team/photo3.jpg" alt="" class="img-fluid rounded" >
+				<img src="images/team/Dr1.jpeg" alt="" class="img-fluid rounded" >
 				</div>
 				<div class="carousel-item active">
-				<img src="images/team/photo4.jpg" alt="" class="img-fluid rounded">
+				<img src="images/team/Dr2.jpeg" alt="" class="img-fluid rounded">
 				</div>
 				<div class="carousel-item active">
-				<img src="images/team/photo5.jpg" alt="" class="img-fluid rounded" >
+				<img src="images/team/Dr3.jpeg" alt="" class="img-fluid rounded" >
 				</div>
 				
 			</div>
@@ -176,50 +178,107 @@
                 <p class="lead mb-3">
                   Former head of the Center for Culture and the Arts at UPES School of Liberal Studies, Dehradun
                 </p>
+                <div class="team-item position-relative">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/b74R-r3YO7o?si=QgfMxXi1KZ4-MS4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						
+					</div>
 
               </div>       
             </div>
+            
+
         </div>
 
+        
 		</div>
 		</div>
 	</div>
 </section>
 
 
-
 <!-- section Counter Start -->
 <section class="section counter bg-counter">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-check color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">1730</span> +</h3>
-					<p class="text-white-50">Project Done</p>
-				</div>
+		<div class="row justify-content-center">
+            <h1 style="color: white; text-align: center; z-index: 1;">
+  <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i>AWARDS <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i>
+</h1>
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md ">01.</span>Atal Sanskrti Ratna Samman-2024</h3>
+				</div>		
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-flag color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">125 </span>M </h3>
-					<p class="text-white-50">User Worldwide</p>
-				</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">02.</span>Awards SwamSiddha Award-2023</h3>
+					
+				</div>		
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center mb-5 mb-lg-0">
-					<i class="ti-layers color-one text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">39</span></h3>
-					<p class="text-white-50">Availble Country</p>
-				</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">03.</span>International Yogini Award-2023 </h3>
+				</div>		
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item text-center">
-					<i class="ti-medall color-one  text-md"></i>
-					<h3 class="mt-2 mb-0 text-white"><span class="counter-stat font-weight-bold">14</span></h3>
-					<p class="text-white-50">Award Winner </p>
-				</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">04.</span>Hindi Seva Samman October 2021 by Prabha Sakshi Media Group</h3>
+				</div>		
 			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">05.</span>Special Awardee Pride of Nation Excellence Award 2021 </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">06.</span>Women Achievers Mahila Shakti Samman-2021 
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">07.</span>Sattva Iconic Wellness Award 2021 
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">08.</span>Paryatan Ratna Award-2019  
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">09.</span>Best Hindi Bloggers Award by ABP News-2017  
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">10.</span>Woman Achievers Award-2016 
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">11.</span>Media Excellence Award-2016  
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">12.</span>Youth Journalist Award-2015, Campus connect
+                </h3>
+				</div>		
+			</div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="about-info-item mb-4 mb-lg-0 text-white">
+					<h3 class="mb-3" style="color: white;"><span class="text-color mr-2 text-md">13.</span>National Achievement Award-2016 in Photography from ICMEI (International Chamber of Media & Entertainment Industry), NAI (Newspaper Association of India), and IJC (International Journalism Centre)
+                </h3>
+				</div>		
+			</div>
+
 		</div>
 	</div>
 </section>
