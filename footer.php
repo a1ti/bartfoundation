@@ -3,7 +3,7 @@
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="widget">
-                <h4 class="text-capitalize mb-4">Company</h4>
+                <h4 class="text-capitalize mb-4 text-white">Company</h4>
 
                 <ul class="list-unstyled footer-menu lh-35">
                   <li><a href="#">Terms & Conditions</a></li>
@@ -15,20 +15,22 @@
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="widget">
-                <h4 class="text-capitalize mb-4">Quick Links</h4>
+                <h4 class="text-capitalize mb-4 text-white">Quick Links</h4>
 
                 <ul class="list-unstyled footer-menu lh-35">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
                   <li><a href="#">Team</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Gallery</a></li>
                   <li><a href="#">Contact</a></li>
+                  
                 </ul>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="widget">
-                <h4 class="text-capitalize mb-4">Subscribe Us</h4>
-                <p>Subscribe to get latest news article and resources</p>
+                <h4 class="text-capitalize mb-4 text-white">Subscribe Us</h4>
 
                 <form action="#" class="sub-form">
                   <input
@@ -44,11 +46,11 @@
             <div class="col-lg-3 ml-auto col-sm-6">
               <div class="widget">
                 <div class="logo mb-4">
-                  <h3>Mega<span>kit.</span></h3>
+                  <img src="images/logo-baf.png" alt="" width="100%">
                 </div>
-                <h6><a href="tel:+23-345-67890">Support@megakit.com</a></h6>
+                <h6><a href="tel:+23-345-67890">kaynatkazi@gmail.com</a></h6>
                 <a href="mailto:support@gmail.com"
-                  ><span class="text-color h4">+23-456-6588</span></a
+                  ><span class="text-color h4">+91-9810971518 </span></a
                 >
               </div>
             </div>

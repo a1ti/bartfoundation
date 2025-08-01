@@ -27,18 +27,17 @@
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
-    />
-
-    <!-- Other plugins -->
-    <link
-      rel="stylesheet"
-      href="plugins/magnific-popup/dist/magnific-popup.css"
-    />
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/slick-carousel/slick/slick-theme.css"
-    />
+    /> 
+    
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
@@ -55,7 +54,7 @@
       <section class="slider">
         <video autoplay muted loop playsinline class="bg-video">
           <source
-            src="../bartfoundation/videos/index-bg.mp4"
+            src="../bartfoundation/videos/index-bg-01.mp4"
             type="video/mp4 "
           />
           Your browser does not support the video tag.
@@ -215,21 +214,35 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="images/about/home-13.jpg"
+                    src="images/index-page/1.jpg"
                     alt="Slide 1"
                     class="d-block w-100"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="images/about/bg-1.jpg"
+                    src="images/index-page/2.jpg"
                     alt="Slide 2"
                     class="d-block w-100"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="images/about/about.jpg"
+                    src="images/index-page/3.jpg"
+                    alt="Slide 3"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/index-page/4.jpg"
+                    alt="Slide 3"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/index-page/5.jpg"
                     alt="Slide 3"
                     class="d-block w-100"
                   />
@@ -524,6 +537,11 @@
           </div>
         </div>
       </div>
+
+
+
+      <!--- OUR GALLERY-->
+      
       <section class="section latest-blog bg-2">
         <div class="container">
           <div class="row justify-content-center">
@@ -637,7 +655,7 @@
         </div>
       </section>
 
-      <section class="mt-70 position-relative">
+     <!--  <section class="mt-70 position-relative">
         <div class="container">
           <div class="cta-block-2 bg-gray p-5 rounded border-1">
             <div class="row justify-content-center align-items-center">
@@ -657,7 +675,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <?php include('footer.php'); ?>
     </div>
