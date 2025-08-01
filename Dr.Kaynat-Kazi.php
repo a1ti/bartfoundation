@@ -586,7 +586,7 @@
 </section>
 <!--  Section Services End -->
 <!-- Section Testimonial Start -->
-<section class="section testimonial bg-gray">
+<!-- <section class="section testimonial bg-gray">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
@@ -650,7 +650,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- Section Testimonial End -->
 
 <!-- footer Start -->
