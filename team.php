@@ -77,6 +77,11 @@
 					<h2 class="mt-3 mb-4 position-relative content-title">Dr. Kaynat Kazi-Founder</h2>
 					<p class="mb-5">Dr. Kaynat Kazi is a passionate traveler, author, photographer, and storyteller who brings cultures to life through her words and lens. In 2012, she founded Rahagiri, India’s first Hindi travel photography blog, inspiring thousands to explore the world in their own language.</p>
 
+					 <div class="team-item position-relative">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/b74R-r3YO7o?si=QgfMxXi1KZ4-MS4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						
+					</div>
+					
 					<a href="Dr.Kaynat-Kazi.php" class="btn btn-main btn-round-full">Read More</a>
 				</div>
 			</div>
@@ -94,18 +99,44 @@
 				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
 				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
 				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+
+
 			</div>
 			
 			<!-- The slideshow/carousel -->
-			<div class="carousel-inner">
+			<div class="carousel-inner ">
 				<div class="carousel-item active">
-				<img src="images/team/photo3.jpg" alt="Los Angeles" class="img-fluid" >
+				<img src="images/team/Dr1.jpeg" alt="Los Angeles" class="img-fluid rounded" >
 				</div>
 				<div class="carousel-item active">
-				<img src="images/team/photo4.jpg" alt="Los Angeles" class="img-fluid">
+				<img src="images/team/Dr2.jpeg" alt="Los Angeles" class="img-fluid rounded">
 				</div>
 				<div class="carousel-item active">
-				<img src="images/team/photo5.jpg" alt="Los Angeles" class="img-fluid" >
+				<img src="images/team/Dr3.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr4.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr5.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr6.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr7.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr8.jpeg" alt="Los Angeles" class="img-fluid rounded" >
+				</div>
+				<div class="carousel-item active">
+				<img src="images/team/Dr9.jpeg" alt="Los Angeles" class="img-fluid rounded" >
 				</div>
 				
 			</div>
@@ -160,13 +191,13 @@
 					<span class="h6 text-color">About</span>
 					<h2 class="mt-3 mb-4 position-relative content-title" style="color: white;">Mrs.Aliya Rafat Shadma - <br>Co-Founder</h2>
 					<p style="color: white;">Mrs. Aliya Rafat Shadma is a trailblazer in the legal fraternity and a passionate advocate for justice. With nearly 30 years of experience as a senior lawyer, she has built a distinguished career by breaking barriers and challenging societal norms.</p>
-					<div class="more-content" style="display: none;">
-					<p style="color: white;">A respected member of the Firozabad Bar Association, Mrs. Shadma specializes in women’s and children’s rights, dedicating her expertise to creating safer and fairer spaces for the vulnerable. Her relentless pursuit of equality and empowerment reflects in every initiative she undertakes.</p>
-					
-					<p style="color: white;">
-					As the Co-Founder of Bougainvillea Art Foundation, she brings deep legal insight and an unyielding commitment to social change, shaping the Foundation’s mission to preserve culture while fostering inclusivity and empowerment.
-					</p>
-</div>
+				    <div class="more-content" style="display: none;">
+						<p style="color: white;">A respected member of the Firozabad Bar Association, Mrs. Shadma specializes in women’s and children’s rights, dedicating her expertise to creating safer and fairer spaces for the vulnerable. Her relentless pursuit of equality and empowerment reflects in every initiative she undertakes.</p>
+						
+						<p style="color: white;">
+						As the Co-Founder of Bougainvillea Art Foundation, she brings deep legal insight and an unyielding commitment to social change, shaping the Foundation’s mission to preserve culture while fostering inclusivity and empowerment.
+						</p>
+				    </div>
 					<a href="javascript:void(0);" class="toggle-more text-secondary btn btn-main btn-round-full" ><span style="color:white">Read More</span></a>
 				</div>
 			</div>
@@ -175,228 +206,178 @@
 					<img src="images/about/home-7.jpg" alt="" class="img-fluid">
 				</div>
 			</div> -->
-					<!-- Carousel -->
-		<div class="col-lg-6 col-md-6">
-			<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-			<!-- Indicators/dots -->
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-			</div>
-			
-			<!-- The slideshow/carousel -->
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-				<img src="images/team/photo3.jpg" alt="Los Angeles" class="img-fluid" >
+					
+		
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="images/team/Dr1.jpeg" alt="" class="img-fluid">
 				</div>
-				<div class="carousel-item active">
-				<img src="images/team/photo4.jpg" alt="Los Angeles" class="img-fluid">
-				</div>
-				<div class="carousel-item active">
-				<img src="images/team/photo5.jpg" alt="Los Angeles" class="img-fluid" >
-				</div>
-				
-			</div>
-			
-			<!-- Left and right controls/icons -->
-			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</button>
-			</div>
+			</div>	
 		</div>
 	</div>
 </section>
 <!-- section Counter End  -->
 <!--  Section Services Start -->
-<section class="section team">
+<section class="section team bg-counter ">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
-					<span class="h6 text-color">Our Team</span>
-					<h2 class="mt-3 content-title">Expert Team member to get best service</h2>
+					<span class="h6 text-color">“Guided by Wisdom, Driven by Vision.”</span>
+					<h2 class="mt-3 content-title text-white">Our Advisors</h2>
 				</div>
 			</div>
 		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5">
-					<div class="team-item position-relative">
-						<img src="images/team/team-1.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Justin hammer</h4>
-						<p>Digital Marketer</p>
-					</div>
-				</div>
-			</div>
+            <div class="row justify-content-center">
+				<div class="col-lg-6 col-md-6 mb-5">
+				<div class="card bg-transparent border-0">
+					<img src="images/blog/drkrishan.png" alt="" class="img-fluid rounded" />
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5">
-					<div class="team-item position-relative">
-						<img src="images/team/team-2.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
+					<div class="card-body mt-2">
+					<div class="blog-item-meta">
+						<p class="text-white"
+						>“Illuminating the wisdom of India’s ancient sciences.”<span class="ml-2 mr-2">/</span></p> 
 					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Jason roy</h4>
-						<p>UI/UX Designer</p>
-					</div>
-				</div>
-			</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 ">
-					<div class="team-item position-relative">
-						<img src="images/team/team-3.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Henry oswald</h4>
-						<p>Developer</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0">
-					<div class="team-item position-relative">
-						<img src="images/team/team-4.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">David Williams</h4>
-						<p>Senior Marketer</p>
-					</div>
-				</div>
-			</div>
+					<h3 class="mt-3 mb-4 lh-36  text-white">      
+						Dr. Krishan “Jugnu”
+					</h3>
+					<p class="text-white">Renowned Indologist, Scholar & Author
+						Dr. Krishan “Jugnu” is an eminent Indologist and astronomer who has devoted over 36 years to preserving and reviving ancient Sanskrit treatises of scientific and technological significance. His pioneering research underscores India’s rich intellectual heritage, establishing Sanskrit as the primary language of ancient technical literature.
+					</p>
+					<div class="more-content" style="display: none;">
+							<p style="color: white;">He has translated, edited, and published over 200 scholarly works, spanning engineering, architecture, astrology, and arts. Dr. Jugnu’s contributions include curating rare manuscripts and creating the most extensive collection featured in the online “Bibliography on Vaastu Shastra Literature” by Alexis Sornin.</p>
+							
+							<p style="color: white;">His influence is global—his work has inspired international scholars, including translations of Vaastu Shastra into Russian. His writings are integrated into university and Gurukul curricula and translated into multiple Indian languages, ensuring broad accessibility.</p>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0">
-					<div class="team-item position-relative">
-						<img src="images/team/team-6.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
+							<p style="color: white;">Through his unwavering dedication, Dr. Krishan Jugnu continues to illuminate the depth and relevance of India’s ancient knowledge systems for future generations.</p>
+							
 						</div>
-					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">Peter Odin</h4>
-						<p>App Developer</p>
+
+					<a href="javascript:void(0);" class="toggle-more text-secondary btn btn-main btn-round-full" ><span style="color:white">Read More</span></a>
 					</div>
 				</div>
-			</div>
+				</div>
 
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="team-item-wrap mb-5 mb-lg-0 ">
-					<div class="team-item position-relative">
-						<img src="images/team/team-5.jpg" alt="" class="img-fluid w-100">
-						<div class="team-img-hover">
-							<ul class="team-social list-inline">
-								<li class="list-inline-item">
-									<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-								</li>
-							</ul>
+				<div class="col-lg-6 col-md-6 mb-5">
+				<div class="card border-0 bg-transparent">
+					<img src="images/blog/nidhi2.png" alt="" class="img-fluid rounded" />
+
+					<div class="card-body mt-2">
+					<div class="blog-item-meta">
+						<a class="text-white"
+						>“Dedicated to empowering women’s health with care and compassion.”<span class="ml-2 mr-2">/</span></a>
+					</div>
+
+					<h3 class="mt-3 mb-4 lh-36">
+						<p class="text-white"
+						>Dr. Nidhi Pandey Dixit</p>
+					</h3>
+					<h6 class="text-white">MS (Obstetrics & Gynecology), MBBS
+						Gynecologist | Obstetrician | Laparoscopic Surgeon | 20+ Years of Experience
+					</h6>
+					<p class="text-white">Dr. Nidhi Pandey Dixit is a leading gynecologist and obstetrician with more than two decades of expertise in women’s health. She specializes in high-risk pregnancy care, advocates natural childbirth, and offers advanced options such as painless delivery, ensuring safety and comfort for her patients.
+					</p>
+
+					<div class="more-content" style="display: none;">
+							<p style="color: white;">An expert in both obstetric and gynecological surgeries, Dr. Nidhi is highly skilled in procedures such as hysterectomy, laparoscopic surgery, myomectomy, and TLH. Her evidence-based and personalized approach to PCOS and PCOD management has earned her widespread trust.</p>
+							
+							<p style="color: white;">Beyond clinical excellence, she is deeply committed to health awareness in rural communities, offering free counseling and treatment when needed. Known as a gynecologist with a golden heart, she blends compassion with cutting-edge care at her clinic in Avas Vikas Colony, Agra.</p>
+							
 						</div>
+
+					<a href="javascript:void(0);" class="toggle-more text-secondary btn btn-main btn-round-full" ><span style="color:white">Read More</span></a>
 					</div>
-					<div class="team-item-content">
-						<h4 class="mt-3 mb-0 text-capitalize">David Spensor</h4>
-						<p>Project Manager</p>
-					</div>
+				</div>
+				</div>
+
+            </div>
+
+			<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<span class="h6 text-color">“The heart of our mission lies in the dedication of individuals who believe in creating meaningful change.”</span>
+					<h2 class="mt-3 content-title text-white">Our Volunteers</h2>
 				</div>
 			</div>
 		</div>
+
+		     <div class="row justify-content-center">
+				<div class="col-lg-4 col-md-6 mb-5">
+				<div class="card bg-transparent border-0">
+					<img src="images/blog/shalvi.png" alt="" class="img-fluid rounded" />
+
+					<div class="card-body mt-2">
+					<div class="blog-item-meta">
+						<p class="text-white"
+						>“Spreading joy through communication & compassion.”<span class="ml-2 mr-2">/</span></p> 
+					</div>
+
+					<h3 class="mt-3 mb-4 lh-36  text-white">      
+						Shalvi Dutta
+					</h3>
+					<p class="text-white">Communication Specialist
+							Shalvi Dutta is an experienced communications professional with over a decade in news and electronic media. A dedicated practitioner of Nichiren Daishonin’s Buddhism, she believes in unlocking the inherent potential within every individual. Her mission is to alleviate suffering and spread joy, making her a guiding force of positivity within the Foundation.
+
+					</p>
+					</div>
+				</div>
+				</div>
+
+			<div class="col-lg-4 col-md-6 mb-5">
+				<div class="card border-0 bg-transparent">
+					<img src="images/blog/nandni.png" alt="" class="img-fluid rounded" />
+
+				<div class="card-body mt-2">
+					<div class="blog-item-meta">
+						<a class="text-white"
+						>“Championing menstrual health & women’s dignity.”<span class="ml-2 mr-2">/</span></a>
+					</div>
+
+					<h3 class="mt-3 mb-4 lh-36">
+						<p class="text-white"
+						>Nandini Rai</p>
+					</h3>
+					<p class="text-white">Menstrupedia Certified | Co-Founder, Zzwick Hygiene Pvt. Ltd. 
+						Nandini Rai is a passionate menstrual hygiene activist and entrepreneur. As the Director of PadforHer and Co-Founder of Zzwick Hygiene Pvt. Ltd., she works to break taboos through education and empowerment workshops. Her advocacy for menstrual health continues to impact countless lives by promoting dignity and awareness.
+					</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-5">
+				<div class="card border-0 bg-transparent">
+					<img src="images/blog/rohit.png" alt="" class="img-fluid rounded" />
+
+				<div class="card-body mt-2">
+					<div class="blog-item-meta">
+						<a class="text-white"
+						>“Empowering health through nutrition & balance.”<span class="ml-2 mr-2">/</span></a>
+					</div>
+
+					<h3 class="mt-3 mb-4 lh-36">
+						<p class="text-white"
+						>Rohit Prasad</p>
+					</h3>
+	
+					<p class="text-white">Certified Naturopathic Practitioner & Nutritionist
+							Rohit Prasad specializes in exercise, obesity, and weight management, helping individuals adopt sustainable lifestyle habits. He emphasizes that healthy weight loss is gradual and rooted in proper nutrition. His approach empowers people to achieve holistic health and prevent lifestyle-related diseases.
+
+					</p>
+
+					</div>
+				</div>
+			</div>
+
+         </div>
+
+
 	</div>
 </section>
 <!--  Section Services End -->
 <!-- Section Testimonial Start -->
-<section class="section testimonial bg-gray">
+<!-- <section class="section testimonial bg-gray">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
@@ -460,7 +441,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- Section Testimonial End -->
 
 <!-- footer Start -->
