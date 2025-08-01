@@ -1,7 +1,6 @@
 <!DOCTYPE php>
 <php lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -11,51 +10,40 @@
       name="description"
       content="megakit,business,company,agency,multipurpose,modern,bootstrap4"
     />
-
     <meta name="author" content="themefisher.com" />
-
     <title>Bougainvillea ART FOUNDATION</title>
 
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
-    <!-- Icon Font Css -->
+    <!-- Bootstrap 5.3.3 CSS and JS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Icon Fonts -->
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+
+    <!-- Font Awesome 6 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Other plugins -->
     <link
       rel="stylesheet"
       href="plugins/magnific-popup/dist/magnific-popup.css"
     />
-    <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
     <link
       rel="stylesheet"
       href="plugins/slick-carousel/slick/slick-theme.css"
     />
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-     <!-- Bootstrap 5 CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-
-  <!-- Font Awesome 6 -->
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    rel="stylesheet"
-  />
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
- 
+
   <body style="background-image: url(images/bg/home-9.jpg)">
     <!-- Header Start -->
     <?php include('menu.php'); ?>
@@ -164,7 +152,7 @@
           <div
             class="col-md-6 d-flex align-items-center justify-content-center"
           >
-            <div class="hero-content text-center text-md-start ">
+            <div class="hero-content text-center text-md-start">
               <h1 class="display-5 fw-bold">
                 <span>Bougainvillea Art Foundation</span>
               </h1>
@@ -395,44 +383,49 @@
         </div>
       </section> -->
 
-      
-   <!-- Mission & Vision Section -->
-    
-<section class="section cta">
-  
-  <div class="container">
-    <center><h1 class="display-5 fw-bold">
-                <span>Our Vision & Mission</span>
-              </h1></center>
-    <div class="row justify-content-center">
-      <!-- Vision -->
-      <div class="col-lg-6 mb-4">
-        <div class="cta-item custom-card h-100">
-          <div class="d-flex align-items-center mb-3">
-            <i class="fas fa-eye fa-2x text-primary me-3"></i>
-            <h4 class="mb-0 text-dark">Our Vision</h4>
-          </div>
-          <p class="text-muted">
-            To be a leading force in cultural preservation, creating a vibrant platform that connects communities, inspires creativity, and safeguards India’s diverse heritage for the world to experience and cherish.
-          </p>
-        </div>
-      </div>
+      <!-- Mission & Vision Section -->
 
-      <!-- Mission -->
-      <div class="col-lg-6 mb-4">
-        <div class="cta-item custom-card h-100">
-          <div class="d-flex align-items-center mb-3">
-            <i class="fas fa-bullseye fa-2x text-danger me-3"></i>
-            <h4 class="mb-0 text-dark">Our Mission</h4>
+      <section class="section cta">
+        <div class="container">
+          <center>
+            <h1 class="display-5 fw-bold">
+              <span>Our Vision & Mission</span>
+            </h1>
+          </center>
+          <div class="row justify-content-center">
+            <!-- Vision -->
+            <div class="col-lg-6 mb-4">
+              <div class="cta-item custom-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fas fa-eye fa-2x text-primary me-3"></i>
+                  <h4 class="mb-0 text-dark">Our Vision</h4>
+                </div>
+                <p class="text-muted">
+                  To be a leading force in cultural preservation, creating a
+                  vibrant platform that connects communities, inspires
+                  creativity, and safeguards India’s diverse heritage for the
+                  world to experience and cherish.
+                </p>
+              </div>
+            </div>
+
+            <!-- Mission -->
+            <div class="col-lg-6 mb-4">
+              <div class="cta-item custom-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fas fa-bullseye fa-2x text-danger me-3"></i>
+                  <h4 class="mb-0 text-dark">Our Mission</h4>
+                </div>
+                <p class="text-muted">
+                  To preserve, promote, and document India’s tangible and
+                  intangible heritage, ensuring its continuity for future
+                  generations while fostering cultural pride and awareness.
+                </p>
+              </div>
+            </div>
           </div>
-          <p class="text-muted">
-            To preserve, promote, and document India’s tangible and intangible heritage, ensuring its continuity for future generations while fostering cultural pride and awareness.
-          </p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
       <!--  Section Cta End-->
       <div class="container my-5">
         <h1 class="display-5 fw-bold">
@@ -531,181 +524,6 @@
           </div>
         </div>
       </div>
-
-      
-<!-- Carousel -->
-<div id="demo1" class="carousel slide" data-bs-ride="carousel">
-              <!-- Indicators -->
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#demo1"
-                  data-bs-slide-to="0"
-                  class="active"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#demo1"
-                  data-bs-slide-to="1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#demo1"
-                  data-bs-slide-to="2"
-                ></button>
-              </div>
-
-              <!-- Slides -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="images/about/home-13.jpg"
-                    alt="Slide 1"
-                    class="d-block w-100"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/about/bg-1.jpg"
-                    alt="Slide 2"
-                    class="d-block w-100"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="images/about/about.jpg"
-                    alt="Slide 3"
-                    class="d-block w-100"
-                  />
-                </div>
-              </div>
-
-              <!-- Controls -->
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#demo1"
-                data-bs-slide="prev"
-              >
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#demo1"
-                data-bs-slide="next"
-              >
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-
-      <!--  Section Services End -->
-      <!-- Section Cta Start -->
-      <!-- <section class="section cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="cta-item bg-white p-5 rounded">
-                <span class="h6 text-color">We create for you</span>
-                <h2 class="mt-2 mb-4">
-                  Entrust Your Project to Our Best Team of Professionals
-                </h2>
-                <p class="lead mb-4">
-                  Have any project on mind? For immidiate support :
-                </p>
-                <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- -->
-
-      <!-- Section Testimonial Start -->
-      <section class="section testimonial">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="section-title">
-                <span class="h6 text-color">Clients testimonial</span>
-                <h2 class="mt-3 content-title">
-                  Check what's our clients say about us
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row testimonial-wrap">
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti facilis blanditiis.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">James Watson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Section Testimonial End -->
       <section class="section latest-blog bg-2">
         <div class="container">
           <div class="row justify-content-center">
@@ -819,7 +637,7 @@
         </div>
       </section>
 
-   <!--    <section class="mt-70 position-relative">
+      <section class="mt-70 position-relative">
         <div class="container">
           <div class="cta-block-2 bg-gray p-5 rounded border-1">
             <div class="row justify-content-center align-items-center">
@@ -840,7 +658,7 @@
           </div>
         </div>
       </section>
- -->
+
       <?php include('footer.php'); ?>
     </div>
 
@@ -869,3 +687,189 @@
     <script src="js/script.js"></script>
   </body>
 </php>
+<!-- 
+      <section class="section cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="cta-item bg-white p-5 rounded">
+                <span class="h6 text-color">We create for you</span>
+                <h2 class="mt-2 mb-4">
+                  Entrust Your Project to Our Best Team of Professionals
+                </h2>
+                <p class="lead mb-4">
+                  Have any project on mind? For immidiate support :
+                </p>
+                <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="section-title">
+                <span class="h6 text-color">Clients testimonial</span>
+                <h2 class="mt-3 content-title">
+                  Check what's our clients say about us
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row testimonial-wrap">
+            <div class="testimonial-item position-relative">
+              <i class="ti-quote-left text-color"></i>
+
+              <div class="testimonial-item-content">
+                <p class="testimonial-text">
+                  Quam maiores perspiciatis temporibus odio reiciendis error
+                  alias debitis atque consequuntur natus iusto recusandae
+                  numquam corrupti facilis blanditiis.
+                </p>
+
+                <div class="testimonial-author">
+                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
+                  <p>Excutive Director,themefisher</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item position-relative">
+              <i class="ti-quote-left text-color"></i>
+
+              <div class="testimonial-item-content">
+                <p class="testimonial-text">
+                  Consectetur adipisicing elit. Quam maiores perspiciatis
+                  temporibus odio reiciendis error alias debitis atque
+                  consequuntur natus iusto recusandae .
+                </p>
+
+                <div class="testimonial-author">
+                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
+                  <p>Excutive Director,themefisher</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item position-relative">
+              <i class="ti-quote-left text-color"></i>
+
+              <div class="testimonial-item-content">
+                <p class="testimonial-text">
+                  Quam maiores perspiciatis temporibus odio reiciendis error
+                  alias debitis atque consequuntur natus iusto recusandae
+                  numquam corrupti.
+                </p>
+
+                <div class="testimonial-author">
+                  <h5 class="mb-0 text-capitalize">James Watson</h5>
+                  <p>Excutive Director,themefisher</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-item position-relative">
+              <i class="ti-quote-left text-color"></i>
+
+              <div class="testimonial-item-content">
+                <p class="testimonial-text">
+                  Consectetur adipisicing elit. Quam maiores perspiciatis
+                  temporibus odio reiciendis error alias debitis atque
+                  consequuntur natus iusto recusandae .
+                </p>
+
+                <div class="testimonial-author">
+                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
+                  <p>Excutive Director,themefisher</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+ -->
+
+      <!-- Section Testimonial Start -->
+     <!--  <section class="section test" style="background-color: #f9f9f9">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="section-title">
+                <span class="h6 text-color">Clients testimonial</span>
+                <h2 class="mt-3 content-title">
+                  Check what our clients say about us
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonials Grid (Static) -->
+          <!---<div class="row gy-4">
+            <div class="col-md-6 col-lg-6">
+              <div class="test-item bg-white p-4 shadow rounded h-100">
+                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
+                <p class="mb-4">
+                  Quam maiores perspiciatis temporibus odio reiciendis error
+                  alias debitis atque consequuntur natus iusto recusandae
+                  numquam corrupti facilis blanditiis.
+                </p>
+                <div>
+                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
+                  <p class="mb-0">Executive Director, Themefisher</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <div class="test-item bg-white p-4 shadow rounded h-100">
+                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
+                <p class="mb-4">
+                  Consectetur adipisicing elit. Quam maiores perspiciatis
+                  temporibus odio reiciendis error alias debitis atque
+                  consequuntur natus iusto recusandae.
+                </p>
+                <div>
+                  <h5 class="mb-0 text-capitalize">Mickel Hussy</h5>
+                  <p class="mb-0">Executive Director, Themefisher</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <div class="test-item bg-white p-4 shadow rounded h-100">
+                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
+                <p class="mb-4">
+                  Quam maiores perspiciatis temporibus odio reiciendis error
+                  alias debitis atque consequuntur natus iusto recusandae
+                  numquam corrupti.
+                </p>
+                <div>
+                  <h5 class="mb-0 text-capitalize">James Watson</h5>
+                  <p class="mb-0">Executive Director, Themefisher</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+              <div class="test-item bg-white p-4 shadow rounded h-100">
+                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
+                <p class="mb-4">
+                  Consectetur adipisicing elit. Quam maiores perspiciatis
+                  temporibus odio reiciendis error alias debitis atque
+                  consequuntur natus iusto recusandae.
+                </p>
+                <div>
+                  <h5 class="mb-0 text-capitalize">Mickel Hussy</h5>
+                  <p class="mb-0">Executive Director, Themefisher</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>----->
+
+      <!-- Section Testimonial End -->

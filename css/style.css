@@ -1598,5 +1598,14 @@ h3.quote::before {
   border-radius: 10px;/* 
   box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
 }
+/* Index Testimonial css */
+
+.test-item {
+  transition: transform 0.3s ease;
+}
+.test-item:hover {
+  transform: translateY(-5px);
+}
+
 
 /*# sourceMappingURL=maps/style.css.map */
