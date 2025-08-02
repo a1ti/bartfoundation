@@ -28,6 +28,38 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     /> 
+     <!-- Swiper Carousel -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Fonts & Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="plugins/magnific-popup/dist/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="plugins/slick-carousel/slick/slick-theme.css"
+    />
+
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
     
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -41,7 +73,7 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+  </head> 
 
   <body style="background-image: url(images/bg/home-9.jpg)">
     <!-- Header Start -->
@@ -439,7 +471,7 @@
           </div>
         </div>
       </section>
-      <!--  Section Cta End-->
+      <!--   Our Focus Area -->
       <div class="container my-5">
         <h1 class="display-5 fw-bold">
           <center><span>Our Focus Area</span></center>
@@ -538,6 +570,98 @@
         </div>
       </div>
 
+       <!-- Swiper Gallery Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="images/index-page/1.jpg"
+                  class="card-image"
+                  alt="card image"
+                />
+                <p class="badge fstimg">Designer</p>
+                <h2 class="card-title">Lorem Ipsum</h2>
+                <button class="card-button material-symbols-rounded">
+                  arrow_forward
+                </button>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="images/index-page/2.jpg"
+                  class="card-image"
+                  alt="card image"
+                />
+                <p class="badge sndimg">Developer</p>
+                <h2 class="card-title">Lorem Ipsum</h2>
+                <button class="card-button material-symbols-rounded">
+                  arrow_forward
+                </button>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="images/index-page/3.jpg"
+                  class="card-image"
+                  alt="card image"
+                />
+                <p class="badge thrdimg">Gamer</p>
+                <h2 class="card-title">Lorem Ipsum</h2>
+                <button class="card-button material-symbols-rounded">
+                  arrow_forward
+                </button>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="images/index-page/4.jpg"
+                  class="card-image"
+                  alt="card image"
+                />
+                <p class="badge frthimg">Editor</p>
+                <h2 class="card-title">Lorem Ipsum</h2>
+                <button class="card-button material-symbols-rounded">
+                  arrow_forward
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <!-- Swiper Pagination & Navigation -->
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"> </div>
+          <div class="swiper-button-next"> </div>
+
+        </div>
+      </div>
+    </section>
+    <script>
+      new Swiper(".swiper", {
+        loop: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
 
 
       <!--- OUR GALLERY-->
