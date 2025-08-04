@@ -1,23 +1,21 @@
 <!DOCTYPE php>
 <php lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta
       name="description"
-      content="megakit,business,company,agency,multipurpose,modern,bootstrap4"
-    />
+      content="megakit,business,company,agency,multipurpose,modern,bootstrap4" />
     <meta name="author" content="themefisher.com" />
     <title>Bougainvillea ART FOUNDATION</title>
 
     <!-- Bootstrap 5.3.3 CSS and JS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Icon Fonts -->
@@ -26,54 +24,41 @@
     <!-- Font Awesome 6 -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
-    /> 
-     <!-- Swiper Carousel -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+      rel="stylesheet" />
     <!-- Fonts & Icons -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
     <link
       rel="stylesheet"
-      href="plugins/magnific-popup/dist/magnific-popup.css"
-    />
+      href="plugins/magnific-popup/dist/magnific-popup.css" />
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
     <link
       rel="stylesheet"
-      href="plugins/slick-carousel/slick/slick-theme.css"
-    />
+      href="plugins/slick-carousel/slick/slick-theme.css" />
 
     <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Icon Font Css -->
-  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font Css -->
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
-  </head> 
+  </head>
 
   <body style="background-image: url(images/bg/home-9.jpg)">
     <!-- Header Start -->
@@ -87,17 +72,14 @@
         <video autoplay muted loop playsinline class="bg-video">
           <source
             src="../bartfoundation/videos/index-bg-01.mp4"
-            type="video/mp4 "
-          />
+            type="video/mp4 " />
           Your browser does not support the video tag.
         </video>
         <div class="container">
           <div class="row">
             <div class="col-lg-9 col-md-10">
               <div class="block">
-                <span class="d-block mb-3 text-white text-capitalize"
-                  >Prepare for new future</span
-                >
+                <span class="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
                 <!--  <h4
                   class="animated fadeInUp mb-5 text-white font-weight-bold fs-2"
                 >
@@ -114,75 +96,19 @@
                 <a
                   href="#"
                   target="_blank"
-                  class="btn btn-main animated fadeInUp btn-round-full"
-                  >Get started<i class="btn-icon fa fa-angle-right ml-2"></i
-                ></a>
+                  class="btn btn-main animated fadeInUp btn-round-full">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Section Intro Start -->
-      <!-- 
-      <section class="section intro">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="section-title">
-                <span class="h6 text-color"
-                  >We are creative & expert people</span
-                >
-                <h2 class="mt-3 content-title">
-                  We work with business & provide solution to client with their
-                  business problem
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-12">
-              <div class="intro-item mb-5 mb-lg-0">
-                <i class="ti-desktop color-one"></i>
-                <h4 class="mt-4 mb-3">Modern & Responsive design</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="intro-item mb-5 mb-lg-0">
-                <i class="ti-medall color-one"></i>
-                <h4 class="mt-4 mb-3">Awarded licensed company</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="intro-item">
-                <i class="ti-layers-alt color-one"></i>
-                <h4 class="mt-4 mb-3">Build your website Professionally</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
 
-      <!-- Section Intro END -->
       <!-- Section About Start -->
-
       <div class="container-fluid hero-section">
         <div class="row w-100">
           <!-- Left Content -->
           <div
-            class="col-md-6 d-flex align-items-center justify-content-center"
-          >
+            class="col-md-6 d-flex align-items-center justify-content-center">
             <div class="hero-content text-center text-md-start">
               <h1 class="display-5 fw-bold">
                 <span>Bougainvillea Art Foundation</span>
@@ -228,18 +154,15 @@
                   type="button"
                   data-bs-target="#demo"
                   data-bs-slide-to="0"
-                  class="active"
-                ></button>
+                  class="active"></button>
                 <button
                   type="button"
                   data-bs-target="#demo"
-                  data-bs-slide-to="1"
-                ></button>
+                  data-bs-slide-to="1"></button>
                 <button
                   type="button"
                   data-bs-target="#demo"
-                  data-bs-slide-to="2"
-                ></button>
+                  data-bs-slide-to="2"></button>
               </div>
 
               <!-- Slides -->
@@ -248,36 +171,31 @@
                   <img
                     src="images/index-page/1.jpg"
                     alt="Slide 1"
-                    class="d-block w-100"
-                  />
+                    class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="images/index-page/2.jpg"
                     alt="Slide 2"
-                    class="d-block w-100"
-                  />
+                    class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="images/index-page/3.jpg"
                     alt="Slide 3"
-                    class="d-block w-100"
-                  />
+                    class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="images/index-page/4.jpg"
                     alt="Slide 3"
-                    class="d-block w-100"
-                  />
+                    class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="images/index-page/5.jpg"
                     alt="Slide 3"
-                    class="d-block w-100"
-                  />
+                    class="d-block w-100" />
                 </div>
               </div>
 
@@ -286,16 +204,14 @@
                 class="carousel-control-prev"
                 type="button"
                 data-bs-target="#demo"
-                data-bs-slide="prev"
-              >
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </button>
               <button
                 class="carousel-control-next"
                 type="button"
                 data-bs-target="#demo"
-                data-bs-slide="next"
-              >
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </button>
             </div>
@@ -303,133 +219,7 @@
         </div>
       </div>
 
-      <!-- Section About End -->
-      <!-- section Counter Start -->
-      <!-- <section class="section counter">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">1730</span> +
-                </h3>
-                <p class="text-muted">Project Done</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">125 </span>M
-                </h3>
-                <p class="text-muted">User Worldwide</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">39</span>
-                </h3>
-                <p class="text-muted">Availble Country</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">14</span>
-                </h3>
-                <p class="text-muted">Award Winner</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- section Counter End  -->
-      <!--  Section Services Start -->
-      <!-- <section class="section service border-top">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
-              <div class="section-title">
-                <span class="h6 text-color">Our Services</span>
-                <h2 class="mt-3 content-title">
-                  We provide a wide range of creative services
-                </h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-desktop"></i>
-                <h4 class="mb-3">Web development.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-layers"></i>
-                <h4 class="mb-3">Interface Design.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-bar-chart"></i>
-                <h4 class="mb-3">Business Consulting.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-vector"></i>
-                <h4 class="mb-3">Branding.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-android"></i>
-                <h4 class="mb-3">App development.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-pencil-alt"></i>
-                <h4 class="mb-3">Content creation.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <!-- Mission & Vision Section -->
-
       <section class="section cta">
         <div class="container">
           <center>
@@ -471,6 +261,7 @@
           </div>
         </div>
       </section>
+
       <!--   Our Focus Area -->
       <div class="container my-5">
         <h1 class="display-5 fw-bold">
@@ -570,102 +361,173 @@
         </div>
       </div>
 
-       <!-- Swiper Gallery Section -->
-    <section class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Gallery</h2>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="#" class="card-link">
-                <img
-                  src="images/index-page/1.jpg"
-                  class="card-image"
-                  alt="card image"
-                />
-                <p class="badge fstimg">Designer</p>
-                <h2 class="card-title">Lorem Ipsum</h2>
-                <button class="card-button material-symbols-rounded">
-                  arrow_forward
-                </button>
-              </a>
+      <!---Gallery-->
+      <section class="gallery-slider py-5">
+        <div class="container text-center mb-4">
+          <h1 class="display-5 fw-bold">
+            <center><span>Explore Our Gallery</span></center>
+          </h1>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+
+            <!-- === DESKTOP SLIDE 1 (Cards 1–4) === -->
+            <div class="carousel-item w-100 active desktop-slide">
+              <div class="container p-3">
+                <div class="row justify-content-center">
+                  <!-- Card 1 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card designer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge fstimg">Designer</p>
+                        <h5 class="card-title">Customer 1</h5>
+                        <p class="card-text">"Amazing experience!"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card developer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge sndimg">Developer</p>
+                        <h5 class="card-title">Customer 2</h5>
+                        <p class="card-text">"Super helpful team."</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card gamer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge thrdimg">Gamer</p>
+                        <h5 class="card-title">Customer 3</h5>
+                        <p class="card-text">"Will recommend to others."</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card editor-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge frthimg">Editor</p>
+                        <h5 class="card-title">Customer 4</h5>
+                        <p class="card-text">"Fantastic support!"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <a href="#" class="card-link">
-                <img
-                  src="images/index-page/2.jpg"
-                  class="card-image"
-                  alt="card image"
-                />
-                <p class="badge sndimg">Developer</p>
-                <h2 class="card-title">Lorem Ipsum</h2>
-                <button class="card-button material-symbols-rounded">
-                  arrow_forward
-                </button>
-              </a>
+
+            <!-- === DESKTOP SLIDE 2 (Cards 5–8) === -->
+            <div class="carousel-item w-100 desktop-slide">
+              <div class="container p-3">
+                <div class="row justify-content-center">
+                  <!-- Card 5 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card designer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge fstimg">Designer</p>
+                        <h5 class="card-title">Customer 5</h5>
+                        <p class="card-text">"Excellent quality!"</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 6 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card developer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge sndimg">Developer</p>
+                        <h5 class="card-title">Customer 6</h5>
+                        <p class="card-text">"Quick turnaround."</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 7 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card gamer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge thrdimg">Gamer</p>
+                        <h5 class="card-title">Customer 7</h5>
+                        <p class="card-text">"Top-notch support."</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 8 -->
+                  <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card editor-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge frthimg">Editor</p>
+                        <h5 class="card-title">Customer 8</h5>
+                        <p class="card-text">"Highly recommend!"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <a href="#" class="card-link">
-                <img
-                  src="images/index-page/3.jpg"
-                  class="card-image"
-                  alt="card image"
-                />
-                <p class="badge thrdimg">Gamer</p>
-                <h2 class="card-title">Lorem Ipsum</h2>
-                <button class="card-button material-symbols-rounded">
-                  arrow_forward
-                </button>
-              </a>
+
+            <!-- === MOBILE SLIDES (1 per card) === -->
+            <div class="carousel-item  w-100 mobile-slide ">
+              <div class="container p-3">
+                <div class="row justify-content-center">
+                  <div class="col-12 mb-4">
+                    <div class="card designer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge fstimg">Designer</p>
+                        <h5 class="card-title">Customer 1</h5>
+                        <p class="card-text">"Amazing experience!"</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <a href="#" class="card-link">
-                <img
-                  src="images/index-page/4.jpg"
-                  class="card-image"
-                  alt="card image"
-                />
-                <p class="badge frthimg">Editor</p>
-                <h2 class="card-title">Lorem Ipsum</h2>
-                <button class="card-button material-symbols-rounded">
-                  arrow_forward
-                </button>
-              </a>
+
+            <div class="carousel-item w-100 mobile-slide">
+              <div class="container p-3">
+                <div class="row justify-content-center">
+                  <div class="col-12 mb-4">
+                    <div class="card developer-border">
+                      <img src="images/index-page/1.jpg" class="card-img-top gallery-img" />
+                      <div class="card-body">
+                        <p class="badge sndimg">Developer</p>
+                        <h5 class="card-title">Customer 2</h5>
+                        <p class="card-text">"Super helpful team."</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!-- Add more mobile slides (Customer 3–8) here as needed -->
+
           </div>
 
-          <!-- Swiper Pagination & Navigation -->
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev"> </div>
-          <div class="swiper-button-next"> </div>
-
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-      </div>
-    </section>
-    <script>
-      new Swiper(".swiper", {
-        loop: true,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          dynamicBullets: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          0: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        },
-      });
-    </script>
+      </section>
 
 
-      <!--- OUR GALLERY-->
-      
+
+      <!--- Latest NEWS-->
       <section class="section latest-blog bg-2">
         <div class="container">
           <div class="row justify-content-center">
@@ -686,28 +548,18 @@
 
                 <div class="card-body mt-2">
                   <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
+                    <a href="#" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
+                    <a href="#" class="text-white-50">Ui/Ux<span class="ml-2">/</span></a>
+                    <a href="#" class="text-white-50 ml-2"><i class="fa fa-user mr-2"></i>admin</a>
                   </div>
 
                   <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >How to improve design with typography?</a
-                    >
+                    <a href="#" class="text-white">How to improve design with typography?</a>
                   </h3>
 
                   <a
                     href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
+                    class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a>
                 </div>
               </div>
             </div>
@@ -718,28 +570,18 @@
 
                 <div class="card-body mt-2">
                   <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
+                    <a href="#" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
+                    <a href="#" class="text-white-50">Ui/Ux<span class="ml-2">/</span></a>
+                    <a href="#" class="text-white-50 ml-2"><i class="fa fa-user mr-2"></i>admin</a>
                   </div>
 
                   <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >Interactivity design may connect consumer</a
-                    >
+                    <a href="#" class="text-white">Interactivity design may connect consumer</a>
                   </h3>
 
                   <a
                     href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
+                    class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a>
                 </div>
               </div>
             </div>
@@ -750,28 +592,18 @@
 
                 <div class="card-body mt-2">
                   <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
+                    <a href="#" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
+                    <a href="#" class="text-white-50">Ui/Ux<span class="ml-2">/</span></a>
+                    <a href="#" class="text-white-50 ml-2"><i class="fa fa-user mr-2"></i>admin</a>
                   </div>
 
                   <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >Marketing Strategy to bring more affect</a
-                    >
+                    <a href="#" class="text-white">Marketing Strategy to bring more affect</a>
                   </h3>
 
                   <a
                     href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
+                    class="btn btn-small btn-solid-border btn-round-full text-white">Learn More</a>
                 </div>
               </div>
             </div>
@@ -779,29 +611,13 @@
         </div>
       </section>
 
-     <!--  <section class="mt-70 position-relative">
-        <div class="container">
-          <div class="cta-block-2 bg-gray p-5 rounded border-1">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-lg-7">
-                <span class="text-color">For Every type business</span>
-                <h2 class="mt-2 mb-4 mb-lg-0">
-                  Entrust Your Project to Our Best Team of Professionals
-                </h2>
-              </div>
-              <div class="col-lg-4">
-                <a
-                  href="contact.php"
-                  class="btn btn-main btn-round-full float-lg-right"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
+
+
 
       <?php include('footer.php'); ?>
+
+
+
     </div>
 
     <!-- 
@@ -824,194 +640,7 @@
 
     <!-- Google Map -->
     <script src="plugins/google-map/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
 
     <script src="js/script.js"></script>
   </body>
 </php>
-<!-- 
-      <section class="section cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="cta-item bg-white p-5 rounded">
-                <span class="h6 text-color">We create for you</span>
-                <h2 class="mt-2 mb-4">
-                  Entrust Your Project to Our Best Team of Professionals
-                </h2>
-                <p class="lead mb-4">
-                  Have any project on mind? For immidiate support :
-                </p>
-                <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="section testimonial">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="section-title">
-                <span class="h6 text-color">Clients testimonial</span>
-                <h2 class="mt-3 content-title">
-                  Check what's our clients say about us
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row testimonial-wrap">
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti facilis blanditiis.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">James Watson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- -->
-
-      <!-- Section Testimonial Start -->
-     <!--  <section class="section test" style="background-color: #f9f9f9">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="section-title">
-                <span class="h6 text-color">Clients testimonial</span>
-                <h2 class="mt-3 content-title">
-                  Check what our clients say about us
-                </h2>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonials Grid (Static) -->
-          <!---<div class="row gy-4">
-            <div class="col-md-6 col-lg-6">
-              <div class="test-item bg-white p-4 shadow rounded h-100">
-                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
-                <p class="mb-4">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti facilis blanditiis.
-                </p>
-                <div>
-                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                  <p class="mb-0">Executive Director, Themefisher</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6">
-              <div class="test-item bg-white p-4 shadow rounded h-100">
-                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
-                <p class="mb-4">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae.
-                </p>
-                <div>
-                  <h5 class="mb-0 text-capitalize">Mickel Hussy</h5>
-                  <p class="mb-0">Executive Director, Themefisher</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6">
-              <div class="test-item bg-white p-4 shadow rounded h-100">
-                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
-                <p class="mb-4">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti.
-                </p>
-                <div>
-                  <h5 class="mb-0 text-capitalize">James Watson</h5>
-                  <p class="mb-0">Executive Director, Themefisher</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6">
-              <div class="test-item bg-white p-4 shadow rounded h-100">
-                <i class="ti-quote-left text-color fs-1 mb-3 d-block"></i>
-                <p class="mb-4">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae.
-                </p>
-                <div>
-                  <h5 class="mb-0 text-capitalize">Mickel Hussy</h5>
-                  <p class="mb-0">Executive Director, Themefisher</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>----->
-
-      <!-- Section Testimonial End -->
