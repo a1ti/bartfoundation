@@ -5,6 +5,7 @@
 html {
   overflow-x: hidden;
 }
+ 
 
 body {
   line-height: 1.5;
@@ -42,9 +43,18 @@ h4, .h4 {
 h5, .h5 {
   font-size: 1.25rem;
 }
+ 
 
 h6, .h6 {
   font-size: 1rem;
+}
+
+
+  
+.para {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1rem; /* ensures space between paragraphs */
 }
 
 p {
@@ -387,8 +397,7 @@ a:focus {
 }
 
 #navbar {
-  /* background: #222328; */
-  background-image: url("../images/bg/home-10.png");
+   background: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -499,54 +508,14 @@ ul.dropdown-menu li {
 }
 
 .bg-1 {
-  background: url("../images/bg/home-11.png") no-repeat 50% 50%;
+  background: url("../images/bg/counter.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
 .bg-2 {
   background: url("../images/bg/home-5.jpg");
   background-size: cover;
-}/* Base slider styles */
-.slider {
-  position: relative;
-  overflow: hidden;
-  height: 700px;
-  padding: 150px 0;
-  background-color: #0000007f;
-  display: flex;
-  align-items: center;
-  z-index: 1;
 }
-
-.slider .bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.slider .block h1 {
-  font-size: 70px;
-  line-height: 80px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.slider .block p {
-  margin-bottom: 30px;
-  color: #b9b9b9;
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 300;
-}
-
-.slider .block span {
-  letter-spacing: 1px;
-}
-
 .intro-item i {
   font-size: 60px;
   line-height: 60px;
@@ -694,9 +663,9 @@ ul.dropdown-menu li {
   font-size: 50px;
   opacity: .4;
 }
-
+ 
 .cta {
-  background: url("../images/bg/home-10.jpg") fixed 50% 50%;
+  background: url("../images/bg/home-10.png") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
@@ -1246,11 +1215,11 @@ h3.quote::before {
 
 .footer {
   padding-bottom: 10px;
-  background-color: rgb(57, 57, 57);
+  background-color: #222328;
 } 
 
 .footer-menu{
-  color: #ff0000;
+  color: #f75757;
 
 }
 .footer .copyright a {
@@ -1455,92 +1424,8 @@ h3.quote::before {
   }
 }
 
-/* INDEX PAGE ADOUT US SECTION CSS */
 
-      .hero-section {
-        min-height: 10vh;
-        display: flex;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.664);
-        color: white;
-        padding: 50px 0;
-      }
-
-      .hero-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        padding: 20px;
-        color: white;
-      }
-
-      .btn-custom {
-        background-color: #f44336;
-        color: white;
-        border-radius: 30px;
-        padding: 10px 25px;
-        font-weight: bold;
-      }
-
-      .btn-custom:hover {
-        background-color: #f75757;
-      }
-/* 
-      
-      .carousel-inner img {
-        height: 500px;
-        object-fit: cover;
-        border-radius: 20px;
-      }
- */
-      @media (max-width: 768px) {
-        .hero-section {
-          flex-direction: column;
-          text-align: center;
-        }
-
-        .hero-content {
-          padding: 30px 15px;
-        }
-
-        .carousel-inner img {
-          height: 300px;
-        }
-      }
-
-      span {
-        color: #f75757;
-      }
-    .about-readmore-btn {
-      background: linear-gradient(135deg, #f75757, #e04444);
-      color: #fff;
-      padding: 10px 25px;
-      border: none;
-      border-radius: 30px;
-      font-size: 1rem;
-      font-weight: 500;
-      box-shadow: 0 4px 12px rgba(247, 87, 87, 0.4);
-      transition: all 0.3s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .about-readmore-btn i {
-      margin-left: 8px;
-      transition: transform 0.3s ease;
-    }
-
-    .about-readmore-btn:hover {
-      background: linear-gradient(135deg, #e04444, #c83434);
-      box-shadow: 0 6px 20px rgba(247, 87, 87, 0.5);
-      transform: translateY(-2px);
-    }
-
-    .about-readmore-btn:hover i {
-      transform: translateX(5px);
-    }
-      /* INDEX PAGE SEVICES CSS */
+      /* INDEX Focus Area CSS */
       
       .serv {
         background-color: #fff;
@@ -1573,207 +1458,585 @@ h3.quote::before {
         color: hsl(0, 0%, 33%);
       }
 
-      /* INDEX PAGE OUR VISION AND MISSION CSS */
+            :root {
+              --primary-color: #b43d6a;
+              --secondary-color: #da3d7a;
+              --btn-gradient-start: #b43d6a;
+              --btn-gradient-end: #da3d7a;
+              --text-white: #ffffff;
+              --text-dark: #333333;
+              --card-bg: #fff;
+              --shadow-color: rgba(0, 0, 0, 0.1);
+              --focus-overlay: rgba(0, 0, 0, 0.65);
+              --btn-shadow: rgba(255, 81, 186, 0.63);
+            }
       
-  .custom-card {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .custom-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  }
-  .section.cta {
-  position: relative;
-  padding: 60px 20px;/* 
-  background-color: #00000057; */ /* Light background for contrast */
-  z-index: 1;
-}
-
-.section.cta h1 {
-  position: relative;
-  z-index: 2;
-  background: none; /* Ensure it's visible over dark backgrounds */
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 10px;/* 
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
-} 
-
-
-/* ---------------------------------
-  Index Gallery Styles
-----------------------------------*/
-.card {
-  padding: 10px;
-  background: #fff;
-  border-radius: 20px;
-  transition: all 0.3s ease-in-out;
-  border: 2px solid transparent;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  height: 100%;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-/* Card Hover Borders by Category */
-.card.designer-border:hover {
-  border: 3px solid #b22485;
-  box-shadow: 0 10px 20px rgba(178, 36, 133, 0.3);
-}
-.card.developer-border:hover {
-  border: 3px solid #b25a2b;
-  box-shadow: 0 10px 20px rgba(178, 90, 43, 0.3);
-}
-.card.gamer-border:hover {
-  border: 3px solid #008b0e;
-  box-shadow: 0 10px 20px rgba(0, 139, 14, 0.3);
-}
-.card.editor-border:hover {
-  border: 3px solid #2b3db2;
-  box-shadow: 0 10px 20px rgba(43, 61, 178, 0.3);
-}
-
-/* ---------------------------------
-   Carousel Controls (Default Desktop)
-----------------------------------*/
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: #ff0000;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 1;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background-color: #ff3434;
-}
-
-.carousel-control-prev {
-  left: 50px;
-}
-
-.carousel-control-next {
-  right: 50px;
-}
-
-/* Adjust carousel control position on large screens */
-@media (min-width: 1200px) {
-  .carousel-control-prev {
-    left: 200px;
-  }
-
-  .carousel-control-next {
-    right: 200px;
-  }
-}
-
-/* ---------------------------------
-   Badge Styles
-----------------------------------*/
-.badge {
-  color: #5372f0;
-  padding: 6px 14px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin: 10px 0 15px;
-  background: #dde4ff;
-  width: fit-content;
-  border-radius: 50px;
-}
-
-.fstimg {
-  color: #b22485;
-  background: #f7dff5;
-}
-.sndimg {
-  color: #b25a2b;
-  background: #f7dff5;
-}
-.thrdimg {
-  color: #008b0e;
-  background: #e1f7df;
-}
-.frthimg {
-  color: #2b3db2;
-  background: #e4dff7;
-}
-
-/* ---------------------------------
-   Image in Card
-----------------------------------*/
-.gallery-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-  display: block;
-}
-
-/* ---------------------------------
-   Responsive Styles
-----------------------------------*/
-
-/* Mobile styles */
-@media (max-width: 576px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none !important;
-  }
-
-  .badge {
-    font-size: 0.75rem;
-    padding: 4px 10px;
-  }
-
-  .desktop-slide {
-    display: none !important;
-  }
-}
-
-/* Tablet styles (577px–991px) */
-@media (min-width: 577px) and (max-width: 991px) {
-  .carousel-control-prev {
-    left: 20px;
-  }
-
-  .carousel-control-next {
-    right: 20px;
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 577px) {
-  .mobile-slide {
-    display: none !important;
-  }
-}
-/* Show only desktop slides on desktop */
-@media (min-width: 577px) {
-  .mobile-slide {
-    display: none !important;
-  }
-}
-
-/* Show only mobile slides on mobile */
-@media (max-width: 576px) {
-  .desktop-slide {
-    display: none !important;
-  }
-
-  /* Hide carousel controls on mobile */
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none !important;
-  }
-}
+            /* ============================
+           BG VIDEO SECTION
+      =============================== */
+      
+            .slider {
+              position: relative;
+              overflow: hidden;
+              height: 500px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: var(--text-white);
+            }
+      
+            .slider video.bg-video {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+              z-index: -2;
+            }
+      
+            .slider::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 100%;
+              width: 100%;
+              background-color: #000;
+              z-index: -1;
+            }
+      
+            .slider .content {
+              text-align: left;
+            }
+      
+            .slider h1 {
+              font-size: 2.5rem;
+              font-weight: 700;
+            }
+      
+            .slider p {
+              font-size: 1.125rem;
+              margin-bottom: 1.5rem;
+              color: #e0e0e0;
+            }
+      
+            .btn-main {
+              background-color: var(--btn-gradient-start);
+              color: var(--text-white);
+              border: none;
+              padding: 0.75rem 1.5rem;
+              font-weight: 500;
+              border-radius: 50px;
+              transition: background-color 0.3s ease;
+            }
+      
+            .btn-main:hover {
+              background-color: var(--btn-gradient-start);
+            }
+      
+            /* === Responsive === */
+            @media (max-width: 768px) {
+              .slider h1 {
+                font-size: 1.75rem;
+              }
+      
+              .slider p {
+                font-size: 1rem;
+              }
+            }
+      
+            /* ============================
+         ABOUT SECTION STYLING
+      =============================== */
+            section.hero-section {
+              margin: 0;
+              padding: 60px 0;
+              color: var(--text-dark);
+              position: relative;
+            }
+      
+            .hero-section::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 0;
+            }
+      
+            .hero-content {
+              position: relative;
+              z-index: 2;
+              padding: 60px 30px 0;
+            }
+      
+            .about-readmore-btn {
+              background: linear-gradient(135deg, var(--btn-gradient-start), var(--btn-gradient-end));
+              color: var(--text-white);
+              padding: 10px 25px;
+              border: none;
+              border-radius: 30px;
+              font-size: 1rem;
+              font-weight: 500;
+              box-shadow: 0 4px 12px var(--btn-shadow);
+              transition: all 0.3s ease;
+            }
+      
+            .about-readmore-btn i {
+              margin-left: 8px;
+              transition: transform 0.3s ease;
+            }
+      
+            .about-readmore-btn:hover {
+              background: linear-gradient(135deg, var(--btn-gradient-end), var(--btn-gradient-start));
+              box-shadow: 0 6px 20px var(--btn-shadow);
+              transform: translateY(-2px);
+            }
+      
+            .about-readmore-btn:hover i {
+              transform: translateX(5px);
+            }
+      
+            .about-carousel-img {
+              width: 100%;
+              height: 500px;
+              object-fit: cover;
+              border-radius: 20px;
+              border: 4px solid white;
+            }
+      
+            #aboutCarousel {
+              border-radius: 20px;
+              overflow: hidden;
+            }
+      
+            .carousel-control-prev1,
+            .carousel-control-next1 {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              z-index: 10;
+              width: 50px;
+              height: 50px;
+              background-color: rgba(163, 51, 124, 0.7);
+              border: none;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: background-color 0.3s ease;
+            }
+      
+            .carousel-control-prev1 {
+              left: 20px;
+            }
+      
+            .carousel-control-next1 {
+              right: 20px;
+            }
+      
+            .carousel-control-prev1 i,
+            .carousel-control-next1 i {
+              color: var(--text-white);
+              font-size: 1.5rem;
+            }
+      
+            .carousel-control-prev1:hover,
+            .carousel-control-next1:hover {
+              background-color: var(--btn-gradient-start);
+            }
+      
+            /* ============================
+         VISION & MISSION SECTION
+      =============================== */
+            .section.cta {
+              position: relative;
+              padding: 60px 20px;
+              z-index: 1;
+            }
+      
+            .section.cta h1 {
+              position: relative;
+              z-index: 2;
+              background: none;
+              display: inline-block;
+              padding: 10px 20px;
+              border-radius: 10px;
+            }
+      
+            .custom-card {
+              background-color: var(--card-bg);
+              padding: 30px;
+              border-radius: 10px;
+              box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+      
+            .custom-card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            }
+      
+            /* ============================
+         FOCUS AREA SECTION
+      =============================== */
+            #focus-area {
+              background-color: var(--focus-overlay); 
+            }
+      
+            .serv {
+              text-align: center;
+              padding: 20px;
+              background-color: var(--card-bg);
+              border-radius: 10px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+              transition: all 0.3s ease;
+            }
+      
+            .serv:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 16px var(--shadow-color);
+            }
+      
+            .custom-btn {
+              background: linear-gradient(135deg, var(--btn-gradient-start), var(--btn-gradient-end));
+              font-size: 1rem;
+              font-weight: 500;
+              transition: all 0.3s ease;
+              border: none;
+              width: 100%;
+              height: 90px;
+              text-align: center;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 12px;
+              color: var(--text-white);
+              text-decoration: none;
+            }
+      
+            .custom-btn:hover {
+              background: linear-gradient(135deg, var(--btn-gradient-end), var(--btn-gradient-start));
+              transform: translateY(-2px);
+              box-shadow: 0 6px 20px var(--btn-shadow);
+            }
+      
+            .custom-btn i {
+              margin-left: 8px;
+              transition: transform 0.3s ease;
+            }
+      
+            .custom-btn:hover i {
+              transform: translateX(5px);
+            }
+      
+            /* ============================
+         GLOBAL UTILITIES
+      =============================== */
+            h1.heading {
+              margin-bottom: 1.5rem;
+              color: var(--secondary-color);
+            }
+      
+            a span {
+              color: #f75757;
+            }
+      
+            .section-title {
+              color: var(--primary-color);
+              font-size: 2.2rem;
+              font-weight: 700;
+            }
+      
+            .page-title {
+              padding: 100px 0;
+              background: linear-gradient(rgba(180, 61, 106, 0.85), rgba(218, 61, 122, 0.85)),
+                url('images/index-page/gallery/baf-1.jpg') center/cover no-repeat;
+              color: white;
+              text-align: center;
+            }
+      
+            .page-title h1 {
+              font-size: 3rem;
+              margin-bottom: 1rem;
+            }
+      
+            .page-title h5 {
+              font-size: 1.5rem;
+              margin-bottom: 1.5rem;
+            }
+      
+            .value-box {
+              background-color: var(--card-bg);
+              border-left: 5px solid var(--primary-color);
+              transition: all 0.3s ease;
+            }
+      
+            .value-box:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 16px var(--shadow-color);
+            }
+      
+            .value-title {
+              color: var(--secondary-color);
+              font-size: 1.25rem;
+              font-weight: 600;
+              margin-bottom: 0.5rem;
+            }
+      
+            .value-text {
+              color: var(--text-dark);
+              font-size: 1rem;
+              line-height: 1.6;
+            }
+      
+            /* ============================
+         RESPONSIVE
+      =============================== */
+            @media (max-width: 768px) {
+              .hero-content {
+                text-align: center;
+                padding: 40px 20px;
+              }
+      
+              .about-carousel-img {
+                height: 300px;
+              }
+            }
+      
+            /* -------------------------------
+         Gallery Carousel – Container & Layout
+      ---------------------------------- */
+            .swiper {
+              width: 100%;
+              padding: 50px 0;
+            }
+      
+            .swiper-slide {
+              transition: transform 0.3s;
+              height: auto;
+            }
+      
+            /* -------------------------------
+         Card Styling & Hover Effects
+      ---------------------------------- */
+            .card {
+              padding: 10px;
+              background: var(--card-bg, #fff);
+              border-radius: 20px;
+              transition: all 0.3s ease-in-out;
+              border: 2px solid transparent;
+              box-shadow: 0 2px 8px var(--shadow-color, rgba(0, 0, 0, 0.1));
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+            }
+      
+            .card:hover {
+              transform: translateY(-5px);
+            }
+      
+            /* Category-Specific Hover Effects */
+            .card.designer-border:hover {
+              border: 3px solid #b22485;
+              box-shadow: 0 10px 20px rgba(178, 36, 133, 0.3);
+            }
+      
+            .card.developer-border:hover {
+              border: 3px solid #b25a2b;
+              box-shadow: 0 10px 20px rgba(178, 90, 43, 0.3);
+            }
+      
+            .card.gamer-border:hover {
+              border: 3px solid #008b0e;
+              box-shadow: 0 10px 20px rgba(0, 139, 14, 0.3);
+            }
+      
+            .card.editor-border:hover {
+              border: 3px solid #2b3db2;
+              box-shadow: 0 10px 20px rgba(43, 61, 178, 0.3);
+            }
+      
+            /* -------------------------------
+         Image & Badge Styles
+      ---------------------------------- */
+            .image,
+            .gallery-img {
+              width: 100%;
+              height: 180px;
+              object-fit: cover;
+              border-radius: 20px 20px 0 0;
+            }
+      
+            .badge {
+              display: inline-block;
+              padding: 6px 14px;
+              font-size: 0.85rem;
+              font-weight: 500;
+              margin: 10px 0 15px;
+              border-radius: 50px;
+              background: #dde4ff;
+              color: #5372f0;
+              width: fit-content;
+            }
+      
+            .fstimg {
+              background: #f7dff5;
+              color: #b22485;
+            }
+      
+            .sndimg {
+              background: #f7dff5;
+              color: #b25a2b;
+            }
+      
+            .thrdimg {
+              background: #e1f7df;
+              color: #008b0e;
+            }
+      
+            .frthimg {
+              background: #e4dff7;
+              color: #2b3db2;
+            }
+      
+            /* -------------------------------
+         Swiper Navigation – Buttons
+      ---------------------------------- */
+            .swiper-button-next,
+            .swiper-button-prev {
+              background-color: var(--btn-gradient-start, #b43d6a);
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              color: var(--text-white, #fff);
+              top: 50%;
+              transform: translateY(-50%);
+            }
+      
+            .swiper-button-next:hover,
+            .swiper-button-prev:hover {
+              background-color: rgba(230, 72, 143, 0.7);
+            }
+      
+            .swiper-button-next::after,
+            .swiper-button-prev::after {
+              font-size: 20px;
+              font-weight: bold;
+            }
+      
+            /* Swiper pagination */
+            .swiper-pagination-bullet {
+              background: var(--btn-gradient-start, #b43d6a);
+            }
+      
+            /* -------------------------------
+         Responsive Breakpoints
+      ---------------------------------- */
+            @media (max-width: 768px) {
+      
+              .swiper-button-next,
+              .swiper-button-prev {
+                width: 30px;
+                height: 30px;
+              }
+      
+              .badge {
+                font-size: 0.75rem;
+                padding: 4px 10px;
+              }
+            }
+      
+            @media (max-width: 576px) {
+      
+              /* Hide navigation controls on small screens */
+              .swiper-button-next,
+              .swiper-button-prev {
+                display: none !important;
+              }
+      
+              /* Adjust badge size */
+              .badge {
+                font-size: 0.75rem;
+                padding: 4px 10px;
+              }
+            }
+      
+            @media (min-width: 577px) {
+      
+              /* Example: Hide mobile-only slides if any */
+              .mobile-slide {
+                display: none !important;
+              }
+            }
+      
+            @media (max-width: 576px) {
+      
+              /* Example: Hide desktop-only slides if any */
+              .desktop-slide {
+                display: none !important;
+              }
+            }
+      
+            /*========================= 
+            About Us page  
+      =========================*/
+            .hero-section {
+              padding: 60px 0;
+              background-color: #fdfdfd;
+              position: relative;
+              color: var(--text-dark);
+            }
+      
+            .hero-content {
+              padding: 60px 30px 0;
+            }
+      
+            @media (max-width: 768px) {
+              .hero-content {
+                text-align: center;
+                padding: 40px 20px;
+              }
+            }
+      
+            /* ===== Headings & Paragraphs ===== */
+            .heading {
+              color: var(--secondary-color);
+              margin-bottom: 1.5rem;
+            }
+      
+            .para {
+              font-size: 1rem;
+              line-height: 1.7;
+              margin-bottom: 1rem;
+              color: var(--text-dark);
+            }
+      
+            /* ===== Carousel Styling ===== */
+            #aboutCarousel {
+              border-radius: 20px;
+              overflow: hidden;
+              width: 100%;
+            }
+      
+            .about-carousel-img {
+              width: 100%;
+              height: 500px;
+              object-fit: cover;
+              border-radius: 20px;
+              border: 4px solid #fff;
+              transition: transform 0.3s ease;
+            }
+      
+            .about-carousel-img:hover {
+              transform: scale(1.02);
+            }
+      
+            @media (max-width: 768px) {
+              .about-carousel-img {
+                height: 300px;
+              }
+            }
