@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+  
+  <meta name="author" content="themefisher.com">
+
+  <title>Contact</title>
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleLinks = document.querySelectorAll(".toggle-more");
+
+        toggleLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                const content = this.previousElementSibling;
+                if (content.style.display === "none" || content.style.display === "") {
+                    content.style.display = "block";
+                    this.innerText = "Show less";
+                } else {
+                    content.style.display = "none";
+                    this.innerText = "More...";
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .founder-img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+        float: right;
+        margin: 0 0 10px 20px;
+    }
+
+    /* Optional: Resize image on very small screens but keep it on top-right */
+    @media (max-width: 576px) {
+        .founder-img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+</style>
+
+</head>
+
+<body >
+
+<!-- Header Start --> 
+<?php include('menu.php'); ?>
+<!-- Header Close --> 
+
+<div class="main-wrapper " style="background-image:url('images/bg/43584.jpg')">
+<section class="page-title bg-1" style="padding: 50px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block text-center">
+        <h1 class="text-capitalize mb-4 text-lg">Published Work</h1>
+          <span class="text-white">“Celebrating India’s Heritage Through Knowledge and Creativity.”</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section Counter Start -->
+<section class="section counter " style="background: black; padding-bottom: 15px; padding-top: 15px;">
+	<div class="container">
+		<div class="row justify-content-center">
+            <div class="cta-item bg-white p-3 rounded">
+                    <div class="row">
+                        <!-- Left: Awards List -->
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <!-- Repeat awards as before -->
+                                 <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                                    <h1 class="text-capitalize mb-0 ">Published Books</h1>
+									<p><b style="color: black;">Bringing India’s Cultural Treasures to Print</b>
+										We publish meticulously researched books that showcase the depth and diversity of India’s heritage. These works serve as valuable resources for scholars, students, and culture enthusiasts.
+									</p>
+
+                                  <h2 class="text-capitalize  ">What We Offer:</h2>
+								  <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Heritage & Art Books:</b> Covering traditional art forms, architecture, and cultural practices.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Research-Based Publications: </b>In-depth studies of India’s tangible and intangible heritage.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Curated Collections: </b>Beautifully designed books for libraries and collectors.
+								   </p>
+								    
+									<h3>Visual Element:</h3>
+									<p>Showcase book cover gallery in a grid format with clickable previews and “Learn More” options.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                       <!-- Right: Carousel -->
+                        <div class="col-lg-4 carousel-fade">
+                            <div id="awardCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner rounded shadow-sm">
+                                    <div class="carousel-item active">
+                                        <img src="images/team/Dr7.jpeg" class="d-block w-100" alt="Award 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr6.jpeg" class="d-block w-100" alt="Award 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr9.jpeg" class="d-block w-100" alt="Award 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr3.jpeg" class="d-block w-100" alt="Award 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award1.jpg" class="d-block w-100" alt="Award 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award2.jpg" class="d-block w-100" alt="Award 6">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award3.jpg" class="d-block w-100" alt="Award 7">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award4.jpg" class="d-block w-100" alt="Award 8">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr10.jpeg" class="d-block w-100" alt="Award 9">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr11.jpeg" class="d-block w-100" alt="Award 10">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr12.jpeg" class="d-block w-100" alt="Award 11">
+                                    </div>
+                                    <!-- Add more images as needed -->
+                                </div>
+                                    <a class="carousel-control-prev" href="#awardCarousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#awardCarousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
+                            </div>  
+                        </div>   
+            </div>            
+		</div>
+	</div>
+</section>
+
+<section class="section counter " style="background: black; padding-bottom: 15px; padding-top: 15px;">
+	<div class="container">
+		<div class="row justify-content-center">
+            <div class="cta-item bg-white p-3 rounded">
+                    <div class="row">
+                        <!-- Left: Awards List -->
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <!-- Repeat awards as before -->
+                                 <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                                    <h1 class="text-capitalize mb-0 ">E-Books & Coffee Table Books</h1>
+									<p><b style="color: black;">Digital Access to Timeless Heritage</b>
+										 We create visually stunning e-books and coffee table books that combine breathtaking imagery with compelling narratives. These publications make India’s heritage accessible to a global audience at the click of a button.
+									</p>
+
+                                  <h2 class="text-capitalize  ">Highlights:</h2>
+								  <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Interactive Design:</b>Enhanced visuals, easy navigation.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Cultural Narratives:</b>Capturing traditions, festivals, crafts, and architecture.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Perfect for Gifting & Collecting: </b>Elegant designs ideal for coffee tables and cultural showcases.
+								   </p>
+								    
+									<h3>Visual Element:</h3>
+									<p>Display a few sample pages with a flipbook preview or download link.</p>
+
+                                    <div class="row justify-content-center">
+										<div class="col-lg-4 col-md-6 mb-5 carousel-fade">
+											<!-- Carousel Start -->
+											<div id="imageCardCarousel1" class="carousel slide" data-ride="carousel">
+												<div class="carousel-inner">
+												<!-- Slide 1 -->
+												<div class="carousel-item active">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/1.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 2 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/2.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 3 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/3.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+												</div>
+
+												<!-- Controls -->
+												<a class="carousel-control-prev" href="#imageCardCarousel1" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#imageCardCarousel1" role="button" data-slide="next">
+												<span class="carousel-control-next-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+												</a>
+											</div>
+
+											<!-- Buttons -->
+											<div class="mt-3 d-flex justify-content-between">
+												<a href="details.html" class="btn btn-primary btn-solid-border btn-round-full">View More</a>
+												<a href="images/blog/1.jpg" download class="btn btn-outline-success btn-sm btn-round-full mr-3">Download</a>
+											</div>
+										</div>
+
+										<div class="col-lg-4 col-md-6 mb-5 carousel-fade">
+											<!-- Carousel Start -->
+											<div id="imageCardCarousel2" class="carousel slide" data-ride="carousel">
+												<div class="carousel-inner">
+												<!-- Slide 1 -->
+												<div class="carousel-item active">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/1.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 2 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/2.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 3 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/3.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+												</div>
+
+												<!-- Controls -->
+												<a class="carousel-control-prev" href="#imageCardCarousel2" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#imageCardCarousel2" role="button" data-slide="next">
+												<span class="carousel-control-next-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+												</a>
+											</div>
+
+											<!-- Buttons -->
+											<div class="mt-3 d-flex justify-content-between">
+												<a href="details.html" class="btn btn-primary btn-solid-border btn-round-full">View More</a>
+												<a href="images/blog/1.jpg" download class="btn btn-outline-success btn-sm btn-round-full mr-3">Download</a>
+											</div>
+										</div>
+
+										<div class="col-lg-4 col-md-6 mb-5 carousel-fade">
+											<!-- Carousel Start -->
+											<div id="imageCardCarousel3" class="carousel slide" data-ride="carousel">
+												<div class="carousel-inner">
+												<!-- Slide 1 -->
+												<div class="carousel-item active">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/1.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 2 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/2.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+
+												<!-- Slide 3 -->
+												<div class="carousel-item">
+													<div class="card bg-transparent border-0">
+													<img src="images/blog/3.jpg" alt="" class="img-fluid rounded" />
+													</div>
+												</div>
+												</div>
+
+												<!-- Controls -->
+												<a class="carousel-control-prev" href="#imageCardCarousel3" role="button" data-slide="prev">
+												<span class="carousel-control-prev-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#imageCardCarousel3" role="button" data-slide="next">
+												<span class="carousel-control-next-icon rounded-circle p-3" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+												</a>
+											</div>
+
+											<!-- Buttons -->
+											<div class="mt-3 d-flex justify-content-between">
+												<a href="details.html" class="btn btn-primary btn-solid-border btn-round-full">View More</a>
+												<a href="images/blog/1.jpg" download class="btn btn-outline-success btn-sm btn-round-full mr-3">Download</a>
+											</div>
+										</div>
+
+									</div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                     
+            </div>            
+		</div>
+	</div>
+</section>
+
+<section class="section counter " style="background: black; padding-bottom: 15px; padding-top: 15px;">
+	<div class="container">
+		<div class="row justify-content-center">
+            <div class="cta-item bg-white p-3 rounded">
+                    <div class="row">
+                        <!-- Left: Awards List -->
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <!-- Repeat awards as before -->
+                                 <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                                    <h1 class="text-capitalize mb-0 ">Documentaries on India’s Heritage</h1>
+									<p><b style="color: black;">Telling Stories Through Film</b>
+										Our documentaries delve deep into the tangible and intangible heritage of India, bringing history to life for modern audiences. We also highlight UNESCO World Heritage Sites with authentic narratives and captivating visuals.
+									</p>
+
+                                  <h2 class="text-capitalize  ">What We Create:</h2>
+								  <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">Cultural Documentaries:</b>Exploring traditions, music, dance, and craftsmanship.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;"> Historical Narratives: </b>Showcasing ancient monuments, temples, forts, and architecture.
+								   </p>
+								   <p style="margin-bottom: 0rem;"><i class="fas fa-hand-point-right text-warning mr-2"></i>
+									<b style="color: black;">UNESCO World Heritage Features:</b>Documenting India’s globally recognized heritage sites.
+								   </p>
+								    
+									<h3>Visual Element:</h3>
+									<p>Embed video thumbnails or teaser clips with “Watch Now” or “View Trailer” buttons.</p>
+
+                                    <div class="row justify-content-center">
+										<div class="col-lg-4 col-md-6 col-sm-6">
+											<div class="team-item-wrap ">
+												<div class="team-item position-relative">
+													<iframe width="100%" height="315" src="https://www.youtube.com/embed/QlDXA-qYmqI?si=F2IVNZXPHSXfGNIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+													
+												</div>
+												<div class="team-item-content cta-item bg-white  rounded">
+													<h4 class="mt-3 mb-0 text-capitalize">Lentina Ao Thakkar – Nagaland</h4>
+													<p>
+														Lentina Ao Thakkar has dedicated her life to education, social reform, and women’s empowerment in Nagaland.
+													</p>
+
+													<!-- YouTube link -->
+													<p>
+														<a href="https://www.youtube.com/watch?v=QlDXA-qYmqI" target="_blank" class="text-primary">
+															▶ Watch on YouTube
+														</a>
+													</p>
+
+												<!-- More link -->
+													<div>
+													<a href="javascript:void(0);" class="toggle-more text-secondary">More...</a>
+													</div>
+
+													<!-- More content (initially hidden) -->
+													<div class="more-content" style="display: none;">
+													<p>
+														A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+													</p>
+													</div>
+
+													<script>
+														document.addEventListener("DOMContentLoaded", function () {
+															const toggleLink = document.querySelector(".toggle-more");
+															const moreContent = document.querySelector(".more-content");
+
+															toggleLink.addEventListener("click", function () {
+															if (moreContent.style.display === "none") {
+																moreContent.style.display = "block";
+																toggleLink.textContent = "Less...";
+															} else {
+																moreContent.style.display = "none";
+																toggleLink.textContent = "More...";
+															}
+															});
+														});
+													</script>
+
+												<!-- Download Button (with custom style) -->
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a>
+
+
+												</div>
+
+											</div>
+										
+										</div>
+										<div class="col-lg-4 col-md-6 col-sm-6">
+											<div class="team-item-wrap ">
+												<div class="team-item position-relative">
+													<iframe width="100%" height="315" src="https://www.youtube.com/embed/RnkWmTLZz0Y?si=L1UKaO8RNkNfzf_m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+													
+												</div>
+											<div class="team-item-content cta-item bg-white rounded">
+												<h4 class="mt-3 mb-0 text-capitalize">Sindhutai Sapkal – Maharashtra</h4>
+												<p>
+													Known as the Mother of Orphans, Sindhutai Sapkal devoted her life to caring for abandoned and orphaned children. 
+												</p>
+
+												<!-- YouTube link -->
+												<p>
+													<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="text-primary">
+														▶ Watch on YouTube
+													</a>
+												</p>
+												<!-- More link -->
+													<div>
+													<a href="javascript:void(0);" class="toggle-more text-secondary">More...</a>
+													</div>
+
+													<!-- More content (initially hidden) -->
+													<div class="more-content" style="display: none;">
+													<p>
+														A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+													</p>
+													</div>
+
+													<script>
+														document.addEventListener("DOMContentLoaded", function () {
+															const toggleLink = document.querySelector(".toggle-more");
+															const moreContent = document.querySelector(".more-content");
+
+															toggleLink.addEventListener("click", function () {
+															if (moreContent.style.display === "none") {
+																moreContent.style.display = "block";
+																toggleLink.textContent = "Less...";
+															} else {
+																moreContent.style.display = "none";
+																toggleLink.textContent = "More...";
+															}
+															});
+														});
+													</script>
+												<!-- Download Button (with custom style) -->
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a>
+			
+											</div>
+
+
+											</div>
+										</div>
+
+										<div class="col-lg-4 col-md-6 col-sm-6">
+											<div class="team-item-wrap ">
+												<div class="team-item position-relative">
+													<iframe width="100%" height="315" src="https://www.youtube.com/embed/xUjA0-VRl8Y?si=OTnWYKXC2olhBd4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+													
+												</div>
+												<div class="team-item-content cta-item bg-white  rounded">
+												<h4 class="mt-3 mb-0 text-capitalize">Sawang Dolma – Ladakh</h4>
+												<p>
+													Sawang Dolma is a changemaker who has dedicated her life to transforming some of the most challenging terrains of the Himalayas. 
+												</p>
+
+												<!-- YouTube link -->
+												<p>
+													<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="text-primary">
+														▶ Watch on YouTube
+													</a>
+												</p>
+
+												<!-- More link -->
+													<div>
+													<a href="javascript:void(0);" class="toggle-more text-secondary">More...</a>
+													</div>
+
+													<!-- More content (initially hidden) -->
+													<div class="more-content" style="display: none;">
+													<p>Her work focuses on a holistic approach to community welfare, addressing critical issues such as:</p>
+
+												<ul>
+														<li>Healthcare accessibility</li>
+														<li>Sustainability in high-altitude regions</li>
+														<li>Child and women’s rights</li>
+														<li>Awareness against alcohol and tobacco use among children</li>
+														<li>Reducing pesticide usage in farming</li>
+														<li>Promoting alternatives to plastic in Ladakh</li>
+													</ul>
+
+													<p>Through her initiatives, Sawang Dolma has become a catalyst for sustainable living and social empowerment in one of India’s most ecologically fragile zones.</p>
+													</div>
+
+													<script>
+														document.addEventListener("DOMContentLoaded", function () {
+															const toggleLink = document.querySelector(".toggle-more");
+															const moreContent = document.querySelector(".more-content");
+
+															toggleLink.addEventListener("click", function () {
+															if (moreContent.style.display === "none") {
+																moreContent.style.display = "block";
+																toggleLink.textContent = "Less...";
+															} else {
+																moreContent.style.display = "none";
+																toggleLink.textContent = "More...";
+															}
+															});
+														});
+													</script>
+												<!-- Download Button (with custom style) -->
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a>
+
+											</div>
+											</div>
+										</div>
+									</div>	
+
+                                </div>
+                            </div>
+                        </div>
+
+                     
+            </div>            
+		</div>
+	</div>
+</section>
+
+<!--  Section Services End -->
+<!-- Section Testimonial Start -->
+<!--  <section class="section testimonial bg-gray">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<span class="h6 text-color">Clients testimonial</span>
+					<h2 class="mt-3 content-title">Check what's our clients say about us</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="testimonial-wrap">
+			<div class="testimonial-item position-relative">
+				<i class="ti-quote-left text-color"></i>
+
+				<div class="testimonial-item-content">
+					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
+
+					<div class="testimonial-author">
+						<h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
+						<p>Excutive Director,themefisher</p>
+					</div>
+				</div>
+			</div>
+			<div class="testimonial-item position-relative">
+				<i class="ti-quote-left text-color"></i>
+
+				<div class="testimonial-item-content">
+					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
+
+					<div class="testimonial-author">
+						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
+						<p>Excutive Director,themefisher</p>
+					</div>
+				</div>
+			</div>
+			<div class="testimonial-item position-relative">
+				<i class="ti-quote-left text-color"></i>
+
+				<div class="testimonial-item-content">
+					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
+
+					<div class="testimonial-author">
+						<h5 class="mb-0 text-capitalize">James Watson</h5>
+						<p>Excutive Director,themefisher</p>
+					</div>
+				</div>
+			</div>
+			<div class="testimonial-item position-relative">
+				<i class="ti-quote-left text-color"></i>
+
+				<div class="testimonial-item-content">
+					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
+
+					<div class="testimonial-author">
+						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
+						<p>Excutive Director,themefisher</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  -->
+<!-- Section Testimonial End -->
+
+<!-- footer Start -->
+     <?php include('footer.php'); ?>
+<!-- footer End -->
+   
+    </div>
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- Bootstrap 4.3.1 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+   <!--  Magnific Popup-->
+    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src="js/script.js"></script>
+
+  </body>
+  </html>
