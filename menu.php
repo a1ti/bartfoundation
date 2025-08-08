@@ -110,18 +110,12 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
                   <li>
-                    <a class="dropdown-item" href="about.php">Activities</a>
+                    <a class="dropdown-item" href="activities.php">Activities</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="pricing.php"
-                      >Published Books- Only Covers</a
+                    <a class="dropdown-item" href="published-work.php"
+                      >Published Work</a
                     >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.php">E-Coffee Table Book</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pricing.php">Documentaries</a>
                   </li>
                 </ul>
               </li>
@@ -139,14 +133,19 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdown05">
                    
                   <li>
-                    <a class="dropdown-item" href="blog-sidebar.php"
+                    <a class="dropdown-item" href="what-we-do.php"
                       >What We Do</a
+                    >
+                  </li>
+                    <li>
+                    <a class="dropdown-item" href="media.php"
+                      >Media </a
                     >
                   </li>
  
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+            <!--   <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -172,9 +171,9 @@
                     >
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#.php">Gallery</a>
+                <a class="nav-link" href="gallery.php">Gallery</a>
               </li>
 
               <li class="nav-item">

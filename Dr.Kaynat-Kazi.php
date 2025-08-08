@@ -241,120 +241,142 @@
 
 <!-- section Counter Start -->
 <section class="section counter " style="background: black; padding-bottom: 15px; padding-top: 15px;">
-	    <div class="container">
-		    <div class="row justify-content-center">
-            
-                <h1 style="color: white; text-align: center; z-index: 1; padding-bottom: 10px;">
-                    <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i>AWARDS <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i>
-                </h1>
-                <div class="cta-item bg-white p-3 rounded">
-    <div class="row">
-        <!-- Left: Awards List -->
-        <div class="col-lg-8">
-            <div class="row">
-                <!-- Repeat awards as before -->
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        Atal Sanskrti Ratna Samman - 2024
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        SwamSiddha Award-2023
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        International Yogini Award-2023
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        Pride of Nation Excellence Award 2021
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        Mahila Shakti Samman-2021
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        Sattva Iconic Wellness Award 2021
-                    </p>
-                   
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                         Woman Achievers Award-2016
-                    </p>
-                    
-                    
-                </div>
-                <!-- ... (other awards here with col-lg-6) -->
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                      Paryatan Ratna Award-2019
-                    </p>
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                      Media Excellence Award-2016
-                    </p>
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                      Youth Journalist Award-2015, Campus connect
-                    </p>
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                      Best Hindi Bloggers Award by ABP News-2017
-                    </p>
-                    <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                        National Achievement Award-2016 in Photography from ICMEI, NAI, and IJC
-                    </p>
-                     <p class="mb-0 text-black">
-                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
-                      Hindi Seva Samman October 2021 by Prabha Sakshi Media Group
-                    </p>
-                </div>
-            </div>
-        </div>
+	<div class="container">
+		<div class="row justify-content-center">
+            <h1 style="color: white; text-align: center; z-index: 1; padding-bottom: 10px;">
+                 AWARDS
+                   <!--  <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i>AWARDS <i class="fas fa-trophy" style="margin-right: 10px; color: gold;"></i> -->   
+            </h1>   
+            <div class="cta-item bg-white p-3 rounded">
+                    <div class="row">
+                        <!-- Left: Awards List -->
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <!-- Repeat awards as before -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        Atal Sanskrti Ratna Samman - 2024
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        SwamSiddha Award-2023
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        International Yogini Award-2023
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        Pride of Nation Excellence Award 2021
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        Mahila Shakti Samman-2021
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        Sattva Iconic Wellness Award 2021
+                                    </p>
+                                
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        Woman Achievers Award-2016
+                                    </p>
+                                    
+                                    
+                                </div>
+                                <!-- ... (other awards here with col-lg-6) -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                    Paryatan Ratna Award-2019
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                    Media Excellence Award-2016
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                    Youth Journalist Award-2015, Campus connect
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                    Best Hindi Bloggers Award by ABP News-2017
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                        National Achievement Award-2016 in Photography from ICMEI, NAI, and IJC
+                                    </p>
+                                    <p class="mb-0 text-black">
+                                        <i class="fas fa-hand-point-right text-warning mr-2"></i>
+                                    Hindi Seva Samman October 2021 by Prabha Sakshi Media Group
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-        <!-- Right: Carousel -->
-        <div class="col-lg-4">
-            <div id="awardCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner rounded shadow-sm">
-                    <div class="carousel-item active">
-                        <img src="images/team/Dr6.jpeg" class="d-block w-100" alt="Award 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/team/Dr7.jpeg" class="d-block w-100" alt="Award 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/team/Dr9.jpeg" class="d-block w-100" alt="Award 3">
-                    </div>
-                    <!-- Add more images as needed -->
-                </div>
-                <a class="carousel-control-prev" href="#awardCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next" href="#awardCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-		    </div>
-	    </div>
+                        <!-- Right: Carousel -->
+                        <div class="col-lg-4 carousel-fade">
+                            <div id="awardCarousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner rounded shadow-sm">
+                                    <div class="carousel-item active">
+                                        <img src="images/team/Dr7.jpeg" class="d-block w-100" alt="Award 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr6.jpeg" class="d-block w-100" alt="Award 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr9.jpeg" class="d-block w-100" alt="Award 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/Dr3.jpeg" class="d-block w-100" alt="Award 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award1.jpg" class="d-block w-100" alt="Award 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award2.jpg" class="d-block w-100" alt="Award 6">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award3.jpg" class="d-block w-100" alt="Award 7">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/award4.jpg" class="d-block w-100" alt="Award 8">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr10.jpeg" class="d-block w-100" alt="Award 9">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr11.jpeg" class="d-block w-100" alt="Award 10">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/team/dr12.jpeg" class="d-block w-100" alt="Award 11">
+                                    </div>
+                                    <!-- Add more images as needed -->
+                                </div>
+                                    <a class="carousel-control-prev" href="#awardCarousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#awardCarousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
+                            </div>  
+                        </div>   
+            </div>            
+		</div>
+	</div>
 </section>
 <!-- section Counter End  -->
 <!--  Section Services Start -->
-<section class="section team" style="padding: 50px 0;">
+<section class="section team" style="padding: 20px 0;">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
 					<!-- <span class="h6 text-color">Our Team</span> -->
 					<h2 class="mt-3 content-title"> IGNCA Project Documentaries</h2>
+                    <span style="color: red;">Parantapasvini is a series of 12 documentaries based on a research project conducted by Dr. Kaynat Kazi, a Research Fellow at the Indira Gandhi National Centre for the Arts (IGNCA), New Delhi.</span>
 				</div>
 			</div>
 		</div>
@@ -366,29 +388,29 @@
 						<iframe width="100%" height="315" src="https://www.youtube.com/embed/GHw4j9g6aAE?si=UzEgmCi1IDoPwAuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						
 					</div>
-<div class="team-item-content cta-item bg-white  rounded">
-    <h4 class="mt-3 mb-0 text-capitalize">Lentina Ao Thakkar – Nagaland</h4>
-    <p>
-        Lentina Ao Thakkar has dedicated her life to education, social reform, and women’s empowerment in Nagaland.
-    </p>
+                    <div class="team-item-content cta-item bg-white  rounded">
+                        <h4 class="mt-3 mb-0 text-capitalize">Lentina Ao Thakkar – Nagaland</h4>
+                        <p>
+                            Lentina Ao Thakkar has dedicated her life to education, social reform, and women’s empowerment in Nagaland.
+                        </p>
 
-    <!-- YouTube link -->
-    <p>
-        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="text-primary">
-            ▶ Watch on YouTube
-        </a>
-    </p>
+                        <!-- YouTube link -->
+                        <p>
+                            <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="text-primary">
+                                ▶ Watch on YouTube
+                            </a>
+                        </p>
 
-    <!-- More content (initially hidden) -->
-    <div class="more-content" style="display: none;">
-        <p>
-            A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
-        </p>
-    </div>
+                        <!-- More content (initially hidden) -->
+                        <div class="more-content" style="display: none;">
+                            <p>
+                                A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+                            </p>
+                        </div>
 
-    <!-- More link -->
-    <a href="javascript:void(0);" class="toggle-more text-secondary">More...</a>
-</div>
+                        <!-- More link -->
+                        <a href="javascript:void(0);" class="toggle-more text-secondary">More...</a>
+                    </div>
 
 				</div>
                
