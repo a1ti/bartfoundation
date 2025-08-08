@@ -508,17 +508,47 @@ ul.dropdown-menu li {
 }
 
 .bg-1 {
-  background: url("../images/bg/counter.jpg") no-repeat 50% 50%;
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.528), rgba(0, 0, 0, 0.346)),
+    url("../images/bg/home-11.png") no-repeat center center;
   background-size: cover;
 }
 
 .bg-2 {
-  background: url("../images/bg/home-5.jpg");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.528), rgba(0, 0, 0, 0.346)),
+      url("../images/bg/home-10.png") no-repeat center center;
+  background-size: cover;
+  height: 150px; 
+} 
+.bg-team {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.346)),
+    url("../images/bg/home-10.png") no-repeat center center;
   background-size: cover;
 }
 .intro-item i {
   font-size: 60px;
   line-height: 60px;
+} 
+ 
+
+.footer-logo-img {
+  max-width: 250px;
+  /* Bigger on desktop */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* Optional: rounded corners */
+}
+
+@media (max-width: 768px) {
+  .footer-logo-img {
+    max-width: 200px;
+    /* Slightly smaller on mobile */
+    margin: 0 auto;
+    /* Center image on small screens */
+  }
 }
 
 .color-one {
@@ -908,6 +938,7 @@ h3.quote::before {
 .latest-blog {
   position: relative;
   padding-bottom: 150px;
+  
 }
 
 .mt-70 {
@@ -2040,3 +2071,6 @@ h3.quote::before {
                 height: 300px;
               }
             }
+
+
+                

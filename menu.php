@@ -53,18 +53,6 @@
             <a class="nav-link" href="team.php">Team <span class="sr-only">(current)</span></a>
           </li>
           </a>
-
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarsExample09"
-            aria-controls="navbarsExample09"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span>
-          </button>
-
           <div
             class="collapse navbar-collapse text-center"
             id="navbarsExample09">
@@ -109,33 +97,6 @@
 
                 </ul>
               </li>
-              <!--   <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown05"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Blog</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                  <li>
-                    <a class="dropdown-item" href="blog-grid.php">Blog Grid</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="blog-sidebar.php"
-                      >Blog with Sidebar</a
-                    >
-                  </li>
-
-                  <li>
-                    <a class="dropdown-item" href="blog-single.php"
-                      >Blog Single</a
-                    >
-                  </li>
-                </ul>
-              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="gallery.php">Gallery</a>
               </li>

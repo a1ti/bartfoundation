@@ -89,12 +89,13 @@
 	<!-- Header Close -->
 
 	<div class="main-wrapper " style="background-image:url('images/bg/43584.jpg')">
-		<section class="page-title bg-1">
+		<section class="   bg-1 text-success" style="padding: 35px 0;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block text-center">
-							<h1 class="text-capitalize mb-2 text-lg">Team - Meet the Visionaries</h1>
+							<h1 class="text-capitalize mb-4 text-lg text-white">Team - Meet the Visionaries</h1>
+
 						</div>
 					</div>
 				</div>
@@ -131,35 +132,9 @@
 			</div>
 		</section>
 
-		<!-- Section About End -->
-		<!--  
-<section class="about-info section pt-0">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>Our Mission</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
-				</div>		
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">02.</span>Vission</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
-				</div>		
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6">
-				<div class="about-info-item mb-4 mb-lg-0">
-					<h3 class="mb-3"><span class="text-color mr-2 text-md">03.</span>Our Approach</h3>
-					<p>llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio .</p>
-				</div>		
-			</div>
-		</div>
-	</div>
-</section> -->
 
 		<!-- section Counter Start -->
-		<section class="section counter bg-counter">
+		<section class="section counter bg-team">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
@@ -260,13 +235,15 @@
 			</div>
 		</section>
 
-		<section class="section team bg-counter ">
+		<section class="section team bg-team ">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-7 text-center">
 						<div class="section-title">
 							<h2 class="mt-3 content-title text-white">Our Volunteers</h2>
-							<span class="h6 text-color">“The heart of our mission lies in the dedication of individuals who believe in creating meaningful change.”</span>
+							<span class="text-white">
+								<p style="font-size: 20px; color:white;">“The heart of our mission lies in the dedication of individuals who believe in creating meaningful change.”</p>
+							</span>
 						</div>
 					</div>
 				</div>
@@ -339,75 +316,6 @@
 			</div>
 	</div>
 	</section>
-	<!--  Section Services End -->
-	<!-- Section Testimonial Start -->
-	<!--  <section class="section testimonial bg-gray">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center">
-				<div class="section-title">
-					<span class="h6 text-color">Clients testimonial</span>
-					<h2 class="mt-3 content-title">Check what's our clients say about us</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="testimonial-wrap">
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">James Watson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>  -->
-	<!-- Section Testimonial End -->
-
 	<!-- footer Start -->
 	<?php include('footer.php'); ?>
 	<!-- footer End -->
