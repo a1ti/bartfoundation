@@ -21,10 +21,30 @@
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap 5.3.3 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" />
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" />
+
+  <!-- Custom Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -50,7 +70,7 @@
     <style>
         .founder-img {
             width: 300px;
-            height: 300px;
+            height: 345px;
             object-fit: cover;
             border-radius: 50%;
             float: right;
@@ -65,7 +85,7 @@
                 margin: 0 auto 20px auto;
                 /* center image */
                 width: 200px;
-                height: 200px;
+                height: 238px;
             }
 
             .founder,
@@ -111,11 +131,11 @@
                         <div class="about-item pr-3 mb-5 mb-lg-0 cta-item bg-white p-5 rounded" style="position: relative; overflow: hidden;">
 
                             <!-- Floated Profile Image -->
-                            <img src="images/team/founder.jpeg" alt="Dr. Kaynat Kazi" class="founder-img img-fluid rounded-circle">
+                            <img src="images/team/founder.jpeg" alt="Dr. Kaynat Kazi" class="founder-img img-fluid rounded-circle" style="height:350px">
 
                             <!-- Founder Content -->
                             <p class="  founder" style="color: var(--primary-color); font-size:20px; font-weight:800;  ">Founders</p>
-                            <h2 class="mt-3 mb-4 content-title">Dr. Kaynat Kazi</h2>
+                            <h2 class="mt-3 mb-4 content-title">Dr.Kaynat Kazi</h2>
 
                             <p style="text-align:justify;">Dr. Kaynat Kazi is a passionate traveler, author, photographer, and storyteller who brings cultures to life through her words and lens. In 2012, she founded Rahagiri, India’s first Hindi travel photography blog, inspiring thousands to explore the world in their own language.</p>
 
@@ -138,7 +158,7 @@
                             <h5 style="text-align:justify;">Follow her journeys and stories on
                                 <a href="https://www.facebook.com/kaynatkaziphotoholic" target="_blank" style="color:blue">Facebook</a>
                                 or connect with her on
-                                <a href="https://twitter.com/kaynatkazi" target="_blank" style="color:blue">Instagram</a>.
+                                <a href="https://twitter.com/kaynatkazi" target="_blank" style="color:blue">Twitter</a>.
                             </h5><br><br>
 
                             <h2 class=" mb-4">
@@ -301,18 +321,305 @@
                 </div>
         </section>
         <!-- section Counter End  -->
+    <!-- <section class="container">
+      <center>
+        <h1 class="display-5 fw-bold heading mb-0 mt-5  ">
+          <span>Our Journey</span>
+        </h1>
+      </center>
 
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <- !-Slide 1 
+          <div class="swiper-slide">
+            <div class="card designer-border">
+              <img src="images/index-page/gallery/baf-1.jpg" class="img-fluid image  " alt="User"
+                style="width: 100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Article</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 
+          <div class="swiper-slide">
+            <div class="card developer-border">
+              <img src="images/index-page/gallery/baf-2.jpg" class="img-fluid  image " alt="User"
+                style="width:  100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Lectures</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 
+          <div class="swiper-slide">
+            <div class="card gamer-border">
+              <img src="images/index-page/gallery/baf-3.jpg" class="img-fluid  image   " alt="User"
+                style="width:  100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Podcast</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 
+          <div class="swiper-slide">
+            <div class="card editor-border">
+              <img src="images/index-page/gallery/baf-4.jpg" class="img-fluid  image   " alt="User"
+                style="width:  100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Book Launch</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 
+          <div class="swiper-slide">
+            <div class="card designer-border">
+              <img src="images/index-page/gallery/baf-5.jpg" class="img-fluid  image   " alt="User"
+                style="width:  100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Media Coverage</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 
+          <div class="swiper-slide">
+            <div class="card developer-border">
+              <img src="images/index-page/gallery/baf-6.jpg" class="img-fluid   image  " alt="User"
+                style="width:  100%; height:    180px;" />
+              <div class="card-body">
+                <h5 class="card-title">Books Covers</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more cards as needed 
+        </div>
+
+        <!-- Navigation buttons 
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+    </section>
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        loop: true,
+        loopAdditionalSlides: 1,
+
+        speed: 600,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          }
+        }
+      });
+    </script> -->
+
+    <section class="container">
+    <center>
+      <h1 class="display-5 fw-bold heading mb-0 mt-5">
+        <span>Our Journey</span>
+      </h1>
+    </center>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/media/artical1.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical2.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical3.jpeg" class="d-block w-100 h-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Article</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/lectures/amitylecture.jpg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Lectures</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="card gamer-border">
+          <div id="demo3" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/LW0_bj9SM1Q?si=Y0Z-QL643BzMOf3N" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="carousel-item">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/CE8GnfOqf_Y?si=uYqM8ig96W0o1qaS" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Podcast</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <div class="card editor-border">
+          <div id="demo4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img" ><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Book Launch</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Media Coverage</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo6" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/bookcover/Aglad Valley-cultural mapping-IGNCA-kaynat Qazi.png" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bhadraj coffee table book.jpeg" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bodhgaya ke vihar-Kaynat Kazi.jpeg" class="d-block w-100 "></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Books Covers</h5></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Swiper navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      nested: true,
+      breakpoints: {
+        320: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+
+    // Prevent Bootstrap carousel controls from hijacking Swiper clicks
+    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(btn => {
+      btn.addEventListener('click', e => e.stopPropagation());
+    });
+</script>
         <!--  Section Services Start -->
         <section class="section team bg-white" style="padding: 20px 0;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-7 text-center">
+                    <div class="col-lg-12 text-center">
                         <div class="section-title">
                             <!-- <span class="h6 text-color">Our Team</span> -->
                             <h2 class="mt-3 content-title"> IGNCA Project Documentaries</h2>
 
 
-                            <p style="color: var(--primary-color); font-size:15px;">Parantapasvini is a series of 12 documentaries based on a research project conducted by Dr. Kaynat Kazi, a Research Fellow at the Indira Gandhi National Centre for the Arts (IGNCA), <br>New Delhi.</p>
+                            <p style="color: var(--primary-color); font-size:12px;">Parantapasvini is a series of 12 documentaries based on a research project conducted by Dr. Kaynat Kazi, a Research Fellow at the Indira Gandhi National Centre for the Arts (IGNCA), New Delhi. <br>
+                          For this project, Dr. Kazi traveled over 28,000 kilometers across the length and breadth of India, discovering 12 extraordinary women whose lives are a source of inspiration. These women not only transformed their own lives but also worked tirelessly for the upliftment and betterment of their communities.</p>
+
 
                         </div>
                     </div>
@@ -646,8 +953,18 @@
     <!-- Google Map -->
     <script src="plugins/google-map/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
-
+     <!-- Bootstrap 5.3.3 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/contact.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+        AOS.init({
+      duration: 1000, // animation duration in ms
+      offset: 120, // offset (in px) from the original trigger point
+      once: true // whether animation should happen only once
+    });
+  </script>
 
 </body>
 
