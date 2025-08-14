@@ -1,583 +1,573 @@
-<!DOCTYPE php>
-<php lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="megakit,business,company,agency,multipurpose,modern,bootstrap4"
-    />
+<!DOCTYPE html>
+<html lang="en">
 
-    <meta name="author" content="themefisher.com" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta
+    name="description"
+    content="megakit,business,company,agency,multipurpose,modern,bootstrap4" />
 
-    <title>Bougainvillea ART FOUNDATION</title>
+  <meta name="author" content="themefisher.com" />
+  <link rel="icon" href="images/BAF.png" type="image/x-icon">
 
-    <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
-    <!-- Icon Font Css -->
-    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/magnific-popup/dist/magnific-popup.css"
-    />
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
-    <link
-      rel="stylesheet"
-      href="plugins/slick-carousel/slick/slick-theme.css"
-    />
+  <title>Bougainvillea ART FOUNDATION</title>
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+  <link
+    rel="stylesheet"
+    href="plugins/magnific-popup/dist/magnific-popup.css" />
 
-  <body style="background-image: url(images/bg/home-9.jpg)">
-    <!-- Header Start -->
-<?php include('menu.php'); ?>
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
+  <link
+    rel="stylesheet"
+    href="plugins/slick-carousel/slick/slick-theme.css" />
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" />
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet" />
+
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" />
+
+  <!-- Custom Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
  
-    <!-- Header Close -->
 
-    <div class="main-wrapper">
-      <!-- Slider Start -->
-      <section class="slider">
-        <video autoplay muted loop playsinline class="bg-video">
-          <source
-            src="../bartfoundation/videos/index-bg.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 col-md-10">
-              <div class="block">
-                <span class="d-block mb-3 text-white text-capitalize"
-                  >Prepare for new future</span
-                >
-               <!--  <h4
-                  class="animated fadeInUp mb-5 text-white font-weight-bold fs-2"
-                >
-                  चरन् वै मधु विन्दति चरन् स्वदुम् उदुम्बरम् सुर्यस्य<br />
-                  पस्य स्ह्रेमनम् यो न तन्द्रयते चरन् चरैवेति चरैवेति<br />
-                  चलता हुआ मनुष्य ही मधु पाता है,चलता हुआ ही स्वादिष्ट फल चखता
-                  है,<br />
-                  सूर्य का परिश्रम देखो, जो नित्य चलता हुआ कभी आलस्य नहीं करता।
-                  इसलिए चलते रहो,चलते रहो॥
-                </h4> --> 
-                <h1 class="animated fadeInUp mb-5">Cultural Documentation of Indian Heritage</h1>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="btn btn-main animated fadeInUp btn-round-full"
-                  >Get started<i class="btn-icon fa fa-angle-right ml-2"></i
-                ></a>
-              </div>
+
+
+</head>
+
+<body style="background-image: url('images/bg/home-10.png'); background-attachment: fixed; background-position: center; background-size: cover;">
+  <!-- Header Start -->
+  <?php include('menu.php'); ?>
+  <!-- Header Close -->
+
+  <div class="main-wrapper ">
+    <!-- Bg Video Main Start -->
+    <section class="slider">
+    <!--   <video autoplay muted loop playsinline class="bg-video">
+        <source
+          src="../bartfoundation/videos/index-bg-01.mp4"
+          type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> -->
+        <video id="bgVideo" autoplay muted loop playsinline class="bg-video">
+  <source src="../bartfoundation/videos/index-bg-01.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<script>
+  const video = document.getElementById("bgVideo");
+  const startTime = 5; // seconds
+  const endTime = 59;   // seconds
+
+  // Ensure video starts from 10 seconds
+  video.addEventListener("loadedmetadata", () => {
+    video.currentTime = startTime;
+  });
+
+  // Check every frame if video has reached endTime
+  video.addEventListener("timeupdate", () => {
+    if (video.currentTime >= endTime) {
+      video.currentTime = startTime;
+      video.play(); // ensure loop continues smoothly
+    }
+  });
+</script>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10">
+            <div class="content">
+              <span class="d-block mb-2 text-uppercase text-white">Empowering Culture</span>
+              <h1 class="mb-3 text-white">
+                Preserving Indian Heritage Through Digital Documentation
+              </h1>
+              <p class="mb-4">
+                Explore the rich cultural legacy of India with our detailed
+                video archives and documentation efforts.
+              </p>
+              <!-- <a href="#" class="btn btn-main">
+                Get Started <i class="fas fa-arrow-right ms-2"></i>
+              </a> -->
             </div>
           </div>
         </div>
-      </section>
-      <!-- Section Intro Start -->
+      </div>
+    </section>
 
-   <!--    <section class="section intro">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="section-title">
-                <span class="h6 text-color"
-                  >We are creative & expert people</span
-                >
-                <h2 class="mt-3 content-title">
-                  We work with business & provide solution to client with their
-                  business problem
-                </h2>
-              </div>
+    <!-- About Section Start -->
+    <section id="about" class="hero-section">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- Text Content -->
+          <div class="col-md-6">
+            <div class="hero-content h-100 d-flex flex-column justify-content-start" data-aos="fade-right" data-aos-duration="1200">
+              <h1 class="display-5 fw-bold heading mb-4">
+                <span>Bougainvillea Art Foundation</span>
+              </h1>
+
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="200">
+                The Bougainvillea Art Foundation, founded in 2024, is a non-profit organization that provides a diverse array of consultancy services to various sectors — from concept to commissioning.
+              </p>
+
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="300">
+                It is dedicated to preserving and promoting India's vast cultural, historical, and natural heritage — a beautiful tapestry of diverse cultures and traditions.
+              </p>
+
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="400">
+                The Foundation is the brainchild of Dr. Kaynat Kazi, credited as India's first female solo traveler. Her vision is to give back to society through this foundation.
+              </p>
+
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="500">
+                Bougainvillea also offers expert consultancy services across multiple sectors, while remaining committed to heritage preservation and documentation.
+              </p>
+
+              <a href="about-us.php">
+                <button class="about-readmore-btn mt-4 align-self-start" data-aos="zoom-in" data-aos-delay="600">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </button>
+              </a>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-12">
-              <div class="intro-item mb-5 mb-lg-0">
-                <i class="ti-desktop color-one"></i>
-                <h4 class="mt-4 mb-3">Modern & Responsive design</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
+
+
+          <!-- Carousel -->
+          <div class="col-md-6 d-flex align-items-center px-md-5 mt-4 mt-md-0" data-aos="fade-left" data-aos-duration="1200">
+            <div id="aboutCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="7"></button>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="intro-item mb-5 mb-lg-0">
-                <i class="ti-medall color-one"></i>
-                <h4 class="mt-4 mb-3">Awarded licensed company</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="intro-item">
-                <i class="ti-layers-alt color-one"></i>
-                <h4 class="mt-4 mb-3">Build your website Professionally</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, ducimus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- -->
-      <!-- Section Intro END -->
-      <!-- Section About Start -->
 
-      <section class="section about position-relative">
-        <div class="bg-about"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-6 offset-md-0">
-              <div class="about-item">
-                <span class="h6 text-color mt-3">What we are</span>
-                <h3 class="mt-0 mb-4 position-relative content-title">
-                  Bougainvillea Art Foundation
-                </h3>
-                <div class="about-content">
-                  <h4 class="mb-3 position-relative">
-                    The Bougainvillea Art Foundation, which was founded in 2024,
-                    is a non-profit organization that provides a diverse array
-                    of consultancy services to a variety of sectors. These
-                    services are provided under one umbrella, from the initial
-                    concept to the final commissioning of projects.
-                  </h4>
-
-                  <h4 class="mb-3 position-relative">
-                    Bougainvillea Art Foundation is a non-profit organization
-                    dedicated to the preservation, promotion and documentation
-                    of the vast cultural, historical, and natural heritage of
-                    our great country India; a beautiful tapestry of diverse
-                    cultures, ethnicities, traditions, and heritage. The
-                    Foundation strongly believes that the connection of future
-                    generations with this varied and rich culture needs to be
-                    established firmly so that it stays connected with its roots
-                    and takes pride in imbibing and passing it for future
-                    generations.
-                  </h4>
-
-                  <h4 class="mb-3 position-relative">
-                    The Foundation is the brainchild of Dr Kaynat Kazi, who is
-                    credited as the first female sole traveler of India. Dr Kazi
-                    has traveled across the length and breadth of India and in
-                    the journey accumulated the vast treasures of India's rich
-                    cultural heritage through her lens. Kaynat wants to give the
-                    immense love and appreciation that she received, back to the
-                    society through the Bougainvillea Art Foundation.
-                  </h4>
-
-                  <a href="#" class="btn btn-main btn-round-full"
-                    >Get started</a
-                  >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/index-page/gallery/baf-1.jpg" class="d-block w-100 about-carousel-img" alt="Slide 0" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/gallery/baf-3.jpg" class="d-block w-100 about-carousel-img" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/gallery/baf-5.jpg" class="d-block w-100 about-carousel-img" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/gallery/baf-2.jpg" class="d-block w-100 about-carousel-img" alt="Slide 3" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/gallery/baf-6.jpg" class="d-block w-100 about-carousel-img" alt="Slide 4" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/gallery/baf-15.jpg" class="d-block w-100 about-carousel-img" alt="Slide 5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/4.jpg" class="d-block w-100 about-carousel-img" alt="Slide 6" />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/index-page/5.jpg" class="d-block w-100 about-carousel-img" alt="Slide 7" />
                 </div>
               </div>
+
+              <!-- Custom Carousel Controls -->
+              <button class="carousel-control-prev1" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next1" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Vision & Mission Section -->
+    <section class="section cta">
+      <div class="container">
+        <center>
+          <h1 class="display-5 fw-bold heading" data-aos="fade-up">
+            <span>Our Vision & Mission</span>
+          </h1>
+        </center>
+        <div class="row justify-content-center">
+          <!-- Vision -->
+          <div
+            class="col-lg-6 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="100">
+            <div class="cta-item custom-card h-100">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-eye fa-2x text-primary me-3"></i>
+                <h4 class="mb-0 text-dark">Our Vision</h4>
+              </div>
+              <p class="text-muted">
+                To be a leading force in cultural preservation, creating a
+                vibrant platform that connects communities, inspires
+                creativity, and safeguards India’s diverse heritage for the
+                world to experience and cherish.
+              </p>
+            </div>
+          </div>
+
+          <!-- Mission -->
+          <div
+            class="col-lg-6 mb-4"
+            data-aos="fade-left"
+            data-aos-delay="200">
+            <div class="cta-item custom-card h-100">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-bullseye fa-2x text-danger me-3"></i>
+                <h4 class="mb-0 text-dark">Our Mission</h4>
+              </div>
+              <p class="text-muted">
+                To preserve, promote, and document India’s tangible and
+                intangible heritage, ensuring its continuity for future
+                generations while fostering cultural pride and awareness.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <!-- Focus Area Section -->
+    <section id="focus-area" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold display-5 mb-4 heading" data-aos="fade-up">
+          <span>Our Focus Area</span>
+        </h2>
 
-      <!-- Section About End -->
-      <!-- section Counter Start -->
-      <section class="section counter">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">1730</span> +
-                </h3>
-                <p class="text-muted">Project Done</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">125 </span>M
-                </h3>
-                <p class="text-muted">User Worldwide</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center mb-5 mb-lg-0">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">39</span>
-                </h3>
-                <p class="text-muted">Availble Country</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="counter-item text-center">
-                <h3 class="mb-0">
-                  <span class="counter-stat font-weight-bold">14</span>
-                </h3>
-                <p class="text-muted">Award Winner</p>
-              </div>
+        <div class="row g-4">
+          <!-- Focus Area 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-shield-alt fa-2x mb-3 text-danger"></i>
+              <h4 class="mb-3">Preservation</h4>
+              <p>Keeping our history alive by protecting sites, artifacts, traditions, and cultural practices for generations to come.</p>
             </div>
           </div>
+
+          <!-- Focus Area 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
+              <h4 class="mb-3">Education</h4>
+              <p>Bringing heritage to life through interactive programs, exhibitions, and community outreach that inspire learning and curiosity.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-leaf fa-2x mb-3 text-success"></i>
+              <h4 class="mb-3">Conservation</h4>
+              <p>Caring for our natural and cultural treasures with sustainable practices that ensure their long-term survival.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 4 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-magnifying-glass fa-2x mb-3 text-info"></i>
+              <h4 class="mb-3">Research & Documentation</h4>
+              <p>Uncovering stories of the past through research and archives that deepen our understanding of heritage.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 5 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-bullhorn fa-2x mb-3 text-warning"></i>
+              <h4 class="mb-3">Advocacy</h4>
+              <p>Giving heritage a voice by promoting policies that protect and celebrate it on local, national, and global stages.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 6 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-handshake fa-2x mb-3 text-secondary"></i>
+              <h4 class="mb-3">Collaboration</h4>
+              <p>Working hand-in-hand with communities, experts, and partners to create impactful heritage initiatives.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 7 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fas fa-users fa-2x mb-3 text-dark"></i>
+              <h4 class="mb-3">Public Engagement</h4>
+              <p>Bringing people together through events, volunteer programs, and outreach that make heritage a shared experience.</p>
+            </div>
+          </div>
+
+          <!-- Focus Area 8 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
+              <i class="fab fa-android fa-2x mb-3 text-success"></i>
+              <h4 class="mb-3">Sustainable Tourism</h4>
+              <p>Encouraging travelers to explore responsibly, ensuring tourism supports and respects local culture and heritage.</p>
+            </div>
+          </div>
+          <!-- Focus Area 9 -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <a href="about-us.php" class="btn custom-btn d-flex align-items-center justify-content-center text-white text-decoration-none">
+                Read More <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+
         </div>
-      </section>
-      <!-- section Counter End  -->
-      <!--  Section Services Start -->
-      <section class="section service border-top">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
-              <div class="section-title">
-                <span class="h6 text-color">Our Services</span>
-                <h2 class="mt-3 content-title">
-                  We provide a wide range of creative services
-                </h2>
-              </div>
+      </div>
+    </section>
+    <!-- Gallery Sarousel Section -->
+<section class="container">
+    <center>
+      <h1 class="display-5 fw-bold heading mb-0 mt-5">
+        <span>Our Journey</span>
+      </h1>
+    </center>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/media/artical1.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical2.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical3.jpeg" class="d-block w-100 h-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
-
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-desktop"></i>
-                <h4 class="mb-3">Web development.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-layers"></i>
-                <h4 class="mb-3">Interface Design.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5">
-                <i class="ti-bar-chart"></i>
-                <h4 class="mb-3">Business Consulting.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-vector"></i>
-                <h4 class="mb-3">Branding.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-android"></i>
-                <h4 class="mb-3">App development.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service-item mb-5 mb-lg-0">
-                <i class="ti-pencil-alt"></i>
-                <h4 class="mb-3">Content creation.</h4>
-                <p>
-                  A digital agency isn't here to replace your internal team,
-                  we're here to partner
-                </p>
-              </div>
-            </div>
-          </div>
+          <div class="card-body"><h5 class="card-title">Article</h5></div>
         </div>
-      </section>
-      <!--  Section Services End -->
-      <!-- Section Cta Start -->
-      <section class="section cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="cta-item bg-white p-5 rounded">
-                <span class="h6 text-color">We create for you</span>
-                <h2 class="mt-2 mb-4">
-                  Entrust Your Project to Our Best Team of Professionals
-                </h2>
-                <p class="lead mb-4">
-                  Have any project on mind? For immidiate support :
-                </p>
-                <h3><i class="ti-mobile mr-3 text-color"></i>+23 876 65 455</h3>
-              </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/lectures/amitylecture.jpg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture3.jpeg" class="d-block w-100"></div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
+          <div class="card-body"><h5 class="card-title">Lectures</h5></div>
         </div>
-      </section>
-      <!--  Section Cta End-->
-      <!-- Section Testimonial Start -->
-      <section class="section testimonial">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="section-title">
-                <span class="h6 text-color">Clients testimonial</span>
-                <h2 class="mt-3 content-title">
-                  Check what's our clients say about us
-                </h2>
-              </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="card gamer-border">
+          <div id="demo3" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+              
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/LW0_bj9SM1Q?si=Y0Z-QL643BzMOf3N" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="carousel-item">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/CE8GnfOqf_Y?si=uYqM8ig96W0o1qaS" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
+          <div class="card-body"><h5 class="card-title">Podcast</h5></div>
         </div>
+      </div>
 
-        <div class="container">
-          <div class="row testimonial-wrap">
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti facilis blanditiis.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <div class="card editor-border">
+          <div id="demo4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
             </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img" ><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
             </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Quam maiores perspiciatis temporibus odio reiciendis error
-                  alias debitis atque consequuntur natus iusto recusandae
-                  numquam corrupti.
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">James Watson</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial-item position-relative">
-              <i class="ti-quote-left text-color"></i>
-
-              <div class="testimonial-item-content">
-                <p class="testimonial-text">
-                  Consectetur adipisicing elit. Quam maiores perspiciatis
-                  temporibus odio reiciendis error alias debitis atque
-                  consequuntur natus iusto recusandae .
-                </p>
-
-                <div class="testimonial-author">
-                  <h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-                  <p>Excutive Director,themefisher</p>
-                </div>
-              </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
+          <div class="card-body"><h5 class="card-title">Book Launch</h5></div>
         </div>
-      </section>
-      <!-- Section Testimonial End -->
-      <section class="section latest-blog bg-2">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
-              <div class="section-title">
-                <span class="h6 text-color">Latest News</span>
-                <h2 class="mt-3 content-title text-white">
-                  Latest articles to enrich knowledge
-                </h2>
-              </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
-
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 mb-5">
-              <div class="card bg-transparent border-0">
-                <img src="images/blog/1.jpg" alt="" class="img-fluid rounded" />
-
-                <div class="card-body mt-2">
-                  <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
-                  </div>
-
-                  <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >How to improve design with typography?</a
-                    >
-                  </h3>
-
-                  <a
-                    href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-5">
-              <div class="card border-0 bg-transparent">
-                <img src="images/blog/2.jpg" alt="" class="img-fluid rounded" />
-
-                <div class="card-body mt-2">
-                  <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
-                  </div>
-
-                  <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >Interactivity design may connect consumer</a
-                    >
-                  </h3>
-
-                  <a
-                    href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-5">
-              <div class="card border-0 bg-transparent">
-                <img src="images/blog/3.jpg" alt="" class="img-fluid rounded" />
-
-                <div class="card-body mt-2">
-                  <div class="blog-item-meta">
-                    <a href="#" class="text-white-50"
-                      >Design<span class="ml-2 mr-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50"
-                      >Ui/Ux<span class="ml-2">/</span></a
-                    >
-                    <a href="#" class="text-white-50 ml-2"
-                      ><i class="fa fa-user mr-2"></i>admin</a
-                    >
-                  </div>
-
-                  <h3 class="mt-3 mb-5 lh-36">
-                    <a href="#" class="text-white"
-                      >Marketing Strategy to bring more affect</a
-                    >
-                  </h3>
-
-                  <a
-                    href="blog-single.php"
-                    class="btn btn-small btn-solid-border btn-round-full text-white"
-                    >Learn More</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="card-body"><h5 class="card-title">Media Coverage</h5></div>
         </div>
-      </section>
+      </div>
 
-      <section class="mt-70 position-relative">
-        <div class="container">
-          <div class="cta-block-2 bg-gray p-5 rounded border-1">
-            <div class="row justify-content-center align-items-center">
-              <div class="col-lg-7">
-                <span class="text-color">For Every type business</span>
-                <h2 class="mt-2 mb-4 mb-lg-0">
-                  Entrust Your Project to Our Best Team of Professionals
-                </h2>
-              </div>
-              <div class="col-lg-4">
-                <a
-                  href="contact.php"
-                  class="btn btn-main btn-round-full float-lg-right"
-                  >Contact Us</a
-                >
-              </div>
+      <!-- Slide 6 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo6" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/bookcover/Aglad Valley-cultural mapping-IGNCA-kaynat Qazi.png" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bhadraj coffee table book.jpeg" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bodhgaya ke vihar-Kaynat Kazi.jpeg" class="d-block w-100 "></div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
+          <div class="card-body"><h5 class="card-title">Books Covers</h5></div>
         </div>
-      </section>
+      </div>
 
-     <?php include('footer.php'); ?>
     </div>
 
-    <!-- 
+    <!-- Swiper navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      nested: true,
+      breakpoints: {
+        320: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+
+    // Prevent Bootstrap carousel controls from hijacking Swiper clicks
+    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(btn => {
+      btn.addEventListener('click', e => e.stopPropagation());
+    });
+</script>
+
+
+    <!-- footer Start -->
+    <?php include('footer.php'); ?>
+    <!-- footer End -->
+  </div>
+
+  <!-- 
     Essential Scripts
     =====================================-->
 
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.js"></script>
-    <script src="js/contact.js"></script>
-    <!-- Bootstrap 4.3.1 -->
-    <script src="plugins/bootstrap/js/popper.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!--  Magnific Popup-->
-    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-    <!-- Slick Slider -->
-    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-    <!-- Counterup -->
-    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
-    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+  <!-- Main jQuery -->
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="js/contact.js"></script>
+  <!-- Bootstrap 4.3.1 -->
+  <script src="plugins/bootstrap/js/popper.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!--  Magnific Popup-->
+  <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+  <!-- Counterup -->
+  <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+  <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
-    <!-- Google Map -->
-    <script src="plugins/google-map/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+  <!-- Google Map -->
+  <script src="plugins/google-map/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
 
-    <script src="js/script.js"></script>
-  </body>
-</php>
+  <!-- Bootstrap 5.3.3 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Scripts -->
+  <script src="js/contact.js"></script>
+  <script src="js/script.js"></script>
+  <!-- AOS Animation Init -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      offset: 120, // offset (in px) from the original trigger point
+      once: true // whether animation should happen only once
+    });
+  </script>
+</body>
+
+</html>
