@@ -235,7 +235,7 @@
 											border-radius: 6px;
 									}
 								</style>
-							  <div class="swiper mySwiper" style="padding: 0px 0">
+							  <div class="swiper mySwiper" style="padding: 10px 0">
 									<div class="swiper-wrapper">
 										<!-- Slide 1 -->
 										<div class="swiper-slide">

@@ -14,7 +14,7 @@
 	<meta name="author" content="themefisher.com" />
 	<link rel="icon" href="images/BAF.png" type="image/x-icon">
 
-	<title>Bougainvillea ART FOUNDATION</title>
+	<title>About Us</title>
 
 	<!-- bootstrap.min css -->
 	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
