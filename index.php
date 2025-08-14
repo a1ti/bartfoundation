@@ -31,7 +31,6 @@
     rel="stylesheet"
     href="plugins/slick-carousel/slick/slick-theme.css" />
 
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
   <!-- Bootstrap 5.3.3 CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -56,6 +55,9 @@
   <!-- Custom Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
 
+ 
+
+
 
 </head>
 
@@ -67,12 +69,35 @@
   <div class="main-wrapper ">
     <!-- Bg Video Main Start -->
     <section class="slider">
-      <video autoplay muted loop playsinline class="bg-video">
+    <!--   <video autoplay muted loop playsinline class="bg-video">
         <source
           src="../bartfoundation/videos/index-bg-01.mp4"
           type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> -->
+        <video id="bgVideo" autoplay muted loop playsinline class="bg-video">
+  <source src="../bartfoundation/videos/index-bg-01.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<script>
+  const video = document.getElementById("bgVideo");
+  const startTime = 5; // seconds
+  const endTime = 59;   // seconds
+
+  // Ensure video starts from 10 seconds
+  video.addEventListener("loadedmetadata", () => {
+    video.currentTime = startTime;
+  });
+
+  // Check every frame if video has reached endTime
+  video.addEventListener("timeupdate", () => {
+    if (video.currentTime >= endTime) {
+      video.currentTime = startTime;
+      video.play(); // ensure loop continues smoothly
+    }
+  });
+</script>
 
       <div class="container">
         <div class="row">
@@ -331,158 +356,177 @@
       </div>
     </section>
     <!-- Gallery Sarousel Section -->
-    <section class="container">
-      <center>
-        <h1 class="display-5 fw-bold heading mb-0 mt-5  ">
-          <span>Our Gallery</span>
-        </h1>
-      </center>
+<section class="container">
+    <center>
+      <h1 class="display-5 fw-bold heading mb-0 mt-5">
+        <span>Our Journey</span>
+      </h1>
+    </center>
 
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <!-- Slide 1 -->
-          <div class="swiper-slide">
-            <div class="card designer-border">
-              <img src="images/index-page/gallery/baf-1.jpg" class="img-fluid image  " alt="User"
-                style="width: 100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge fstimg">Designer</span>
-                <h5 class="card-title">John Doe</h5>
-                <p>"Great experience!"</p>
-              </div>
-            </div>
-          </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
 
-          <!-- Slide 2 -->
-          <div class="swiper-slide">
-            <div class="card developer-border">
-              <img src="images/index-page/gallery/baf-2.jpg" class="img-fluid  image " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge sndimg">Developer</span>
-                <h5 class="card-title">Jane Smith</h5>
-                <p>"Highly recommended."</p>
-              </div>
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
             </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="swiper-slide">
-            <div class="card gamer-border">
-              <img src="images/index-page/gallery/baf-3.jpg" class="img-fluid  image   " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge thrdimg">Gamer</span>
-                <h5 class="card-title">Ali Khan</h5>
-                <p>"Amazing course content."</p>
-              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/media/artical1.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical2.jpeg" class="d-block w-100 h-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/media/artical3.jpeg" class="d-block w-100 h-100"></div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
           </div>
-
-          <!-- Slide 4 -->
-          <div class="swiper-slide">
-            <div class="card editor-border">
-              <img src="images/index-page/gallery/baf-4.jpg" class="img-fluid  image   " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge frthimg">Editor</span>
-                <h5 class="card-title">Priya Mehta</h5>
-                <p>"Loved the live sessions."</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 5 -->
-          <div class="swiper-slide">
-            <div class="card designer-border">
-              <img src="images/index-page/gallery/baf-5.jpg" class="img-fluid  image   " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge fstimg">Designer</span>
-                <h5 class="card-title">John Doe</h5>
-                <p>"Great experience!"</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 6 -->
-          <div class="swiper-slide">
-            <div class="card developer-border">
-              <img src="images/index-page/gallery/baf-6.jpg" class="img-fluid   image  " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge sndimg">Developer</span>
-                <h5 class="card-title">Jane Smith</h5>
-                <p>"Highly recommended."</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 7 -->
-          <div class="swiper-slide">
-            <div class="card gamer-border">
-              <img src="images/index-page/gallery/baf-7.jpg" class="img-fluid  image " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge thrdimg">Gamer</span>
-                <h5 class="card-title">Ali Khan</h5>
-                <p>"Amazing course content."</p>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 8 -->
-          <div class="swiper-slide">
-            <div class="card gamer-border">
-              <img src="images/index-page/gallery/baf-8.jpg" class="img-fluid image    " alt="User"
-                style="width:  100%; height:    180px;" />
-              <div class="card-body">
-                <span class="badge thrdimg">Gamer</span>
-                <h5 class="card-title">M</h5>
-                <p>"Amazing course content."</p>
-              </div>
-            </div>
-          </div>
-          <!-- Add more cards as needed -->
+          <div class="card-body"><h5 class="card-title">Article</h5></div>
         </div>
-
-        <!-- Navigation buttons -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
       </div>
-    </section>
-    <script>
-      const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 20,
-        loop: true,
-        loopAdditionalSlides: 1,
 
-        speed: 600,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          576: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          992: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          }
-        }
-      });
-    </script>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/lectures/amitylecture.jpg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/lectures/lecture3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Lectures</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="card gamer-border">
+          <div id="demo3" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/LW0_bj9SM1Q?si=Y0Z-QL643BzMOf3N" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+              <div class="carousel-item">
+                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/CE8GnfOqf_Y?si=uYqM8ig96W0o1qaS" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Podcast</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <div class="card editor-border">
+          <div id="demo4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img" ><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Book Launch</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="swiper-slide">
+        <div class="card designer-border">
+          <div id="demo5" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
+              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Media Coverage</h5></div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="swiper-slide">
+        <div class="card developer-border">
+          <div id="demo6" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active gallery-img"><img src="images/bookcover/Aglad Valley-cultural mapping-IGNCA-kaynat Qazi.png" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bhadraj coffee table book.jpeg" class="d-block w-100 "></div>
+              <div class="carousel-item gallery-img"><img src="images/bookcover/Bodhgaya ke vihar-Kaynat Kazi.jpeg" class="d-block w-100 "></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+          <div class="card-body"><h5 class="card-title">Books Covers</h5></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Swiper navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      speed: 600,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      nested: true,
+      breakpoints: {
+        320: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+
+    // Prevent Bootstrap carousel controls from hijacking Swiper clicks
+    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(btn => {
+      btn.addEventListener('click', e => e.stopPropagation());
+    });
+</script>
+
+
     <!-- footer Start -->
     <?php include('footer.php'); ?>
     <!-- footer End -->

@@ -1,0 +1,272 @@
+<!-- 1) Add this modal and flipbook container somewhere near the bottom of your HTML -->
+<div id="pdfFlipModal" class="pdf-flip-modal" aria-hidden="true">
+  <div class="pdf-flip-backdrop" onclick="closeFlipModal()"></div>
+  <div class="pdf-flip-panel" role="dialog" aria-modal="true">
+    <button class="pdf-close" onclick="closeFlipModal()">✕</button>
+    <div class="pdf-controls">
+      <button id="prevBtn" class="btn">Prev</button>
+      <span id="pageIndicator">— / —</span>
+      <button id="nextBtn" class="btn">Next</button>
+      <button id="fitBtn" class="btn">Fit Width</button>
+    </div>
+    <div id="flipbook" class="flipbook">
+      <!-- pages (canvas elements) will be injected here -->
+    </div>
+  </div>
+</div>
+
+<!-- 2) Minimal styles (you can adapt to your theme) -->
+<style>
+.pdf-flip-modal { display:none; position:fixed; inset:0; z-index:9999; }
+.pdf-flip-backdrop { position:absolute; inset:0; background:rgba(0,0,0,0.5); }
+.pdf-flip-panel {
+  position:relative;
+  width:90%;
+  max-width:1100px;
+  height:80vh;
+  margin:4vh auto;
+  background:#f7f7f7;
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 8px 30px rgba(0,0,0,0.4);
+  display:flex;
+  flex-direction:column;
+}
+.pdf-close { position:absolute; top:10px; right:10px; z-index:10; background:#fff; border:0; padding:6px 8px; border-radius:6px; cursor:pointer; }
+.pdf-controls { display:flex; gap:10px; align-items:center; padding:10px; background:transparent; z-index:5; }
+.flipbook {
+  position:relative;
+  flex:1;
+  perspective:2000px;
+  background: #ddd;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+/* Single page stage */
+.flip-stage {
+  position:relative;
+  width:calc(100% - 40px);
+  height:calc(100% - 20px);
+  max-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/* page wrapper to animate flip */
+.page-wrap {
+  position:absolute;
+  width:60%;
+  height:90%;
+  transform-style:preserve-3d;
+  transition: transform 700ms cubic-bezier(.2,.8,.2,1);
+  will-change: transform;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+/* left and right placement */
+.page-wrap.left { left:5%; transform-origin: left center; }
+.page-wrap.right { right:5%; transform-origin: right center; }
+/* single page surface (front & back) */
+.page {
+  position:absolute;
+  width:100%;
+  height:100%;
+  backface-visibility:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+  border-radius:6px;
+  overflow:hidden;
+  background:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.page.back { transform:rotateY(180deg); }
+
+/* nice responsive for smaller screens - single column */
+@media (max-width:700px){
+  .page-wrap { width:90%; }
+  .page-wrap.left { left:5%; right:auto; transform-origin:center center; }
+  .page-wrap.right { right:5%; left:auto; transform-origin:center center; }
+}
+</style>
+
+<!-- 3) Include pdf.js (swap to your preferred version/cdn if needed) -->
+<script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.min.js"></script>
+
+<!-- 4) The script: load pdf pages and implement simple flip animation -->
+<script>
+/* pdf.js worker setting - update workerSrc if you use a specific build CDN */
+if (window['pdfjsLib']) {
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js';
+}
+
+const modal = document.getElementById('pdfFlipModal');
+const flipbook = document.getElementById('flipbook');
+const pageIndicator = document.getElementById('pageIndicator');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const fitBtn = document.getElementById('fitBtn');
+
+let pdfDoc = null;
+let currentPage = 1;
+let totalPages = 0;
+let renderedCanvases = {}; // cache canvases by page number
+let pageScale = 1.2; // initial render scale
+
+// Hook the existing "View" buttons: they should have data-pdf attribute containing the pdf path.
+// If your markup already uses anchors, you can keep href for download but add data-pdf attribute.
+document.querySelectorAll('a[data-pdf]').forEach(a => {
+  a.addEventListener('click', function(e){
+    e.preventDefault();
+    const pdfUrl = a.getAttribute('data-pdf') || a.href;
+    openFlipModal(pdfUrl);
+  });
+});
+
+async function openFlipModal(pdfUrl){
+  modal.style.display = 'block';
+  modal.setAttribute('aria-hidden', 'false');
+  flipbook.innerHTML = '<div class="flip-stage"></div>'; // reset
+  renderedCanvases = {};
+  currentPage = 1;
+  pageIndicator.textContent = 'Loading…';
+  try {
+    pdfDoc = await pdfjsLib.getDocument(pdfUrl).promise;
+    totalPages = pdfDoc.numPages;
+    pageIndicator.textContent = `${currentPage} / ${totalPages}`;
+    await renderVisiblePages(); // render first view
+  } catch(err){
+    console.error('PDF load error', err);
+    pageIndicator.textContent = 'Failed to load PDF';
+  }
+}
+
+// render page to canvas and return canvas element
+async function renderPageToCanvas(pageNum, scale = pageScale){
+  if (renderedCanvases[pageNum]) return renderedCanvases[pageNum];
+  const page = await pdfDoc.getPage(pageNum);
+  const viewport = page.getViewport({ scale });
+  const canvas = document.createElement('canvas');
+  canvas.width = viewport.width;
+  canvas.height = viewport.height;
+  canvas.style.width = '100%';
+  canvas.style.height = '100%';
+  const ctx = canvas.getContext('2d', { alpha: false });
+  await page.render({ canvasContext: ctx, viewport }).promise;
+  renderedCanvases[pageNum] = canvas;
+  return canvas;
+}
+
+// Build the two page layout (left/right) depending on currentPage
+async function renderVisiblePages(){
+  const stage = flipbook.querySelector('.flip-stage');
+  stage.innerHTML = ''; // clear
+  // determine left and right page numbers (book-like behaviour)
+  // we'll show current page on right for odd/even logic
+  let leftPage = (currentPage % 2 === 0) ? currentPage - 1 : currentPage - 1;
+  let rightPage = (currentPage % 2 === 0) ? currentPage : currentPage + 1;
+
+  // clamp
+  if (leftPage < 1) leftPage = null;
+  if (rightPage > totalPages) rightPage = null;
+
+  // create wrappers
+  const leftWrap = document.createElement('div');
+  leftWrap.className = 'page-wrap left';
+  const rightWrap = document.createElement('div');
+  rightWrap.className = 'page-wrap right';
+
+  if (leftPage) {
+    const front = document.createElement('div'); front.className='page front';
+    const back = document.createElement('div'); back.className='page back';
+    const canvasL = await renderPageToCanvas(leftPage);
+    front.appendChild(canvasL.cloneNode(true));
+    back.appendChild(canvasL.cloneNode(true));
+    leftWrap.appendChild(front);
+    leftWrap.appendChild(back);
+  } else {
+    // placeholder empty page
+    const empty = document.createElement('div'); empty.className='page front';
+    empty.textContent = '';
+    leftWrap.appendChild(empty);
+  }
+
+  if (rightPage) {
+    const front = document.createElement('div'); front.className='page front';
+    const back = document.createElement('div'); back.className='page back';
+    const canvasR = await renderPageToCanvas(rightPage);
+    front.appendChild(canvasR.cloneNode(true));
+    back.appendChild(canvasR.cloneNode(true));
+    rightWrap.appendChild(front);
+    rightWrap.appendChild(back);
+  } else {
+    const empty = document.createElement('div'); empty.className='page front';
+    empty.textContent = '';
+    rightWrap.appendChild(empty);
+  }
+
+  stage.appendChild(leftWrap);
+  stage.appendChild(rightWrap);
+
+  pageIndicator.textContent = `${currentPage} / ${totalPages}`;
+}
+
+// Simple flip animation to go to next page
+function animateFlip(direction){
+  // direction: 'next' or 'prev'
+  const leftWrap = flipbook.querySelector('.page-wrap.left');
+  const rightWrap = flipbook.querySelector('.page-wrap.right');
+  // apply transforms to simulate a flip
+  if (direction === 'next') {
+    // flip right page towards left (rotateY -180)
+    rightWrap.style.transform = 'rotateY(-180deg)';
+    setTimeout(async ()=>{
+      // advance page number by 2 (book spreads)
+      currentPage = Math.min(totalPages, currentPage + 2);
+      // reset transforms then re-render
+      rightWrap.style.transform = '';
+      await renderVisiblePages();
+    }, 700);
+  } else {
+    // flip left page from left to right
+    leftWrap.style.transform = 'rotateY(180deg)';
+    setTimeout(async ()=>{
+      currentPage = Math.max(1, currentPage - 2);
+      leftWrap.style.transform = '';
+      await renderVisiblePages();
+    }, 700);
+  }
+}
+
+// Controls
+nextBtn.addEventListener('click', () => {
+  if (currentPage + 1 <= totalPages) animateFlip('next');
+});
+prevBtn.addEventListener('click', () => {
+  if (currentPage - 2 >= 1) animateFlip('prev');
+});
+// Fit toggle (re-render at different scale)
+fitBtn.addEventListener('click', async ()=>{
+  pageScale = (pageScale === 1.2) ? 0.9 : 1.2;
+  // clear cache so we re-render at new scale
+  renderedCanvases = {};
+  await renderVisiblePages();
+});
+
+// Close
+function closeFlipModal(){
+  modal.style.display = 'none';
+  modal.setAttribute('aria-hidden', 'true');
+  flipbook.innerHTML = '';
+  pdfDoc = null;
+  renderedCanvases = {};
+}
+
+// close on Esc
+document.addEventListener('keydown', (ev) => {
+  if (ev.key === 'Escape' && modal.style.display === 'block') closeFlipModal();
+});
+</script>

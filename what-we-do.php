@@ -8,7 +8,7 @@
   
   <meta name="author" content="themefisher.com">
 
-  <title>Published Books</title>
+  <title>What We Do</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -48,197 +48,373 @@
   </div>
 </section>
 
-<section class="section counter bg-counter">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12">
-				<div class="about-item pr-3 mb-5 mb-lg-0 cta-item bg-white p-5 rounded">
-					<h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Heritage Preservation</h2>
-					<p style="color: black;">Protecting and promoting India’s tangible heritage—monuments, art, architecture—and intangible heritage, including traditions, languages, and performing arts.</p>
-				    
-
-                    <h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Documentation</h2>
-					<p style="color: black;">Creating digital and physical archives to safeguard cultural and historical records, ensuring easy access for researchers, scholars, and enthusiasts.</p>
 
 
-                     <h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Consultancy Services</h2>
-					<p style="color: black;">Providing end-to-end solutions for heritage-based initiatives—from concept development to project execution—helping organizations and institutions design impactful cultural projects.</p>
-                     
+<section class="section counter " style="  padding-bottom: 15px; padding-top: 15px;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="cta-item ">
+						<div class="row">
+							<!-- Left: Awards List -->
+							<div class="col-lg-12">
+								<div class="row">
+									<!-- Repeat awards as before -->
+									
+										<div class="row justify-content-center">
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/whatwedo.jpg" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Exploring Horizons: <br> Dr. Kaynat Kazi Inspires Students at VIT Bhopal 
+														Orientation</h4>
+														<p>
+															VIT University Bhopal recently hosted its orientation session for
+															 the incoming batch of students, marking the start of an exciting academic journey.
+														</p>
 
-                     <h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Community Engagement</h2>
-					<p style="color: black;">Fostering awareness and appreciation of heritage through workshops, exhibitions, and educational programs, bridging the gap between tradition and contemporary society.</p>
-                    
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2025/08/exploring-horizons-dr-kaynat-kazi.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+														
+
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+																A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
 
 
+													</div>
 
+												</div>
+
+											</div>
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/dr13.png" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Glimpse of Aglad Valley, Uttarakhand</h4>
+														<p>
+															Empowering Young Minds: Landmark Menstrual Hygiene Workshop at Samsara World Academy This short video provides glimpses of the pilot study of the cultural mapping of Uttrakhand. the study took place in collaboration with IGNCA and SOLS, UPES Uttarakhand. 
+														</p>
+
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2025/05/empowering-young-minds-landmark.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+														
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+															The project was done by Dr. Kaynat Kazi Greater Noida, May 8, 2025 – In a decisive move toward fostering awareness and breaking societal taboos, Samsara World Academy, in collaboration with the Bougainvillea Art Foundation, hosted an insightful and empowering Menstrual Hygiene Workshop on May 7, 2025.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/dr16.jpg" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Planting Seeds of Imagination: Uma Public School Students Enchanted by NSD’s Kids Theatre Festival</h4>
+														<p>
+															The magic of theatre came alive for a group of eager Uma Public School students, thanks to a heartwarming initiative by the Bougainville Art Foundation. 
+														</p>
+
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2025/08/planting-seeds-of-imagination-uma.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+														
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+																A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/dr17.jpeg" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Traditional Folk Paper Toy Workshop by Manish Kumar</h4>
+														<p>
+															India’s rich tradition and culture are deeply interwoven with its trades and folklore. The topics, forms, and styles of Indian folk art are diverse and vibrant, each carrying stories passed down through generations. These folk forms have also played a pivotal role in shaping the country’s classical art traditions.
+														</p>
+
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2025/01/traditional-folk-paper-toy-workshop-by.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+														
+
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+																A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/dr18.jpeg" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Celebrating Heritage: Book Launch of Monasteries of Bodhgaya by Dr. Kaynat Kazi</h4>
+														<p>
+															The Madan Mohan Malviya Auditorium at Hansraj College, University of Delhi, came alive with cultural pride and scholarly enthusiasm as the Literary Society of Hansraj College, in collaboration with the Bougainvillea Art Foundation, hosted the grand launch of Dr. Kaynat Kazi’s monumental works on the monasteries of Bodhgaya.
+														</p>
+
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2025/08/Book%20Launch%20of%20Monasteries%20of%20Bodhgaya%20by%20Dr.%20Kaynat%20Kazi%20by%20sudha%20murty.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+													
+
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+																A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+
+											<div class="col-lg-4 col-md-6 col-sm-6">
+												<div class="team-item-wrap ">
+													<div class="team-item position-relative">
+														<img style="width: 100%; height: 300px;" src="images/team/dr19.jpeg" alt="">
+													</div>
+													<div class="team-item-content cta-item  rounded">
+														<h4 class="mt-3 mb-0 text-capitalize">Crafting Stories, Preserving Heritage: A Creative Writing Workshop at NSD</h4>
+														<p>
+															Adding to the morning’s insights, Smt. Chetna Vashisth, Assistant Director (OL), spoke about the delicate balance between creativity and technical precision in storytelling. She emphasized that while imagination gives stories their soul, structure and clarity are what enable them to truly resonate with audiences.
+														</p>
+
+														<!-- YouTube link -->
+														<p>
+															<a href="https://bouginvilleaartfoundation.blogspot.com/2024/10/Crafting%20Stories%20Preserving%20Heritage%20A%20Creative%20Writing%20Workshop%20at%20NSD.html" target="_blank" class="text-primary">
+																▶ Read More
+															</a>
+														</p>
+
+														<!-- More link -->
+														
+														<!-- More content (initially hidden) -->
+														<div class="more-content" style="display: none;">
+															<p>
+																A strong advocate for cultural preservation and literacy, she has worked to uplift tribal communities while promoting gender equality and social justice across the state.
+															</p>
+														</div>
+
+														<script>
+															document.addEventListener("DOMContentLoaded", function() {
+																const toggleLink = document.querySelector(".toggle-more");
+																const moreContent = document.querySelector(".more-content");
+
+																toggleLink.addEventListener("click", function() {
+																	if (moreContent.style.display === "none") {
+																		moreContent.style.display = "block";
+																		toggleLink.textContent = "Less...";
+																	} else {
+																		moreContent.style.display = "none";
+																		toggleLink.textContent = "More...";
+																	}
+																});
+															});
+														</script>
+														<!--  Download Button (with custom style) 
+													<a href="downloads/lentina-bio.pdf" class="btn btn-outline-secondary mt-2" style="padding: 10px 90px; font-size: 20px; background-color: green; color: white;" download>
+													Download 
+													</a> -->
+
+
+													</div>
+
+												</div>
+
+											</div>
+											
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- section portfolio start -->
-<section class="section portfolio pb-0">
-	<div class="container-fluid">
-		<div class="row portfolio-gallery">
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative mb-4">
-					<a href="images/team/book1.jpeg" class="popup-gallery">
-						<img src="images/team/book1.jpeg" alt="" class="img-fluid w-100">
+		</section>
 
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative mb-4">
-					<a href="images/team/book2.jpeg" class="popup-gallery">
-						<img src="images/team/book2.jpeg" alt="" class="img-fluid w-100">
-
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative mb-4">
-					<a href="images/team/book3.jpeg" class="popup-gallery">
-						<img src="images/team/book3.jpeg" alt="" class="img-fluid w-100">
-
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative mb-4">
-					<a href="images/team/book4.jpeg" class="popup-gallery">
-						<img src="images/team/book4.jpeg" alt="" class="img-fluid w-100">
-
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative  mb-4">
-					<a href="images/team/book5.jpeg" class="popup-gallery">
-						<img src="images/team/book5.jpeg" alt="" class="img-fluid w-100">
-
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-6">
-				<div class="portflio-item position-relative mb-4">
-					<a href="images/team/book6.jpeg" class="popup-gallery">
-						<img src="images/team/book6.jpeg" alt="" class="img-fluid w-100">
-						
-						<i class="ti-plus overlay-item"></i>
-						<!-- <div class="portfolio-item-content">
-							<h3 class="mb-0 text-white">Project california</h3>
-							<p class="text-white-50">Web Development</p>
-						</div> -->
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- section portfolio END -->
 
 
 <!-- footer Start -->
-<footer class="footer section">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Company</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Quick Links</h4>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Team</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget">
-					<h4 class="text-capitalize mb-4">Subscribe Us</h4>
-					<p>Subscribe to get latest news article and resources  </p>
-
-					<form action="#" class="sub-form">
-						<input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-						<a href="#" class="btn btn-main btn-small">subscribe</a>
-					</form>
-				</div>
-			</div>
-
-			<div class="col-lg-3 ml-auto col-sm-6">
-				<div class="widget">
-					<div class="logo mb-4">
-						<h3>Mega<span>kit.</span></h3>
-					</div>
-					<h6><a href="tel:+23-345-67890" >Support@megakit.com</a></h6>
-					<a href="mailto:support@gmail.com"><span class="text-color h4">+23-456-6588</span></a>
-				</div>
-			</div>
-		</div>
-		
-		<div class="footer-btm pt-4">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Megakit.</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
-					</div>
-				</div>
-				<div class="col-lg-6 text-left text-lg-right">
-					<ul class="list-inline footer-socials">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter mr-2"></i>Twitter</a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+		<?php include('footer.php'); ?>
+		<!-- footer End -->
    
     </div>
 

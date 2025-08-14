@@ -47,7 +47,7 @@
 	<style>
 		.founder-img {
 			width: 300px;
-			height: 300px;
+			height: 330px;
 			object-fit: cover;
 			border-radius: 50%;
 			float: right;
@@ -68,7 +68,7 @@
 				display: block;
 				margin: 0 auto 20px auto;
 				width: 200px;
-				height: 200px;
+				height: 235px;
 			}
 
 			.about-item {
@@ -143,7 +143,7 @@
 							<img src="images/team/cofounder.jpg" alt="Mrs.Aliya Rafat " class="founder-img img-fluid">
 
 							<span class="h6 text-color">Co-Founder</span>
-							<h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Mrs.Aliya Rafat Shadma</h2>
+							<h2 class="mt-3 mb-4 position-relative content-title" style="color: black;">Aliya Rafat Shadma <span style="font-size:20px">(Advocate)</span></h2>
 							<p style="color: black;">Mrs. Aliya Rafat Shadma is a trailblazer in the legal fraternity and a passionate advocate for justice. With nearly 30 years of experience as a senior lawyer, she has built a distinguished career by breaking barriers and challenging societal norms.</p>
 
 							<p style="color: black;">A respected member of the Firozabad Bar Association, Mrs. Shadma specializes in women’s and children’s rights, dedicating her expertise to creating safer and fairer spaces for the vulnerable. Her relentless pursuit of equality and empowerment reflects in every initiative she undertakes.</p>
@@ -238,7 +238,7 @@
 		<section class="section team bg-team ">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-lg-7 text-center">
+					<div class="col-lg-7 text-center ">
 						<div class="section-title">
 							<h2 class="mt-3 content-title text-white">Our Volunteers</h2>
 							<span class="text-white">
@@ -253,15 +253,15 @@
 						<div class="card bg-transparent border-0">
 							<img src="images/blog/shalvi.png" alt="" class="img-fluid rounded" />
 
-							<div class="card-body mt-2">
+							<div class="card-body mt-2  cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<p class="text-white">“Spreading joy through communication & compassion.”<span class="ml-2 mr-2"></span></p>
+									<p class="text-black">“Spreading joy through communication & compassion.”<span class="ml-2 mr-2"></span></p>
 								</div>
 
-								<h3 class="mt-3 mb-4 lh-36  text-white">
+								<h3 class="mt-3 mb-4 lh-36  text-black">
 									Shalvi Dutta
 								</h3>
-								<p class="text-white">Communication Specialist
+								<p class="text-black">Communication Specialist
 									Shalvi Dutta is an experienced communications professional with over a decade in news and electronic media. A dedicated practitioner of Nichiren Daishonin’s Buddhism, she believes in unlocking the inherent potential within every individual. Her mission is to alleviate suffering and spread joy, making her a guiding force of positivity within the Foundation.
 
 								</p>
@@ -273,15 +273,15 @@
 						<div class="card border-0 bg-transparent">
 							<img src="images/blog/nandni.png" alt="" class="img-fluid rounded" />
 
-							<div class="card-body mt-2">
+							<div class="card-body mt-2 cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<a class="text-white">“Championing menstrual health & women’s dignity.”<span class="ml-2 mr-2"></span></a>
+									<a class="text-black">“Championing menstrual health & women’s dignity.”<span class="ml-2 mr-2"></span></a>
 								</div>
 
 								<h3 class="mt-3 mb-4 lh-36">
-									<p class="text-white">Nandini Rai</p>
+									<p class="text-black">Nandini Rai</p>
 								</h3>
-								<p class="text-white">Menstrupedia Certified | Co-Founder, Zzwick Hygiene Pvt. Ltd.
+								<p class="text-black">Menstrupedia Certified | Co-Founder, Zzwick Hygiene Pvt. Ltd.
 									Nandini Rai is a passionate menstrual hygiene activist and entrepreneur. As the Director of PadforHer and Co-Founder of Zzwick Hygiene Pvt. Ltd., she works to break taboos through education and empowerment workshops. Her advocacy for menstrual health continues to impact countless lives by promoting dignity and awareness.
 								</p>
 
@@ -292,16 +292,16 @@
 						<div class="card border-0 bg-transparent">
 							<img src="images/blog/rohit.png" alt="" class="img-fluid rounded" />
 
-							<div class="card-body mt-2">
+							<div class="card-body mt-2 cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<a class="text-white">“Empowering health through nutrition & balance.”<span class="ml-2 mr-2"></span></a>
+									<a class="text-black">“Empowering health through nutrition & balance.”<span class="ml-2 mr-2"></span></a>
 								</div>
 
 								<h3 class="mt-3 mb-4 lh-36">
-									<p class="text-white">Rohit Prasad</p>
+									<p class="text-black">Rohit Prasad</p>
 								</h3>
 
-								<p class="text-white">Certified Naturopathic Practitioner & Nutritionist
+								<p class="text-black">Certified Naturopathic Practitioner & Nutritionist
 									Rohit Prasad specializes in exercise, obesity, and weight management, helping individuals adopt sustainable lifestyle habits. He emphasizes that healthy weight loss is gradual and rooted in proper nutrition. His approach empowers people to achieve holistic health and prevent lifestyle-related diseases.
 
 								</p>

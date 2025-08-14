@@ -49,33 +49,31 @@
           <li class="nav-item active">
             <a class="nav-link" href="about-us.php">About US <span class="sr-only"></span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="team.php">Team <span class="sr-only">(current)</span></a>
-          </li>
-          </a>
-          <div
-            class="collapse navbar-collapse text-center"
-            id="navbarsExample09">
-            <ul class="navbar-nav ml-auto">
-
-
-
-              <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="dropdown03"
                   data-toggle="dropdown"
                   aria-haspopup="true"
-                  aria-expanded="false">Portfolio</a>
+                  aria-expanded="false">Team</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
                   <li>
-                    <a class="dropdown-item" href="activities.php">Activities</a>
+                    <a class="dropdown-item" href="team.php">About Team</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="published-work.php">Published Work</a>
+                    <a class="dropdown-item" href="Dr.Kaynat-Kazi.php">About Dr.Kaynat Kazi</a>
                   </li>
                 </ul>
+              </li>
+          </a>
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarsExample09">
+            <ul class="navbar-nav ml-auto">
+
+               <li class="nav-item">
+                <a class="nav-link" href="published-work.php" target="blank">Published Work</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -97,10 +95,13 @@
 
                 </ul>
               </li>
-              <li class="nav-item">
+               <li class="nav-item">
+                <a class="nav-link" href="https://bouginvilleaartfoundation.blogspot.com/" target="blank">Blog</a>
+              </li>
+             <!--  <li class="nav-item">
                 <a class="nav-link" href="gallery.php">Gallery</a>
               </li>
-
+ -->
               <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
               </li>
