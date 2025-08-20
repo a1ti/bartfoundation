@@ -1,7 +1,6 @@
 
  <style>
   .header-top-info { display:flex; justify-content:flex-end; flex-wrap:wrap; }
-
  </style>
 <header class="navigation ">
   <div class="header-top">
