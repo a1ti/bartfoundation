@@ -7,16 +7,15 @@
         <div class="widget">
           <h5 class="text-uppercase mb-4 text-white">Quick Links</h5>
           <ul class="list-unstyled lh-lg">
-            <li><a href="#" class="text-light text-decoration-none">Home</a></li>
-            <li><a href="#" class="text-light text-decoration-none">About US</a></li>
-            <li><a href="#" class="text-light text-decoration-none">About Team</a></li>
-            <li><a href="#" class="text-light text-decoration-none">About Dr.Kaynat Kazi</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Published Work</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Activities</a></li>
-            <li><a href="#" class="text-light text-decoration-none">What We Do</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Media</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+            <li><a href="index.php" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="about-us.php" class="text-light text-decoration-none">About US</a></li>
+            <li><a href="team.php" class="text-light text-decoration-none">About Team</a></li>
+            <li><a href="Dr.Kaynat-Kazi.php" class="text-light text-decoration-none">About Dr.Kaynat Kazi</a></li>
+            <li><a href="published-work.php" class="text-light text-decoration-none">Published Work</a></li>
+            <li><a href="what-we-do.php" class="text-light text-decoration-none">What We Do</a></li>
+            <li><a href="media.php" class="text-light text-decoration-none">Media</a></li>
+            <li><a href="https://bouginvilleaartfoundation.blogspot.com/" class="text-light text-decoration-none">Blog</a></li>
+            <li><a href="contact.php" class="text-light text-decoration-none">Contact</a></li>
 
           </ul>
         </div>
@@ -60,7 +59,7 @@
                 Greater Noida <br>
                 District Gautam Bhuddha Nagar <br>
                 Uttar Pradesh, India, 201310</li>
-            <li><i class="bi bi-telephone-fill me-2"></i> +91 98765 43210</li>
+            <li><i class="bi bi-telephone-fill me-2"></i> +91-9810971518</li>
             <li><i class="bi bi-envelope-fill me-2"></i> kaynatkazi@gmail.com</li>
           </ul>
         </div>
@@ -70,7 +69,7 @@
       <div class="col-lg-4 col-md-6 ms-auto">
         <div class="widget text-center text-md-start">
           <div class="logo mb-4  text-white">
-            <h3 class=" text-white">My<span>Journy in KM.</span></h3>
+            <h3 class=" text-white">My<span>Journy in KMs<br>(4,00,000)</span></h3>
           </div>
           <img src="images/team/myjourney.jpeg"
             alt="My Journey in KM"
@@ -89,18 +88,13 @@
         <div class="col-md-6 text-md-end">
           <ul class="list-inline mb-0">
             <li class="list-inline-item me-2">
-              <a href="https://www.facebook.com/themefisher" class="text-light text-decoration-none"><i class="bi bi-facebook me-1"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/themefisher/" class="text-light text-decoration-none" target="_blank">
-                <i class="bi bi-instagram me-1"></i>
-              </a>
+              <a href="https://www.facebook.com/kaynatkaziphotoholic" class="text-light text-decoration-none"><i class="bi bi-facebook me-1"></i></a>
             </li>
             <li class="list-inline-item me-2">
-              <a href="https://twitter.com/themefisher" class="text-light text-decoration-none"><i class="bi bi-twitter me-1"></i></a>
+              <a href="https://x.com/kaynatkazi" class="text-light text-decoration-none"><i class="bi bi-twitter me-1"></i></a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.pinterest.com/themefisher/" class="text-light text-decoration-none"><i class="bi bi-linkedin me-1"></i></a>
+              <a href="https://www.linkedin.com/in/dr-kaynat-kazi-75a75a128/" class="text-light text-decoration-none"><i class="bi bi-linkedin me-1"></i></a>
             </li>
           </ul>
         </div>

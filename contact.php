@@ -4,11 +4,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+  <meta name="description" content="">
   
   <meta name="author" content="themefisher.com">
+  <link rel="icon" href="images/BAF.png" type="image/x-icon">
 
-  <title>Contact</title>
+  <title>Contact - Bougainvillea Art Foundation</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -78,7 +79,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="block text-center">
+              <div class="card-header" style="background-color: rgba(0,0,0,0.5);">
                 <span class="text-white">Contact Us</span>
                 <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
               </div>
@@ -111,7 +112,7 @@
                 </div>
                 <!-- end message -->
                 <span class="text-color">Send a message</span>
-                <h3 class="text-md mb-4">Contact Form</h3>
+                <h3 class="text-md mb-4 text-black">Contact Form</h3>
                 <div class="form-group">
                   <input
                     name="name"
@@ -144,22 +145,19 @@
 
             <div class="col-lg-5 col-sm-12 ">
               <div class="contact-content pl-lg-5 mt-5 mt-lg-0 cta-item bg-white p-3 rounded">
-                <h2 class="mb-5 mt-2">
-                  Don’t Hesitate to contact with us for any kind of information
-                </h2>
-
+                
                 <ul class="address-block list-unstyled">
                   <li>
                     <i class="ti-direction mr-3"></i>Bougainvillea Art Foundation <br>
-                MG17 D, 3RD Floor,<br>
-                Eldeco Mystic Greens,<br>
-                Sector-Omicron-1,<br>
-                Greater Noida <br>
-                District Gautam Bhuddha Nagar <br>
-                Uttar Pradesh, India, 201310
+               <span style="padding-left:36px"> MG17 D, 3RD Floor,<br></span>
+                 <span style="padding-left:36px">Eldeco Mystic Greens,<br></span>
+                 <span style="padding-left:36px">Sector-Omicron-1,<br></span>
+                 <span style="padding-left:36px">Greater Noida <br></span>
+                 <span style="padding-left:36px">District Gautam Bhuddha Nagar <br></span>
+                 <span style="padding-left:36px">Uttar Pradesh, India, 201310</span>
                   </li>
                   <li><i class="ti-email mr-3"></i>kaynatkazi@gmail.com</li>
-                  <li><i class="ti-mobile mr-3"></i> +91 98765 43210</li>
+                  <li><i class="ti-mobile mr-3"></i>+91-9810971518</li>
                 </ul>
 
                 <ul class="social-icons list-inline mt-5">
@@ -174,7 +172,7 @@
                     ></a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="http://www.themefisher.com"
+                    <a href="https://www.linkedin.com/in/dr-kaynat-kazi-75a75a128/"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
                   </li>

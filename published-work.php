@@ -5,11 +5,12 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+	<meta name="description" content="">
 
 	<meta name="author" content="themefisher.com">
-
-	<title>Published Work</title>
+	<link rel="icon" href="images/BAF.png" type="image/x-icon">
+	
+	<title>Published Work - Bougainvillea Art Foundation</title>
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
@@ -124,7 +125,7 @@
 
 </head>
 
-<body>
+<body >
 
 	<!-- Header Start -->
 	<?php include('menu.php'); ?>
@@ -135,8 +136,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="block text-center">
-							<h1 class="text-capitalize mb-4 text-lg text-white">Published Work</h1>
+						<div class="block text-center" style="background-color: rgba(0,0,0,0.5);">
+							<h1 class="mb-4 text-md text-white">Published Work</h1>
 							<span class="text-white">“Celebrating India’s Heritage Through Knowledge and Creativity.”
 							</span>
 
@@ -387,10 +388,39 @@
 
 												<!-- Buttons -->
 												<div class="mt-3 d-flex justify-content-between">
-													<a href="images/pdf/BaudhgayaENGLISH2024_LW_WEB.pdf"  class="btn btn-danger btn-round-full" style="background-color: var(--primary-color); color: white; padding-right: 50px;padding: 0.5rem 2.5rem;">
+													<!-- View Button -->
+<a href="#" 
+   class="btn btn-danger btn-round-full" 
+   style="background-color: var(--primary-color); color: white; padding: 0.5rem 2.5rem;" 
+   data-bs-toggle="modal" 
+   data-bs-target="#pdfModal">
+   View
+</a>
 
-														View
-													</a>
+<!-- Modal -->
+<div class="modal fade" id="pdfModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" style="max-width:90%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Document Preview</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="padding:0;">
+        <iframe allowfullscreen="allowfullscreen" 
+                allow="clipboard-write" 
+                scrolling="no" 
+                class="fp-iframe" 
+                src="https://heyzine.com/flip-book/cb13bc9688.html" 
+                style="border:0; width:100%; height:80vh;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (required for modal) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 													<a href="images/pdf/BaudhgayaENGLISH2024_LW_WEB.pdf" download class="btn btn-outline-success btn-sm btn-round-full mr-3" style="background-color: green; color: white;padding: 0.5rem 2.5rem;">Download</a>
 												</div>
@@ -400,10 +430,35 @@
 
 												<!-- Buttons -->
 												<div class="mt-3 d-flex justify-content-between">
-													<a href="images/pdf/Baudhgaya Hindi 2024_LW_WEB.pdf"  class="btn btn-danger btn-round-full" style="background-color: var(--primary-color); color: white; padding-right: 50px;padding: 0.5rem 2.5rem;">
-
+													<a href="#" 
+														class="btn btn-danger btn-round-full" 
+														style="background-color: var(--primary-color); color: white; padding: 0.5rem 2.5rem;" 
+														data-bs-toggle="modal" 
+														data-bs-target="#pdfModal1">
 														View
 													</a>
+
+													<!-- Modal -->
+													<div class="modal fade" id="pdfModal1" tabindex="-1" aria-hidden="true">
+													<div class="modal-dialog modal-xl" style="max-width:90%;">
+														<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title">Document Preview</h5>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body" style="padding:0;">
+															<iframe allowfullscreen="allowfullscreen" 
+															allow="clipboard-write"
+															scrolling="no" 
+															class="fp-iframe" 
+															src="https://heyzine.com/flip-book/494a1329e3.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
+														</div>
+														</div>
+													</div>
+													</div>
+
+													<!-- Bootstrap JS (required for modal) -->
+													<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 													<a href="images/pdf/Baudhgaya Hindi 2024_LW_WEB.pdf" download class="btn btn-outline-success btn-sm btn-round-full mr-3" style="background-color: green; color: white;padding: 0.5rem 2.5rem;">Download</a>
 												</div>
@@ -413,10 +468,37 @@
 
 												<!-- Buttons -->
 												<div class="mt-3 d-flex justify-content-between">
-													<a href="images/pdf/Morena Book_2LW-Single.pdf" target="_blank" class="btn btn-danger btn-round-full" style="background-color: var(--primary-color); color: white; padding-right: 50px;padding: 0.5rem 2.5rem;">
-
+													<a href="#" 
+														class="btn btn-danger btn-round-full" 
+														style="background-color: var(--primary-color); color: white; padding: 0.5rem 2.5rem;" 
+														data-bs-toggle="modal" 
+														data-bs-target="#pdfModal2">
 														View
 													</a>
+
+													<!-- Modal -->
+													<div class="modal fade" id="pdfModal2" tabindex="-1" aria-hidden="true">
+													<div class="modal-dialog modal-xl" style="max-width:90%;">
+														<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title">Document Preview</h5>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body" style="padding:0;">
+															<iframe 
+															allowfullscreen="allowfullscreen" 
+															allow="clipboard-write" 
+															scrolling="no" 
+															class="fp-iframe" 
+															src="https://heyzine.com/flip-book/0d82262dd1.html" 
+															style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
+														</div>
+														</div>
+													</div>
+													</div>
+
+													<!-- Bootstrap JS (required for modal) -->
+													<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 													<a href="images/pdf/Morena Book_2LW-Single.pdf" download class="btn btn-outline-success btn-sm btn-round-full mr-3" style="background-color: green; color: white;padding: 0.5rem 2.5rem;">Download</a>
 												</div>
@@ -427,9 +509,37 @@
 
 												<!-- Buttons -->
 												<div class="mt-3 d-flex justify-content-between">
-													<a href="images/pdf/MorenaBook_1_LW-S.pdf" target="_blank" class="btn btn-danger  btn-round-full" style="background-color: var(--primary-color); color: white; padding-right: 50px;padding: 0.5rem 2.5rem;">
+															<a href="#" 
+														class="btn btn-danger btn-round-full" 
+														style="background-color: var(--primary-color); color: white; padding: 0.5rem 2.5rem;" 
+														data-bs-toggle="modal" 
+														data-bs-target="#pdfModal3">
 														View
 													</a>
+
+													<!-- Modal -->
+													<div class="modal fade" id="pdfModal3" tabindex="-1" aria-hidden="true">
+													<div class="modal-dialog modal-xl" style="max-width:90%;">
+														<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title">Document Preview</h5>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body" style="padding:0;">
+															<iframe 
+															allowfullscreen="allowfullscreen" 
+															allow="clipboard-write" 
+															scrolling="no" 
+															class="fp-iframe" 
+															src="https://heyzine.com/flip-book/549da5b015.html" 
+															style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
+														</div>
+														</div>
+													</div>
+													</div>
+
+													<!-- Bootstrap JS (required for modal) -->
+													<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 													<a href="images/pdf/MorenaBook_1_LW-S.pdf" download class="btn btn-outline-success btn-sm btn-round-full mr-3" style="background-color: green; color: white;padding: 0.5rem 2.5rem;">Download</a>
 												</div>
@@ -485,7 +595,7 @@
 
 													</div>
 													<div class="team-item-content cta-item  rounded">
-														<h4 class="mt-3 mb-0 text-capitalize">Glimpse of Aglad Valley, Uttarakhand</h4>
+														<h4 class="mt-3 mb-0 text-capitalize text-dark">Glimpse of Aglad Valley, Uttarakhand</h4>
 														<p>
 															This short video provides glimpses of the pilot study of the cultural mapping of Uttrakhand. the study took place in collaboration with IGNCA and SOLS, UPES Uttarakhand. The project was done by Dr. Kaynat Kazi
 														</p>
@@ -543,7 +653,7 @@
 
 													</div>
 													<div class="team-item-content cta-item   rounded">
-														<h4 class="mt-3 mb-0 text-capitalize">Folke Daity Bhadrraj Devta Mela – Jaunsar Bawar, Dehradun</h4>
+														<h4 class="mt-3 mb-0 text-capitalize text-dark">Folke Daity Bhadrraj Devta Mela – Jaunsar Bawar, Dehradun</h4>
 														<p>
 															Folke Daity Bhadrraj Devta Mela – Jaunsar Bawar, Dehradun
 															The Bhadrraj Devta Mela is a vibrant and culturally rich festival celebrated in the picturesque.
@@ -601,7 +711,7 @@
 
 													</div>
 													<div class="team-item-content cta-item  rounded">
-														<h4 class="mt-3 mb-0 text-capitalize">A documentary on Morena</h4>
+														<h4 class="mt-3 mb-0 text-capitalize text-dark">A documentary on Morena</h4>
 														<p>
 															An audio-visual documentation of the heritage sites of Morena. Published by the District Archeology, Tourism, and Culture Council, Morena, state government of Madhya Pradesh.
 														</p>
@@ -666,7 +776,7 @@
 
 													</div>
 													<div class="team-item-content cta-item  rounded">
-														<h4 class="mt-3 mb-0 text-capitalize">The Monasteries of Bodhgaya</h4>
+														<h4 class="mt-3 mb-0 text-capitalize text-dark">The Monasteries of Bodhgaya</h4>
 														<p>
 														A cultural documentation of the 42 Monasteries of Bodhgaya.
 														Bodhgaya is distinctive in many respects. First, it is the most important place in Buddha's life.
@@ -738,74 +848,6 @@
 				</div>
 		</section>
 
-		<!--  Section Services End -->
-		<!-- Section Testimonial Start -->
-		<!--  <section class="section testimonial bg-gray">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center">
-				<div class="section-title">
-					<span class="h6 text-color">Clients testimonial</span>
-					<h2 class="mt-3 content-title">Check what's our clients say about us</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="testimonial-wrap">
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti facilis blanditiis.</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Thomas Johnson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae numquam corrupti.</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">James Watson</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-			<div class="testimonial-item position-relative">
-				<i class="ti-quote-left text-color"></i>
-
-				<div class="testimonial-item-content">
-					<p class="testimonial-text">Consectetur adipisicing elit. Quam maiores perspiciatis temporibus odio reiciendis error alias debitis atque consequuntur natus iusto recusandae .</p>
-
-					<div class="testimonial-author">
-						<h5 class="mb-0 text-capitalize">Mickel hussy</h5>
-						<p>Excutive Director,themefisher</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>  -->
-		<!-- Section Testimonial End -->
 
 		<!-- footer Start -->
 		<?php include('footer.php'); ?>

@@ -9,12 +9,12 @@
 		content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<meta
 		name="description"
-		content="megakit,business,company,agency,multipurpose,modern,bootstrap4" />
+		content="" />
 
 	<meta name="author" content="themefisher.com" />
 	<link rel="icon" href="images/BAF.png" type="image/x-icon">
 
-	<title>About Us</title>
+	<title>About Us - Bougainvillea Art Foundation</title>
 
 	<!-- bootstrap.min css -->
 	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
@@ -71,7 +71,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="block text-center">
+						<div class="card-header" style="background-color: rgba(0,0,0,0.5);">
 							<h1 class="display-5 fw-bold  " data-aos="fade-up">About Bougainvillea Arts Foundation</h1>
 							<h5 class="display-5  text-white" data-aos="fade-up">Preserving Heritage. Inspiring Tomorrow.</h5>
 							<span class="text-white">
@@ -95,19 +95,19 @@
 								<span>Bougainvillea Art Foundation</span>
 							</h1>
 
-							<p class="para mb-3" data-aos="fade-up" data-aos-delay="200">
-								The Bougainvillea Art Foundation, founded in 2024, is a non-profit organization that provides a diverse array of consultancy services to various sectors — from concept to commissioning.
+							<p class="para mb-3" data-aos="fade-up" data-aos-delay="200" style="text-align:justify">
+                              The Bougainvillea Art Foundation, founded in 2024, is a non-profit organization that provides a diverse array of consultancy services to various sectors — from concept to commissioning.
 							</p>
 
-							<p class="para mb-3" data-aos="fade-up" data-aos-delay="300">
-								It is dedicated to preserving and promoting India's vast cultural, historical, and natural heritage — a beautiful tapestry of diverse cultures and traditions.
+							<p class="para mb-3" data-aos="fade-up" data-aos-delay="300" style="text-align:justify">
+								  It is dedicated to preserving and promoting India's vast cultural, historical, and natural heritage — a beautiful tapestry of diverse cultures and traditions.
 							</p>
 
-							<p class="para mb-3" data-aos="fade-up" data-aos-delay="400">
-								The Foundation is the brainchild of Dr. Kaynat Kazi, credited as India's first female solo traveler. Her vision is to give back to society through this foundation.
+							<p class="para mb-3" data-aos="fade-up" data-aos-delay="400" style="text-align:justify">
+								 The Foundation is the brainchild of Dr. Kaynat Kazi, credited as India's first female solo traveler. Her vision is to give back to society through this foundation.
 							</p>
 
-							<p class="para mb-3" data-aos="fade-up" data-aos-delay="500">
+							<p class="para mb-3" data-aos="fade-up" data-aos-delay="500" style="text-align:justify">
 								Bougainvillea also offers expert consultancy services across multiple sectors, while remaining committed to heritage preservation and documentation.
 							</p>
 

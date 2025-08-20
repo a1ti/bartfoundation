@@ -5,11 +5,12 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+	<meta name="description" content="">
 
 	<meta name="author" content="themefisher.com">
+	<link rel="icon" href="images/BAF.png" type="image/x-icon">
 
-	<title>Our Team </title>
+	<title>Our Team - Bougainvillea Art Foundation</title>
 
 	<!-- bootstrap.min css -->
 	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -94,7 +95,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block text-center">
-							<h1 class="text-capitalize mb-4 text-lg text-white">Team - Meet the Visionaries</h1>
+							<h1 class="text-capitalize mb-4 text-lg text-white cta-item p-4  rounded" 
+								style="background-color: rgba(0,0,0,0.5); color: white;">
+								Team - Meet the Visionaries
+							</h1>
 
 						</div>
 					</div>
@@ -114,7 +118,7 @@
 							<img src="images/team/founder.jpeg" alt="Dr. Kaynat Kazi" class="founder-img img-fluid">
 
 							<span class="h6 text-color">Founders</span>
-							<h2 class="mt-3 mb-4 content-title">Dr. Kaynat Kazi</h2>
+							<h2 class="mt-3 mb-4 content-title text-dark">Dr. Kaynat Kazi</h2>
 
 							<p>Dr. Kaynat Kazi is a passionate traveler, author, photographer, and storyteller who brings cultures to life through her words and lens. In 2012, she founded Rahagiri, India’s first Hindi travel photography blog, inspiring thousands to explore the world in their own language.</p>
 
@@ -166,7 +170,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-7 text-center" style="margin-top: -60px; margin-bottom: -50px;">
 						<div class="section-title">
-							<h2 class="mt-1 content-title text-black">Our Advisors</h2>
+							<h2 class="mt-1 content-title text-black"><br> Our Advisors</h2>
 							<span class="h6 text-color">“Guided by Wisdom, Driven by Vision.”</span>
 						</div>
 					</div>
@@ -178,11 +182,11 @@
 							<img src="images/blog/drkrishan.png" alt="Dr Krishan " class="founder-img img-fluid">
 							<div class="card-body mt-1">
 								<div class="blog-item-meta">
-									<p class="text-black">“Illuminating the wisdom of India’s ancient sciences.”<span class="ml-2 mr-2"></span></p>
+									<p class="text-color "><b> “Illuminating the wisdom of India’s ancient sciences.” </b><span class="ml-2 mr-2"></span></p>
 								</div>
 
 								<h3 class="mt- mb-2 lh-36  text-black">
-									Dr. Krishan “Jugnu”
+									Dr.Krishan “Jugnu”
 								</h3>
 								<p class="text-black">Renowned Indologist, Scholar & Author
 									Dr. Krishan “Jugnu” is an eminent Indologist and astronomer who has devoted over 36 years to preserving and reviving ancient Sanskrit treatises of scientific and technological significance. His pioneering research underscores India’s rich intellectual heritage, establishing Sanskrit as the primary language of ancient technical literature.
@@ -207,13 +211,15 @@
 
 							<div class="card-body mt-1">
 								<div class="blog-item-meta">
-									<a class="text-black">“Dedicated to empowering women’s health with care and compassion.”<span class="ml-2 mr-2"></span></a>
+									<a class=" text-center "><b style="color:#f75757;"> “Dedicated to empowering women’s health with care and compassion.” </b><span class="ml-2 mr-2"></span></a>
 								</div>
+								<br>
 
-								<h3 class="mt-2 mb-2 lh-36">
-									<p class="text-black">Dr. Nidhi Pandey Dixit</p>
+								<h3 class="mt- mb-2 lh-36  text-black">
+									Dr.Nidhi Pandey Dixit
 								</h3>
-								<h6 class="text-black">MS (Obstetrics & Gynecology), MBBS
+								
+								<h6 class="text-black" style="text-align:justify; color:#f75757;">MS (Obstetrics & Gynecology), MBBS
 									Gynecologist | Obstetrician | Laparoscopic Surgeon | 20+ Years of Experience
 								</h6>
 								<p class="text-black">Dr. Nidhi Pandey Dixit is a leading gynecologist and obstetrician with more than two decades of expertise in women’s health. She specializes in high-risk pregnancy care, advocates natural childbirth, and offers advanced options such as painless delivery, ensuring safety and comfort for her patients.
@@ -241,9 +247,9 @@
 					<div class="col-lg-7 text-center ">
 						<div class="section-title">
 							<h2 class="mt-3 content-title text-white">Our Volunteers</h2>
-							<span class="text-white">
-								<p style="font-size: 20px; color:white;">“The heart of our mission lies in the dedication of individuals who believe in creating meaningful change.”</p>
-							</span>
+						
+								<p style="font-size: 14px; color:white;">“The heart of our mission lies in the dedication of individuals who believe in creating meaningful change.”</p>
+						
 						</div>
 					</div>
 				</div>
@@ -255,13 +261,13 @@
 
 							<div class="card-body mt-2  cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<p class="text-black">“Spreading joy through communication & compassion.”<span class="ml-2 mr-2"></span></p>
+									<p class="text-black"><b style="color:#f75757;"> “Spreading joy through communication & compassion.”</b><span class="ml-2 mr-2"></span></p>
 								</div>
 
 								<h3 class="mt-3 mb-4 lh-36  text-black">
 									Shalvi Dutta
 								</h3>
-								<p class="text-black">Communication Specialist
+								<p class="text-black" style="text-align:justify;">Communication Specialist
 									Shalvi Dutta is an experienced communications professional with over a decade in news and electronic media. A dedicated practitioner of Nichiren Daishonin’s Buddhism, she believes in unlocking the inherent potential within every individual. Her mission is to alleviate suffering and spread joy, making her a guiding force of positivity within the Foundation.
 
 								</p>
@@ -275,13 +281,13 @@
 
 							<div class="card-body mt-2 cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<a class="text-black">“Championing menstrual health & women’s dignity.”<span class="ml-2 mr-2"></span></a>
+									<a class="text-black"><b style="color: #f75757;">“Championing menstrual health & women’s dignity.”</b><span class="ml-2 mr-2"></span></a>
 								</div>
 
 								<h3 class="mt-3 mb-4 lh-36">
 									<p class="text-black">Nandini Rai</p>
 								</h3>
-								<p class="text-black">Menstrupedia Certified | Co-Founder, Zzwick Hygiene Pvt. Ltd.
+								<p class="text-black" style="text-align:justify;">Menstrupedia Certified | Co-Founder, Zzwick Hygiene Pvt. Ltd.
 									Nandini Rai is a passionate menstrual hygiene activist and entrepreneur. As the Director of PadforHer and Co-Founder of Zzwick Hygiene Pvt. Ltd., she works to break taboos through education and empowerment workshops. Her advocacy for menstrual health continues to impact countless lives by promoting dignity and awareness.
 								</p>
 
@@ -294,14 +300,14 @@
 
 							<div class="card-body mt-2 cta-item bg-white p-5 rounded">
 								<div class="blog-item-meta">
-									<a class="text-black">“Empowering health through nutrition & balance.”<span class="ml-2 mr-2"></span></a>
+									<a class="text-black"><b style="color:#f75757;">“Empowering health through nutrition & balance.”</b><span class="ml-2 mr-2"></span></a>
 								</div>
 
 								<h3 class="mt-3 mb-4 lh-36">
 									<p class="text-black">Rohit Prasad</p>
 								</h3>
 
-								<p class="text-black">Certified Naturopathic Practitioner & Nutritionist
+								<p class="text-black" style="text-align:justify;">Certified Naturopathic Practitioner & Nutritionist
 									Rohit Prasad specializes in exercise, obesity, and weight management, helping individuals adopt sustainable lifestyle habits. He emphasizes that healthy weight loss is gradual and rooted in proper nutrition. His approach empowers people to achieve holistic health and prevent lifestyle-related diseases.
 
 								</p>

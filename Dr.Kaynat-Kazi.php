@@ -5,9 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="megakit,business,company,agency,multipurpose,modern,bootstrap4">
+    <meta name="description" content="">
 
     <meta name="author" content="themefisher.com">
+    <link rel="icon" href="images/BAF.png" type="image/x-icon">
 
     <title>Dr.Kaynat Kazi</title>
 
@@ -108,8 +109,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="block text-center">
-                            <p class="text-white" style="font-size: 25px;"><b>चरन् वै मधु विन्दति चरन् स्वदुम् उदुम्बरम् सुर्यस्य<br />
+                       <div class="card-header text-center" style="background-color: rgba(0,0,0,0.5);"> 
+                            <p class="text-white " style="font-size: 25px;"><b>चरन् वै मधु विन्दति चरन् स्वदुम् उदुम्बरम् सुर्यस्य<br />
                                     पस्य स्ह्रेमनम् यो न तन्द्रयते चरन् चरैवेति चरैवेति</b></p>
 
                             </h4>
@@ -131,11 +132,11 @@
                         <div class="about-item pr-3 mb-5 mb-lg-0 cta-item bg-white p-5 rounded" style="position: relative; overflow: hidden;">
 
                             <!-- Floated Profile Image -->
-                            <img src="images/team/founder.jpeg" alt="Dr. Kaynat Kazi" class="founder-img img-fluid rounded-circle" style="height:350px">
+                            <img src="images/team/founder.jpeg" alt="Dr. Kaynat Kazi" class="founder-img img-fluid rounded-circle">
 
                             <!-- Founder Content -->
                             <p class="  founder" style="color: var(--primary-color); font-size:20px; font-weight:800;  ">Founders</p>
-                            <h2 class="mt-3 mb-4 content-title">Dr.Kaynat Kazi</h2>
+                            <h2 class="mt-3 mb-4 content-title text-dark">Dr.Kaynat Kazi</h2>
 
                             <p style="text-align:justify;">Dr. Kaynat Kazi is a passionate traveler, author, photographer, and storyteller who brings cultures to life through her words and lens. In 2012, she founded Rahagiri, India’s first Hindi travel photography blog, inspiring thousands to explore the world in their own language.</p>
 
@@ -155,31 +156,31 @@
                                 An accomplished journalist with a Ph.D. in Hindi from Dr. B.R.Ambedkar University, Dr. Kazi began her career with The Sunday Indian after earning a degree in Mass Communication from the prestigious Jagran Institute. She has authored 13 books, numerous research papers, short stories, and popular articles, and has been invited as a speaker at several academic and cultural forums.
                             </p>
 
-                            <h5 style="text-align:justify;">Follow her journeys and stories on
+                            <h5 style="text-align:justify" class="text-dark">Follow her journeys and stories on
                                 <a href="https://www.facebook.com/kaynatkaziphotoholic" target="_blank" style="color:blue">Facebook</a>
                                 or connect with her on
                                 <a href="https://twitter.com/kaynatkazi" target="_blank" style="color:blue">Twitter</a>.
                             </h5><br><br>
 
-                            <h2 class=" mb-4">
+                            <h2 class=" mb-4 text-dark">
                                 Major Contributions & Projects
                             </h2>
-                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span>Paramatma: The Tale of the 12 Most Inspirational Women of India </h3>
+                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">01.</span><span class="text-dark">Paramatma: The Tale of the 12 Most Inspirational Women of India </span></h3>
                             <p class="lead mb-3">
                                 A prestigious project for the IGNCA, Ministry of Culture, Government of India.
                             </p>
 
-                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">02.</span>Research on Gond Tribes </h3>
+                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">02.</span><span class="text-dark"> Research on Gond Tribes </span></h3>
                             <p class="lead mb-3">
                                 Authored a detailed academic book and a coffee-table book on the Gond community of Devgarh, Central India.
                             </p>
 
-                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">03.</span>Cultural Mapping Initiatives </h3>
+                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">03.</span> <span class="text-dark"> Cultural Mapping Initiatives </span> </h3>
                             <p class="lead mb-3">
-                                Played a key role in IGNCA’s cultural mapping mission in Uttarakhand under the Ministry of Culture.
+                                Played a key role in the Aglad Valley cultural mapping pilot study under IGNCA’s cultural mapping mission in Uttarakhand under the Ministry of Culture.
                             </p>
 
-                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">04.</span>Academic Leadership </h3>
+                            <h3 class="mb-3"><span class="text-color mr-2 text-md ">04.</span> <span class="text-dark">Academic Leadership </span></h3>
                             <p class="lead mb-3">
                                 Former head of the Center for Culture and the Arts at UPES School of Liberal Studies, Dehradun
                             </p>
@@ -438,175 +439,7 @@
       });
     </script> -->
 
-    <section class="container">
-    <center>
-      <h1 class="display-5 fw-bold heading mb-0 mt-5">
-        <span>Our Journey</span>
-      </h1>
-    </center>
-
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-
-      <!-- Slide 1 -->
-      <div class="swiper-slide">
-        <div class="card designer-border">
-          <div id="demo1" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/media/artical1.jpeg" class="d-block w-100 h-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/media/artical2.jpeg" class="d-block w-100 h-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/media/artical3.jpeg" class="d-block w-100 h-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Article</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="swiper-slide">
-        <div class="card developer-border">
-          <div id="demo2" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/lectures/amitylecture.jpg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/lectures/lecture2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/lectures/lecture3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Lectures</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-        <div class="card gamer-border">
-          <div id="demo3" class="carousel slide carousel-fade " data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
-              
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/LW0_bj9SM1Q?si=Y0Z-QL643BzMOf3N" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-
-              <div class="carousel-item">
-                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/CE8GnfOqf_Y?si=uYqM8ig96W0o1qaS" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Podcast</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="swiper-slide">
-        <div class="card editor-border">
-          <div id="demo4" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img" ><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Book Launch</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 5 -->
-      <div class="swiper-slide">
-        <div class="card designer-border">
-          <div id="demo5" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Media Coverage</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 6 -->
-      <div class="swiper-slide">
-        <div class="card developer-border">
-          <div id="demo6" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/bookcover/Aglad Valley-cultural mapping-IGNCA-kaynat Qazi.png" class="d-block w-100 "></div>
-              <div class="carousel-item gallery-img"><img src="images/bookcover/Bhadraj coffee table book.jpeg" class="d-block w-100 "></div>
-              <div class="carousel-item gallery-img"><img src="images/bookcover/Bodhgaya ke vihar-Kaynat Kazi.jpeg" class="d-block w-100 "></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Books Covers</h5></div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Swiper navigation -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-</section>
-<script>
-    const swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      loop: true,
-      speed: 600,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      nested: true,
-      breakpoints: {
-        320: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 }
-      }
-    });
-
-    // Prevent Bootstrap carousel controls from hijacking Swiper clicks
-    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(btn => {
-      btn.addEventListener('click', e => e.stopPropagation());
-    });
-</script>
+<?php include("Dr.Kaynat-Kazi-Slider.php") ?>
         <!--  Section Services Start -->
         <section class="section team bg-white" style="padding: 20px 0;">
             <div class="container">
@@ -614,7 +447,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="section-title">
                             <!-- <span class="h6 text-color">Our Team</span> -->
-                            <h2 class="mt-3 content-title"> IGNCA Project Documentaries</h2>
+                            <h2 class="mt-3 content-title text-dark"> IGNCA Project Documentaries</h2>
 
 
                             <p style="color: var(--primary-color); font-size:12px;">Parantapasvini is a series of 12 documentaries based on a research project conducted by Dr. Kaynat Kazi, a Research Fellow at the Indira Gandhi National Centre for the Arts (IGNCA), New Delhi. <br>

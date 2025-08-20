@@ -9,7 +9,7 @@
     content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta
     name="description"
-    content="megakit,business,company,agency,multipurpose,modern,bootstrap4" />
+    content="" />
 
   <meta name="author" content="themefisher.com" />
   <link rel="icon" href="images/BAF.png" type="image/x-icon">
@@ -54,11 +54,6 @@
 
   <!-- Custom Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
-
- 
-
-
-
 </head>
 
 <body style="background-image: url('images/bg/home-10.png'); background-attachment: fixed; background-position: center; background-size: cover;">
@@ -76,7 +71,7 @@
         Your browser does not support the video tag.
       </video> -->
         <video id="bgVideo" autoplay muted loop playsinline class="bg-video">
-  <source src="../bartfoundation/videos/index-bg-01.mp4" type="video/mp4" />
+  <source src="videos/index-bg-01.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -105,7 +100,7 @@
             <div class="content">
               <span class="d-block mb-2 text-uppercase text-white">Empowering Culture</span>
               <h1 class="mb-3 text-white">
-                Preserving Indian Heritage Through Digital Documentation
+                Preserving Indian Heritage <br> Through Digital Documentation
               </h1>
               <p class="mb-4">
                 Explore the rich cultural legacy of India with our detailed
@@ -132,19 +127,19 @@
                 <span>Bougainvillea Art Foundation</span>
               </h1>
 
-              <p class="para mb-3" data-aos="fade-up" data-aos-delay="200">
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="200" style="text-align:justify">
                 The Bougainvillea Art Foundation, founded in 2024, is a non-profit organization that provides a diverse array of consultancy services to various sectors — from concept to commissioning.
               </p>
 
-              <p class="para mb-3" data-aos="fade-up" data-aos-delay="300">
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="300" style="text-align:justify">
                 It is dedicated to preserving and promoting India's vast cultural, historical, and natural heritage — a beautiful tapestry of diverse cultures and traditions.
               </p>
 
-              <p class="para mb-3" data-aos="fade-up" data-aos-delay="400">
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="400" style="text-align:justify">
                 The Foundation is the brainchild of Dr. Kaynat Kazi, credited as India's first female solo traveler. Her vision is to give back to society through this foundation.
               </p>
 
-              <p class="para mb-3" data-aos="fade-up" data-aos-delay="500">
+              <p class="para mb-3" data-aos="fade-up" data-aos-delay="500" style="text-align:justify">
                 Bougainvillea also offers expert consultancy services across multiple sectors, while remaining committed to heritage preservation and documentation.
               </p>
 
@@ -274,7 +269,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-shield-alt fa-2x mb-3 text-danger"></i>
-              <h4 class="mb-3">Preservation</h4>
+              <h4 class="mb-3 text-dark">Preservation</h4>
               <p>Keeping our history alive by protecting sites, artifacts, traditions, and cultural practices for generations to come.</p>
             </div>
           </div>
@@ -283,7 +278,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
-              <h4 class="mb-3">Education</h4>
+              <h4 class="mb-3 text-dark">Education</h4>
               <p>Bringing heritage to life through interactive programs, exhibitions, and community outreach that inspire learning and curiosity.</p>
             </div>
           </div>
@@ -292,7 +287,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-leaf fa-2x mb-3 text-success"></i>
-              <h4 class="mb-3">Conservation</h4>
+              <h4 class="mb-3 text-dark">Conservation</h4>
               <p>Caring for our natural and cultural treasures with sustainable practices that ensure their long-term survival.</p>
             </div>
           </div>
@@ -301,7 +296,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-magnifying-glass fa-2x mb-3 text-info"></i>
-              <h4 class="mb-3">Research & Documentation</h4>
+              <h4 class="mb-3 text-dark">Research & Documentation</h4>
               <p>Uncovering stories of the past through research and archives that deepen our understanding of heritage.</p>
             </div>
           </div>
@@ -310,7 +305,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-bullhorn fa-2x mb-3 text-warning"></i>
-              <h4 class="mb-3">Advocacy</h4>
+              <h4 class="mb-3 text-dark">Advocacy</h4>
               <p>Giving heritage a voice by promoting policies that protect and celebrate it on local, national, and global stages.</p>
             </div>
           </div>
@@ -319,7 +314,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-handshake fa-2x mb-3 text-secondary"></i>
-              <h4 class="mb-3">Collaboration</h4>
+              <h4 class="mb-3 text-dark">Collaboration</h4>
               <p>Working hand-in-hand with communities, experts, and partners to create impactful heritage initiatives.</p>
             </div>
           </div>
@@ -328,7 +323,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fas fa-users fa-2x mb-3 text-dark"></i>
-              <h4 class="mb-3">Public Engagement</h4>
+              <h4 class="mb-3 text-dark">Public Engagement</h4>
               <p>Bringing people together through events, volunteer programs, and outreach that make heritage a shared experience.</p>
             </div>
           </div>
@@ -337,7 +332,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="serv text-center p-4 bg-white rounded shadow-sm h-100">
               <i class="fab fa-android fa-2x mb-3 text-success"></i>
-              <h4 class="mb-3">Sustainable Tourism</h4>
+              <h4 class="mb-3 text-dark">Sustainable Tourism</h4>
               <p>Encouraging travelers to explore responsibly, ensuring tourism supports and respects local culture and heritage.</p>
             </div>
           </div>
@@ -356,175 +351,7 @@
       </div>
     </section>
     <!-- Gallery Sarousel Section -->
-<section class="container">
-    <center>
-      <h1 class="display-5 fw-bold heading mb-0 mt-5">
-        <span>Our Journey</span>
-      </h1>
-    </center>
-
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-
-      <!-- Slide 1 -->
-      <div class="swiper-slide">
-        <div class="card designer-border">
-          <div id="demo1" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/media/artical1.jpeg" class="d-block w-100 h-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/media/artical2.jpeg" class="d-block w-100 h-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/media/artical3.jpeg" class="d-block w-100 h-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Article</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="swiper-slide">
-        <div class="card developer-border">
-          <div id="demo2" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/lectures/amitylecture.jpg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/lectures/lecture2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/lectures/lecture3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Lectures</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="swiper-slide">
-        <div class="card gamer-border">
-          <div id="demo3" class="carousel slide carousel-fade " data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
-              
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/LW0_bj9SM1Q?si=Y0Z-QL643BzMOf3N" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-
-              <div class="carousel-item">
-                <iframe class="gallery-img" width="100%" height="200" src="https://www.youtube.com/embed/CE8GnfOqf_Y?si=uYqM8ig96W0o1qaS" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Podcast</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="swiper-slide">
-        <div class="card editor-border">
-          <div id="demo4" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo4" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img" ><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Book Launch</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 5 -->
-      <div class="swiper-slide">
-        <div class="card designer-border">
-          <div id="demo5" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#demo5" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/team/Dr1.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr2.jpeg" class="d-block w-100"></div>
-              <div class="carousel-item gallery-img"><img src="images/team/Dr3.jpeg" class="d-block w-100"></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Media Coverage</h5></div>
-        </div>
-      </div>
-
-      <!-- Slide 6 -->
-      <div class="swiper-slide">
-        <div class="card developer-border">
-          <div id="demo6" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active gallery-img"><img src="images/bookcover/Aglad Valley-cultural mapping-IGNCA-kaynat Qazi.png" class="d-block w-100 "></div>
-              <div class="carousel-item gallery-img"><img src="images/bookcover/Bhadraj coffee table book.jpeg" class="d-block w-100 "></div>
-              <div class="carousel-item gallery-img"><img src="images/bookcover/Bodhgaya ke vihar-Kaynat Kazi.jpeg" class="d-block w-100 "></div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-          </div>
-          <div class="card-body"><h5 class="card-title">Books Covers</h5></div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Swiper navigation -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-</section>
-<script>
-    const swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      loop: true,
-      speed: 600,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      nested: true,
-      breakpoints: {
-        320: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 }
-      }
-    });
-
-    // Prevent Bootstrap carousel controls from hijacking Swiper clicks
-    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(btn => {
-      btn.addEventListener('click', e => e.stopPropagation());
-    });
-</script>
+<?php include("Dr.Kaynat-Kazi-Slider.php") ?>
 
 
     <!-- footer Start -->
