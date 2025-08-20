@@ -84,7 +84,10 @@
 							<div class="card-header bg-black">
 								<a class="btn text-white " data-bs-toggle="collapse" href="#collapseOne">
 								<span class="text-capitalize mb-4 text-md text-white">	Media Coverage </span>
-								</a>
+								
+							</a>
+							<p style="text-transform:capitalize;color:white; "><b>Celebrated in the press, Dr. Kaynat Kazi’s work has been featured in leading newspapers and magazines, earning recognition for her impactful contributions.</b></p>
+								
 							</div>
 
 							<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
@@ -158,11 +161,21 @@
 													</a>
 												</div>
 											</div>
+											<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma7.jpg" class="popup-gallery">
+													<img src="images/media/ma7.jpg" alt="" class="img-fluid w-100 vh-50">
 
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
 											<div class="col-lg-3 col-md-6">
 												<div class="portflio-item position-relative mb-4">
-													<a href="images/media/mc3.jpeg" class="popup-gallery">
-														<img src="images/media/mc3.jpeg" alt="" class="img-fluid w-100 vh-50">
+													<a href="images/media/ma13.jpg" class="popup-gallery">
+														<img src="images/media/ma13.jpg" alt="" class="img-fluid w-100 vh-50">
 
 														<i class="ti-plus overlay-item"></i>
 														
@@ -275,50 +288,6 @@
 
 											<div class="col-lg-3 col-md-6">
 												<div class="portflio-item position-relative mb-4">
-													<a href="images/media/mc13.jpeg" class="popup-gallery">
-														<img src="images/media/mc13.jpeg" alt="" class="img-fluid w-100 vh-50">
-
-														<i class="ti-plus overlay-item"></i>
-														
-													</a>
-												</div>
-											</div>
-
-											<div class="col-lg-3 col-md-6">
-												<div class="portflio-item position-relative mb-4">
-													<a href="images/media/mc14.jpeg" class="popup-gallery">
-														<img src="images/media/mc14.jpeg" alt="" class="img-fluid w-100 vh-50">
-
-														<i class="ti-plus overlay-item"></i>
-														
-													</a>
-												</div>
-											</div>
-
-											<div class="col-lg-3 col-md-6">
-												<div class="portflio-item position-relative mb-4">
-													<a href="images/media/mc15.jpeg" class="popup-gallery">
-														<img src="images/media/mc15.jpeg" alt="" class="img-fluid w-100 vh-50">
-
-														<i class="ti-plus overlay-item"></i>
-														
-													</a>
-												</div>
-											</div>
-
-											<div class="col-lg-3 col-md-6">
-												<div class="portflio-item position-relative mb-4">
-													<a href="images/media/mc16.jpeg" class="popup-gallery">
-														<img src="images/media/mc16.jpeg" alt="" class="img-fluid w-100 vh-50">
-
-														<i class="ti-plus overlay-item"></i>
-														
-													</a>
-												</div>
-											</div>
-
-											<div class="col-lg-3 col-md-6">
-												<div class="portflio-item position-relative mb-4">
 													<a href="images/media/mc17.jpeg" class="popup-gallery">
 														<img src="images/media/mc17.jpeg" alt="" class="img-fluid w-100 vh-50">
 
@@ -381,8 +350,18 @@
 							<div class="card-header bg-black">
 								<a class="btn text-white" data-bs-toggle="collapse" href="#collapsetwo">
 									<span class="text-capitalize mb-4 text-md text-white"> Published Article </span>
+									
+
 								</a>
+								<p style="text-transform:capitalize;color:white;"><b>Articles by Dr. Kaynat Kazi featured in leading 
+										national newspapers and magazines, including Dainik Jagran, Navbharat Times (NBT), Prabhat Khabar, 
+										Himantar, Patrika, and others.</b>
+									
+									</p>
+								<a href="https://www.facebook.com/media/set/?set=a.1182346215119590&type=3">Click Here For More:</a>
+								
 							</div>
+							
 
 							<div id="collapsetwo" class="collapse " data-bs-parent="#accordion">
 								<div class="card-body">
@@ -433,6 +412,245 @@
 											</div>
 										</div>
 
+										
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma45.jpeg" class="popup-gallery">
+													<img src="images/media/ma45.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma46.jpeg" class="popup-gallery">
+													<img src="images/media/ma46.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/mc14.jpeg" class="popup-gallery">
+													<img src="images/media/mc14.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/mc15.jpeg" class="popup-gallery">
+													<img src="images/media/mc15.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<!-- <div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/mc16.jpeg" class="popup-gallery">
+													<img src="images/media/mc16.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+												</a>
+											</div>
+										</div> -->
+										<!-- <div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma13.jpg" class="popup-gallery">
+													<img src="images/media/ma13.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div> -->
+
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma30.jpg" class="popup-gallery">
+													<img src="images/media/ma30.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma31.jpg" class="popup-gallery">
+													<img src="images/media/ma31.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma32.jpg" class="popup-gallery">
+													<img src="images/media/ma32.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma33.jpg" class="popup-gallery">
+													<img src="images/media/ma33.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma34.jpg" class="popup-gallery">
+													<img src="images/media/ma34.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<!-- <div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma35.jpg" class="popup-gallery">
+													<img src="images/media/ma35.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div> -->
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma36.jpg" class="popup-gallery">
+													<img src="images/media/ma36.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma37.jpg" class="popup-gallery">
+													<img src="images/media/ma37.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma38.jpg" class="popup-gallery">
+													<img src="images/media/ma38.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma39.jpg" class="popup-gallery">
+													<img src="images/media/ma39.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma40.jpg" class="popup-gallery">
+													<img src="images/media/ma40.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma41.jpg" class="popup-gallery">
+													<img src="images/media/ma41.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma42.jpg" class="popup-gallery">
+													<img src="images/media/ma42.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma43.jpg" class="popup-gallery">
+													<img src="images/media/ma43.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma44.jpg" class="popup-gallery">
+													<img src="images/media/ma44.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
 												<a href="images/media/artical5.jpeg" class="popup-gallery">
@@ -478,7 +696,7 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6">
+										<!-- <div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
 												<a href="images/media/ma1.jpg" class="popup-gallery">
 													<img src="images/media/ma1.jpg" alt="" class="img-fluid w-100 vh-50">
@@ -488,7 +706,7 @@
          
 												</a>
 											</div>
-										</div>
+										</div> -->
 
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
@@ -514,17 +732,6 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma4.jpg" class="popup-gallery">
-													<img src="images/media/ma4.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
 
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
@@ -550,17 +757,7 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma7.jpg" class="popup-gallery">
-													<img src="images/media/ma7.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
+										
 
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
@@ -574,53 +771,7 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma9.jpg" class="popup-gallery">
-													<img src="images/media/ma9.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
-
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma10.jpg" class="popup-gallery">
-													<img src="images/media/ma10.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
-
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma11.jpg" class="popup-gallery">
-													<img src="images/media/ma11.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
-
-										<div class="col-lg-3 col-md-6">
-											<div class="portflio-item position-relative mb-4">
-												<a href="images/media/ma12.jpg" class="popup-gallery">
-													<img src="images/media/ma12.jpg" alt="" class="img-fluid w-100 vh-50">
-
-													<i class="ti-plus overlay-item"></i>
-													 
-         
-												</a>
-											</div>
-										</div>
+										
 
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
@@ -754,7 +905,7 @@
 											</div>
 										</div>
 
-										<div class="col-lg-3 col-md-6">
+										<!-- <div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
 												<a href="images/media/ma24.jpg" class="popup-gallery">
 													<img src="images/media/ma24.jpg" alt="" class="img-fluid w-100 vh-50">
@@ -764,9 +915,9 @@
          
 												</a>
 											</div>
-										</div>
+										</div> -->
 
-										<div class="col-lg-3 col-md-6">
+										<!-- <div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
 												<a href="images/media/ma25.jpg" class="popup-gallery">
 													<img src="images/media/ma25.jpg" alt="" class="img-fluid w-100 vh-50">
@@ -776,9 +927,9 @@
          
 												</a>
 											</div>
-										</div>
+										</div> -->
 
-										<div class="col-lg-3 col-md-6">
+										<!-- <div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
 												<a href="images/media/ma26.jpg" class="popup-gallery">
 													<img src="images/media/ma26.jpg" alt="" class="img-fluid w-100 vh-50">
@@ -788,7 +939,7 @@
          
 												</a>
 											</div>
-										</div>
+										</div> -->
 
 										<div class="col-lg-3 col-md-6">
 											<div class="portflio-item position-relative mb-4">
@@ -810,6 +961,77 @@
 													<i class="ti-plus overlay-item"></i>
 													 
          
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma4.jpg" class="popup-gallery">
+													<img src="images/media/ma4.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma9.jpg" class="popup-gallery">
+													<img src="images/media/ma9.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma10.jpg" class="popup-gallery">
+													<img src="images/media/ma10.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma11.jpg" class="popup-gallery">
+													<img src="images/media/ma11.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/ma12.jpg" class="popup-gallery">
+													<img src="images/media/ma12.jpg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+													 
+         
+												</a>
+											</div>
+										</div>
+
+										<div class="col-lg-3 col-md-6">
+											<div class="portflio-item position-relative mb-4">
+												<a href="images/media/mc13.jpeg" class="popup-gallery">
+													<img src="images/media/mc13.jpeg" alt="" class="img-fluid w-100 vh-50">
+
+													<i class="ti-plus overlay-item"></i>
+												 
 												</a>
 											</div>
 										</div>
