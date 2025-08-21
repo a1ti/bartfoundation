@@ -69,7 +69,7 @@
       <div class="col-lg-4 col-md-6 ms-auto">
         <div class="widget text-center text-md-start">
           <div class="logo mb-4  text-white">
-            <h3 class=" text-white">My<span>Journy in KMs<br>(4,00,000)</span></h3>
+            <h3 class=" text-white">My<span>Journy in KMs<br>(3,00,000)</span></h3>
           </div>
           <img src="images/team/myjourney.jpeg"
             alt="My Journey in KM"
